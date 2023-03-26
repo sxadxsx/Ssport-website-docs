@@ -2,7 +2,9 @@ import { Navbar } from "flowbite-react";
 import { section } from "flowbite-react";
 
 const Home = () => {
- return <Navbar
+ return 
+    <>
+<Navbar
  fluid={true}
  rounded={true}
 >
@@ -213,6 +215,6 @@ const Home = () => {
     </div>
   </div>
 </section>
-
+    <>
 };
 export default Home;
