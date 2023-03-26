@@ -1,11 +1,12 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
-import head from './components/head'
+import Head from './components/head'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-  <head />
-  <Component {...pageProps} />
+    <div>
+      <Head />
+      <Component {...pageProps} />
+    </div>
   );
 }
-
