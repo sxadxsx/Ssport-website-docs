@@ -4,10 +4,10 @@ import Head from './components/head'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div>
+    <>
       <Head />
-<Component {...pageProps} />
-    </div>
+          <Component {...pageProps} />
+    <>
 
   );
 }
