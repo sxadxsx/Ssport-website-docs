@@ -1,4 +1,4 @@
-export default function Home() {
+export default function contact() {
 
   return (
       <section className="bg-white dark:bg-gray-900">
@@ -38,4 +38,4 @@ export default function Home() {
 
   }
 
-});
+export default Home;
