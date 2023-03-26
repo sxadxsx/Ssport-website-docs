@@ -1,4 +1,4 @@
-import { Navbar } from "flowbite-react";
+import { section } from "flowbite-react";
 
 const Home = () => {
  return <section className="bg-white dark:bg-gray-900">
