@@ -1,5 +1,4 @@
 import { Navbar } from "flowbite-react";
-import { section } from "flowbite-react";
 
 const Home = () => {
  return 
