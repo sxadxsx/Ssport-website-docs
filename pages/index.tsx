@@ -1,8 +1,6 @@
 import Head from './components/head'
 export default function Home() {
   return (
-<div>
-<Head />
 <section className="bg-white dark:bg-gray-900">
   <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
     <a
@@ -177,7 +175,6 @@ export default function Home() {
     </div>
   </div>
 </section>
-</div>
 
   );
   }
