@@ -1,8 +1,6 @@
-import head from './components/head'
 
 const Home = () => {
  return 
-<head />
 <section className="bg-white dark:bg-gray-900">
   <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
     <a
