@@ -3,7 +3,9 @@ import type { AppProps } from 'next/app'
 import head from './components/head'
 
 export default function App({ Component, pageProps }: AppProps) {
-  return 
+  return (
   <head />
   <Component {...pageProps} />
+  );
 }
+
