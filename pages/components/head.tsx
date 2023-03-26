@@ -1,4 +1,5 @@
 import { Navbar } from "flowbite-react";
+import React from 'react'
 
 
 function head() {
