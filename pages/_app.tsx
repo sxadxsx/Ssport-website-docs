@@ -6,7 +6,7 @@ import Head from './components/head'
 const Page = () => (
   <Fragment>
     <Head />
-    <Component {...pageProps}>
+ <Component {...pageProps} />
   </Fragment>
 )
 
