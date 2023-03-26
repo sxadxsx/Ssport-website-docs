@@ -38,4 +38,4 @@ export default function contact() {
 
   }
 
-export default Home;
+export default contact;
