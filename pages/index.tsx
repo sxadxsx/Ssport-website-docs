@@ -180,6 +180,7 @@ const Home = () => {
 </section>
 </div>
  <main>
+  <main>
 
   );
   }
