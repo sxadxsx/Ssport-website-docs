@@ -1,7 +1,6 @@
 import Head from './components/head'
-const Home = () => {
- return 
-<main>
+export default function Home() {
+  return (
 <div>
 <Head />
 <section className="bg-white dark:bg-gray-900">
@@ -179,8 +178,6 @@ const Home = () => {
   </div>
 </section>
 </div>
- <main>
-  <main>
 
   );
   }
