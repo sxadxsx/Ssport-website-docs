@@ -38,7 +38,6 @@ const Home = () => {
    </Navbar.Link>
  </Navbar.Collapse>
 </Navbar>
- 
-
+ 52
 };
 export default Home;
