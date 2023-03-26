@@ -1,6 +1,7 @@
 import Head from './components/head'
 const Home = () => {
  return 
+<main>
 <div>
 <Head />
 <section className="bg-white dark:bg-gray-900">
@@ -178,6 +179,7 @@ const Home = () => {
   </div>
 </section>
 </div>
+ <main>
 
   );
   }
