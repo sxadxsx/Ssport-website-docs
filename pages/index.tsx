@@ -179,4 +179,7 @@ const Home = () => {
 </section>
 <div>
  <div>
+  );
+
+}
 export default Home;
