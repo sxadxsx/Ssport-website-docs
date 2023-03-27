@@ -63,7 +63,5 @@ function About() {
           </button>
         </form>
       </div>
-    ;
-}
    export default About;
 
