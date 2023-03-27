@@ -1,5 +1,6 @@
-function About() {
-  return 
+import React from 'react'
+function c() {
+  return (   
         <div>
    <section className="bg-white dark:bg-gray-900">
   <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
@@ -67,8 +68,8 @@ function About() {
 </section>
 
       </div>
-  
-  );
-  }
-   export default About;
+  )
+}
+
+export default head
 
