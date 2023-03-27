@@ -69,5 +69,5 @@ function c() {
   )
 }
 
-export default head
+export default c
 
