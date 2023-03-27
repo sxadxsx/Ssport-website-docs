@@ -1,5 +1,6 @@
 import { Navbar } from "flowbite-react";
 import React from 'react'
+import Link from 'next/link'
 
 
 function head() {
@@ -35,7 +36,7 @@ function head() {
     <Navbar.Link href="/navbars">
       Pricing
     </Navbar.Link>
-    <Navbar.Link href="/navbars">
+    <Link href="/">Home</Link>
       Contact
     </Navbar.Link>
   </Navbar.Collapse>
