@@ -26,6 +26,12 @@ function c() {
           placeholder="name@flowbite.com"
           />
       </div>
+      <input
+    type="hidden"
+    name="_redirect"
+    value="https://www.ssangyongsports.org/thanks"
+  />
+     
       <div>
         <label
           htmlFor="subject"
