@@ -11,7 +11,7 @@ function c() {
       Got a technical issue? Want to send feedback about a beta feature? Need
       details about our Business plan? Let us know.
     </p>
-    <form action="#" className="space-y-8">
+    <form action="https://submit-form.com/yFAbXMpc" className="space-y-8">
       <div>
         <label
           htmlFor="email"
