@@ -35,9 +35,9 @@ function head() {
     <Navbar.Link href="/navbars">
       Pricing
     </Navbar.Link>
-    <Link href="/c">
-      Contact
-    </Navbar.Link>
+    <Link href="/c" legacyBehavior>
+      <a>About Us</a>
+    </Link>
   </Navbar.Collapse>
 </Navbar>
   )
