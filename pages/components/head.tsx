@@ -4,8 +4,10 @@ import Link from 'next/link';
 
 function head() {
   return (
-    <Navbar fluid={true} rounded={true}>
-      <Navbar.Brand>
+  <Navbar
+  fluid={true}
+  rounded={true}
+>      <Navbar.Brand>
         <Link href="/" legacyBehavior>
           <a>
             <img
