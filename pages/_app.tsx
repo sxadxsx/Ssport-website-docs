@@ -8,8 +8,10 @@ export default function App({ Component, pageProps }: AppProps) {
     <div>
     <Head />
 <Component {...pageProps} />
-     <footer />
     </div>
+<div>
+    <footer />
+  </div>
 
   );
 }
