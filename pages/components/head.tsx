@@ -8,8 +8,9 @@ function head() {
   fluid={true}
   rounded={true}
 >
-  <Navbar.Brand href="https://flowbite.com/">
-    <img
+  <Link href="/" legacyBehavior>
+    </Link>
+      <img
       src="https://flowbite.com/docs/images/logo.svg"
       className="mr-3 h-6 sm:h-9"
       alt="Flowbite Logo"
