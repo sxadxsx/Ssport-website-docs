@@ -9,7 +9,7 @@ function head() {
   rounded={true}
 >
   <Link href="/" legacyBehavior>
-    </Link>
+    
       <img
       src="https://flowbite.com/docs/images/logo.svg"
       className="mr-3 h-6 sm:h-9"
@@ -18,7 +18,7 @@ function head() {
     <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
       Flowbite
     </span>
-  </Navbar.Brand>
+    </Link>
   <Navbar.Toggle />
   <Navbar.Collapse>
     <Navbar.Link
