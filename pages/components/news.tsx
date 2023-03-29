@@ -37,7 +37,6 @@ function news() {
               placeholder="Enter your email"
               type="email"
               id="email"
-              required=""
             />
           </div>
           <div>
