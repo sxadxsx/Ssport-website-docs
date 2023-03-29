@@ -62,8 +62,6 @@ function news() {
     </div>
   </div>
 </section>
-
-   
   )
 }
 
