@@ -27,7 +27,7 @@ const Home = () => {
       </svg>
     </a>
     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-      <font color="blue">我們的</font>
+      <span style={{ color: "orange" }}>文字顏色為橘色</span>
 使命是將雙龍體育組成最棒體育組織
     </h1>
     <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
