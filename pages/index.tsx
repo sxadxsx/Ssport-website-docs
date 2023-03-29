@@ -30,7 +30,7 @@ const Home = () => {
       我們的
      <span style={{ color: "red" }}>使命</span>
 是將
-     <span style={{ color: "blue" }}>雙量體溫</span>
+     <span style={{ color: "orange" }}>雙龍體育</span>
      組成
      <span style={{ color: "yellow" }}>最棒</span>
      體育組織
