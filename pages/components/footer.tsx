@@ -515,8 +515,6 @@ function footer() {
     </div>
   </div>
 </footer>
-
- 
   )
 }
 
