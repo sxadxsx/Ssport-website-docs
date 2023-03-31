@@ -144,7 +144,7 @@ function footer() {
       >
         <img
   src="https://i.imgur.com/GhQm5zm.png"
-  with={186}
+  width={186}
   heigh={46}
   alt="一張圖片"
 />
