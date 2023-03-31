@@ -145,8 +145,7 @@ function footer() {
         <img
   src="https://i.imgur.com/GhQm5zm.png"
   width={186}
-  heigh={46}
-  alt="一張圖片"
+  height={46}
 />
 </a>
       <span className="block text-sm text-center text-gray-500 dark:text-gray-400">
