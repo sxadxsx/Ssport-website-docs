@@ -148,7 +148,7 @@ function footer() {
   heigh={46}
   alt="一張圖片"
 />
-
+</a>
       <span className="block text-sm text-center text-gray-500 dark:text-gray-400">
         © 2021-2022{" "}
         <a href="#" className="hover:underline">
