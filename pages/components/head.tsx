@@ -11,12 +11,12 @@ function head() {
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <Link href="/" className="flex items-center">
       <img
-        src="https://flowbite.com/docs/images/logo.svg"
+        src="https://i.imgur.com/GhQm5zm.png"
         className="h-8 mr-3"
-        alt="Flowbite Logo"
+        alt="雙龍體育 Logo"
       />
       <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-        Flowbite
+        
       </span>
     </Link>
     <div className="flex md:order-2">
