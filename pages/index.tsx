@@ -1,6 +1,7 @@
 
 const Home = () => {
  return 
+<div>
 <Head>
  <title>My page title</title>
 </Head>
@@ -180,6 +181,6 @@ const Home = () => {
     </div>
   </div>
 </section>
-
+</div>
 };
 export default Home;
