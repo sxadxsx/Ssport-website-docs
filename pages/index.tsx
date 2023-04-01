@@ -1,7 +1,7 @@
 import Head from 'next/head';
 const Home = () => {
   return 
-    <>
+    
        <div>
       <Head>
         <title>My page title</title>
@@ -183,7 +183,7 @@ const Home = () => {
     </div>
   </div>
 </section>
-  </>
+  
 
 };
 export default Home;
