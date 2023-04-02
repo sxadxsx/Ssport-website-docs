@@ -7,12 +7,12 @@ function table() {
   <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
     <Image
       className="w-full dark:hidden"
-      src="https://74-rho.vercel.app/images/62d564600ff95899fb6eda9d_75df1528-2822-4edf-9c6a-8cd50c0c2c28-p-500.png"
+      src="/slb.png"
       alt="雙龍職棒"
     />
     <Image
       className="w-full hidden dark:block"
-      src="https://74-rho.vercel.app/images/62d564600ff95899fb6eda9d_75df1528-2822-4edf-9c6a-8cd50c0c2c28-p-500.png"
+      src="/slb.png"
       alt="雙龍職棒"
     />
     <div className="mt-4 md:mt-0">
