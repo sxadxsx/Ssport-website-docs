@@ -7,28 +7,26 @@ function table() {
   <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
     <Image
       className="w-full dark:hidden"
-      src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg"
-      alt="dashboard image"
+      src="https://74-rho.vercel.app/images/62d564600ff95899fb6eda9d_75df1528-2822-4edf-9c6a-8cd50c0c2c28-p-500.png"
+      alt="雙龍職棒"
     />
     <Image
       className="w-full hidden dark:block"
-      src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
-      alt="dashboard image"
+      src="https://74-rho.vercel.app/images/62d564600ff95899fb6eda9d_75df1528-2822-4edf-9c6a-8cd50c0c2c28-p-500.png"
+      alt="雙龍職棒"
     />
     <div className="mt-4 md:mt-0">
       <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-        Lets create more tools and ideas that brings us together.
+        雙龍職棒
       </h2>
       <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
-        Flowbite helps you connect with friends and communities of people who
-        share your interests. Connecting with your friends and family as well as
-        discovering new ones is easy with features like Groups.
+       棒球，（英語：Baseball、日韓稱為野球），為一種團體球類運動，由人數最少為9人的两支队伍在一個扇形的球場进行攻擊與守備。棒球球員分為攻...
       </p>
       <a
         href="#"
         className="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900"
       >
-        Get started
+        更多資訊
         <svg
           className="ml-2 -mr-1 w-5 h-5"
           fill="currentColor"
