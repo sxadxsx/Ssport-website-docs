@@ -1,13 +1,13 @@
-import Hero from './components/hero'
-import table from './components/table'
+import Hero from './components/hero';
+import Table from './components/table';
 
 const Home = () => {
- return 
+  return (
     <div>
-    <Hero />
-    <Table />
+      <Hero />
+      <Table />
     </div>
-
   );
 }
+
 export default Home;
