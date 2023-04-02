@@ -1,5 +1,6 @@
 const Home = () => {
  return 
+<>
 <div>
 <div>
 <section className="bg-white dark:bg-gray-900">
@@ -222,6 +223,8 @@ const Home = () => {
 </section>
 </div>
 </div>
+<>
+
 );
 }
 export default Home;
