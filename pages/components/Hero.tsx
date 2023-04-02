@@ -71,9 +71,6 @@ function hero() {
         Watch video
       </a>
     </div>
-   
-      </div>
-    </div>
   </div>
 </section>
   )
