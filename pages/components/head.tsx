@@ -1,4 +1,4 @@
-import Navbar from "flowbite-react";
+import { button } from "flowbite-react";
 import React from 'react';
 import Link from 'next/link';
 
