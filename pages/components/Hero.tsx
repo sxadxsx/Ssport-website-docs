@@ -28,7 +28,7 @@ function hero() {
         />
       </svg>
     </a>
-    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+    <h2 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
       我們的
      <span style={{ color: "red" }}>使命</span>
 是將
@@ -36,7 +36,7 @@ function hero() {
      組成
      <span style={{ color: "yellow" }}>最棒</span>
      體育組織
-    </h1>
+    </h2>
     <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
       <a
         href="#"
