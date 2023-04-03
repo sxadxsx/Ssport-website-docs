@@ -32,9 +32,9 @@ function hero() {
       我們的
      <span style={{ color: "red" }}>使命</span>
 是將
-     <span style={{ color: "orange" }}>雙龍體育</span>
+     <br><span style={{ color: "orange" }}>雙龍體育</span>
      組成
-     <span style={{ color: "yellow" }}>最棒</span>
+     <span style={{ color: "blue" }}>最棒</span>
      體育組織
     </h2>
     <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
