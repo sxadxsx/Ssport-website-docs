@@ -1,6 +1,8 @@
 import { Button } from "flowbite-react";
 import React from 'react';
 import Link from 'next/link';
+import { Collapse } from "flowbite";
+import type { CollapseOptions, CollapseInterface } from "flowbite";
 
 function head() {
   return (
