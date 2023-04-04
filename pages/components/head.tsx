@@ -1,7 +1,7 @@
 import { Navbar } from "flowbite-react";
 import React from 'react';
 import Link from 'next/link';
-
+import { Button } from "flowbite-react";
 function head() {
   return (
   <Navbar
