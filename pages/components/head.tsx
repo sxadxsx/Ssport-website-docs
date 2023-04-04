@@ -31,13 +31,7 @@ function head() {
     >
       Home
     </Navbar.Link>
-    <Navbar.Link
-      as={{
-        $$typeof: Symbol(react.forward_ref),
-        render: LinkWithRef
-      }}
-      to="/navbars"
-    >
+    <Navbar.Link>
       About
     </Navbar.Link>
     <Navbar.Link href="/navbars">
