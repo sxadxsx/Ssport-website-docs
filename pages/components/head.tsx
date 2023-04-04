@@ -11,7 +11,7 @@ function head() {
 >
     <Link href="/">
     <img
-      src="https://i.imgur.io/GhQm5zm_d.webp"
+      src="https://i.imgur.com/GhQm5zm.png"
       className="mr-3 h-6 sm:h-9"
       alt="ssport Logo"
     />
