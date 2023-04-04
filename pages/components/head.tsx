@@ -7,7 +7,6 @@ function head() {
   <Navbar
   fluid={true}
   rounded={true}
-    className="sticky-top"
 >
   <Navbar.Brand href="https://flowbite.com/">
     <img
