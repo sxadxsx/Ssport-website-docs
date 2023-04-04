@@ -12,16 +12,12 @@ function head() {
   rounded={true}
 >
   <Navbar.Brand
-    as={{
-      $$typeof: Symbol(react.forward_ref),
-      render: LinkWithRef
-    }}
-    <Link href="/">Home</Link>
+  <Link href="/"></Link>
   >
     <img
-      src="https://flowbite.com/docs/images/logo.svg"
+      src="https://i.imgur.com/GhQm5zm.png"
       className="mr-3 h-6 sm:h-9"
-      alt="Flowbite Logo"
+      alt="ssport Logo"
     />
     <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
       
