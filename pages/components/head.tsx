@@ -11,9 +11,9 @@ function head() {
   fluid={true}
   rounded={true}
 >
-  <Navbar.Brand
+  <Navbar.Brand>
   <Link href="/"></Link>
-  >
+ 
     <img
       src="https://i.imgur.com/GhQm5zm.png"
       className="mr-3 h-6 sm:h-9"
