@@ -9,16 +9,15 @@ function head() {
   rounded={true}
     className="sticky-top"
 >
-  <Navbar.Brand>
-    <Link href="/"></Link>
+    <Link href="/">
     <img
-      src="https://imgur.io/GhQm5zm.png"
+      src="https://i.imgur.io/GhQm5zm_d.webp"
       className="mr-3 h-6 sm:h-9"
       alt="ssport Logo"
     />
     <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
     </span>
-  </Navbar.Brand>
+  </Link>
   <div className="flex md:order-2">
     <Button>
       Get started
