@@ -6,7 +6,7 @@ import type { CollapseOptions, CollapseInterface } from "flowbite";
 
 function head() {
   return (
-  <div>
+  <>
 <Navbar
   fluid={true}
   rounded={true}
@@ -51,6 +51,7 @@ function head() {
     </Link>
   </Navbar.Collapse>
 </Navbar>
+<>
   )
 }
 
