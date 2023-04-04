@@ -43,9 +43,9 @@ function head() {
     <Navbar.Link href="/navbars">
       Pricing
     </Navbar.Link>
-    <Navbar.Link href="/navbars">
-      Contact
-    </Navbar.Link>
+    <Link href="/c">
+      聯繫
+    </Link>
   </Navbar.Collapse>
 </Navbar>
       </header>
