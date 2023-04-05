@@ -128,7 +128,7 @@ function cost() {
         <div className="flex justify-center items-baseline my-8">
           <span className="mr-2 text-5xl font-extrabold">$99</span>
           <span
-            jsc.transform.react.throwIfNamespace="false"
+            jsc.transform.react.throwIfNamespace = false;
             className="text-gray-500 dark:text-gray-400"
             dark:text-gray-400=""
           >
