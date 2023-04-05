@@ -13,7 +13,7 @@ const Home = () => {
       <div>
         <Tvhero />
         <Feature />
-        <cost />
+        <Cost />
       </div>
     </>
   );
