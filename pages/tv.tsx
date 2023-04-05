@@ -1,8 +1,8 @@
 import Tvhero from './components/Tvhero';
-import Feature from './components/Feature';
+import Feature from './components/feature';
 import React from 'react';
 import { NextSeo } from 'next-seo';
-
+import Cost from './components/cost';
 const Home = () => {
   return (
     <>
@@ -13,6 +13,7 @@ const Home = () => {
       <div>
         <Tvhero />
         <Feature />
+        <cost />
       </div>
     </>
   );
