@@ -6,6 +6,7 @@ function head() {
   return (
     <header>
     <br />
+    <br />
   <Navbar
   fluid={true}
   rounded={true}
