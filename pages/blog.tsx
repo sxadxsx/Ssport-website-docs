@@ -45,7 +45,7 @@ export default function Blog({posts}) {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export async function
