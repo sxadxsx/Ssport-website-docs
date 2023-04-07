@@ -191,4 +191,4 @@ const P = () => {
   );
 }
 
-export default p;
+export default ;
