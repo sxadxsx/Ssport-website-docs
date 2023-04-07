@@ -2,7 +2,8 @@ import { NextSeo } from 'next-seo';
 
 const P = () => {
   return (
-<>
+<div>
+  <>
       <NextSeo
         title="隱私政策-雙龍體育"
         description="雙龍體育的政策是尊重您的隱私並遵守有關我們可能收集的關於您的任何個人信息的任何適用法律和法規，包括我們的網站ssangyongsports.org 以及我們擁有和 ..."
@@ -188,6 +189,8 @@ const P = () => {
   <p>聯繫</p>
   <p>雙龍體育團隊</p>
 </>
+  </div>
+
   );
 }
 
