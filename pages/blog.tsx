@@ -48,4 +48,4 @@ export default function Blog({posts}) {
   );
 }
 
-export async function
+export default Blog({posts});
