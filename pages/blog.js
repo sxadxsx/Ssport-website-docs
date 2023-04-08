@@ -56,7 +56,7 @@ export default function Blog({posts}){
           src="https://discuss.ssangyongsports.org/data/avatars/l/0/1.jpg?1679114793"
           alt="Peter yang"
         />
-        <span className="font-medium dark:text-white">Jese Leos</span>
+        <span className="font-medium dark:text-white">Peter yang</span>
       </div>
       <Link
         href={`/blog/${slug}`}
