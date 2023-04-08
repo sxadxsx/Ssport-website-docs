@@ -11,12 +11,13 @@ export default function Post({frontmatter, content}) {
   <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
     <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
       <header className="mb-4 lg:mb-6 not-format">
-        <address className="flex items-center mb-6 not-italic">
-          <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
           <img src={bannerImage}/>
           <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
         {title}
         </h1>
+        <address className="flex items-center mb-6 not-italic">
+          <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
+          
             <img
               className="mr-4 w-16 h-16 rounded-full"
               src="https://flowbite.com/docs/images/people/profile-picture-2.jpg"
