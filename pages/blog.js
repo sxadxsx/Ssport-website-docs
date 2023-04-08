@@ -84,7 +84,7 @@ export default function Blog({posts}){
 </div>
 </article>
 <br >
-<br>
+</br >
 </>
 
         })}
