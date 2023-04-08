@@ -2,6 +2,7 @@ import fs from 'fs';
 import matter from 'gray-matter';
 import Image from 'next/image';
 import Link from 'next/link';
+import { NextSeo } from 'next-seo';
 
 // The Blog Page Content
 export default function Blog({posts}){
@@ -15,6 +16,10 @@ export default function Blog({posts}){
       <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
    任何關於雙龍體育的任何關於雙龍體育的消息和公告
       </p>
+    <NextSeo
+        title="雙龍體育blog"
+        description="任何關於雙龍體育的任何關於雙龍體育的消息和公告,就上雙龍體育blog"
+      />
     </div>
   </div>
 </section>
