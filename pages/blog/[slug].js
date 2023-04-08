@@ -46,8 +46,8 @@ export default function Post({frontmatter, content}) {
                 </time>
               </p>
             </div>
-    <NextSeo title="{title}" 
-description="{title}." 
+    <NextSeo title={title}
+description={title}
 />
           </div>
         </address>
