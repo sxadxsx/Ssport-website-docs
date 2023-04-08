@@ -51,9 +51,10 @@ export default function Post({frontmatter, content}) {
        <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
     </article>
 <NextSeo
-        title={title}-雙龍體育blog
-        description={title}
-      />
+  title={`${title}-雙龍體育blog`}
+  description={title}
+/>
+
   </div>
 </main>
 
