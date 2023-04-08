@@ -80,9 +80,11 @@ export default function Blog({posts}){
     </div>
   </article>
 </div>
-<article>
+</article>
 
         })}
+    </article>
+
     </main>
 }
 
