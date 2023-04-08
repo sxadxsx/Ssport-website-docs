@@ -28,7 +28,6 @@ export default function Blog({posts}){
 
             //JSX for individual blog listing
             return 
-            <>
             <article key={title}>
            <div className="grid gap-8 lg:grid-cols-2">
   <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
@@ -79,13 +78,14 @@ export default function Blog({posts}){
           />
         </svg>
       </Link>
-    </div>
+    <br >
+</br >
+
+</div>
   </article>
 </div>
 </article>
-<br >
-</br >
-</>
+
 
         })}
 </main>
