@@ -1,7 +1,7 @@
 import fs from "fs";
 import matter from "gray-matter";
 import md from 'markdown-it';
-import Head from 'next/head'
+import { NextSeo } from 'next-seo';
 
 // The page for each post
 export default function Post({frontmatter, content}) {
@@ -46,9 +46,9 @@ export default function Post({frontmatter, content}) {
                 </time>
               </p>
             </div>
-    <Head>
-        <title>{title}-雙龍體育blog</title>
-      </Head>
+    <NextSeo title="{title}" 
+description="{title}." 
+/>
           </div>
         </address>
       </header>
