@@ -21,7 +21,7 @@ export default function Post({frontmatter, content}) {
             <img
               className="mr-4 w-16 h-16 rounded-full"
               src="https://flowbite.com/docs/images/people/profile-picture-2.jpg"
-              alt="Jese Leos"
+              alt="Peter yang"
             />
             <div>
               <a
@@ -32,15 +32,15 @@ export default function Post({frontmatter, content}) {
                 {author}
               </a>
               <p className="text-base font-light text-gray-500 dark:text-gray-400">
-                Graphic Designer, educator &amp; CEO Flowbite
+                雙龍體育部長
               </p>
               <p className="text-base font-light text-gray-500 dark:text-gray-400">
                 <time
                   pubdate=""
-                  dateTime="2022-02-08"
-                  title="February 8th, 2022"
+                  dateTime="{date}"
+                  title="{date}"
                 >
-                  Feb. 8, 2022
+                  {date}
                 </time>
               </p>
             </div>
