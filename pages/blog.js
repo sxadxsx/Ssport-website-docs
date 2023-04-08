@@ -78,11 +78,9 @@ export default function Blog({posts}){
           />
         </svg>
       </Link>
-    <br >
-</br >
-
 </div>
   </article>
+  </br >
 </div>
 </article>
 
