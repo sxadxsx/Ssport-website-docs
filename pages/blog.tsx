@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 // The Blog Page Content
-export default function Blog({posts}){
+export default function Blog{
     return <main>
         {posts.map(post => {
             //extract slug and frontmatter
