@@ -1,7 +1,7 @@
 ---
 title: "SBA和SLB網域被刪除公告"
-author: "Alex Merced"
-category: "example"
+author: "Peter yang"
+category: "公告"
 date: "2022-03-13"
 bannerImage: "/sba.png"
 tags:
