@@ -88,26 +88,25 @@ export default function Blog({posts}){
 
 
 //Generating the Static Props for the Blog Page
-export async function getStaticProps(){
-    // get list of files from the posts folder
-    const files = fs.readdirSync('posts');
+export async function getStaticProps() {
+  const files = fs.readdirSync('posts');
+  const posts = files.map((fileName) => {
+    const slug = fileName.replace('.md', '');
+    const readFile = fs.readFileSync(`posts/${fileName}`, 'utf-8');
+    const { data: frontmatter } = matter(readFile);
 
-    // get frontmatter & slug from each post
-    const posts = files.map((fileName) => {
-        const slug = fileName.replace('.md', '');
-        const readFile = fs.readFileSync(`posts/${fileName}`, 'utf-8');
-        const { data: frontmatter } = matter(readFile);
-
-        return {
-          slug,
-          frontmatter,
-        };
-    });
-
-    // Return the pages static props
     return {
-        props: {
-          posts,
-        },
+      slug,
+      frontmatter,
     };
+  });
+
+  // Sort posts in descending order based on the date property
+  posts.sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
+
+  return {
+    props: {
+      posts,
+    },
+  };
 }
