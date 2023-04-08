@@ -47,9 +47,7 @@ export default function Post({frontmatter, content}) {
           </div>
         </address>
       </header>
-      <p className="lead">
       <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
-      </p>
     </article>
   </div>
 </main>
