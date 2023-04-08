@@ -80,7 +80,6 @@ export default function Blog({posts}){
       </Link>
 </div>
   </article>
-  </br >
 </div>
 </article>
 
