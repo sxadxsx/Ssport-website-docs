@@ -1,6 +1,7 @@
 import fs from "fs";
 import matter from "gray-matter";
 import md from 'markdown-it';
+import { NextSeo } from 'next-seo';
 
 // The page for each post
 export default function Post({frontmatter, content}) {
@@ -49,6 +50,10 @@ export default function Post({frontmatter, content}) {
       </header>
        <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
     </article>
+<NextSeo
+        title="{title}-雙龍體育blog"
+        description="{title}"
+      />
   </div>
 </main>
 
