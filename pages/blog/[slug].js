@@ -20,12 +20,12 @@ export default function Post({frontmatter, content}) {
           
             <img
               className="mr-4 w-16 h-16 rounded-full"
-              src="https://flowbite.com/docs/images/people/profile-picture-2.jpg"
+              src="https://discuss.ssangyongsports.org/data/avatars/l/0/1.jpg?1679114793"
               alt="Peter yang"
             />
             <div>
               <a
-                href="#"
+                href="https://discuss.ssangyongsports.org/members/peter-yang.1/"
                 rel="author"
                 className="text-xl font-bold text-gray-900 dark:text-white"
               >
