@@ -40,8 +40,10 @@ function head() {
     <Navbar.Link href="/navbars">
       Services
     </Navbar.Link>
-    <Navbar.Link href="/navbars">
-      Pricing
+    <Navbar.Link>
+          <Link href="/blog">
+      Blog
+    </Link>
     </Navbar.Link>
     <Link href="/c">
       聯繫
