@@ -4,8 +4,8 @@ function hero() {
   return (
  <section className="bg-white dark:bg-gray-900">
   <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
-    <a
-      href="#"
+    <Link
+      href="/blog/example-post"
       className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
       role="alert"
     >
@@ -13,7 +13,7 @@ function hero() {
         New
       </span>{" "}
       <span className="text-sm font-medium">
-        Flowbite is out! See whats new
+        SBA和SLB網域被刪除公告
       </span>
       <svg
         className="ml-2 w-5 h-5"
@@ -27,7 +27,7 @@ function hero() {
           clipRule="evenodd"
         />
       </svg>
-    </a>
+    </Link>
     <h2 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
       我們的
      <span style={{ color: "red" }}>使命</span>
