@@ -30,7 +30,6 @@ function head() {
   <Navbar.Collapse>
     <Navbar.Link
       href="/navbars"
-      active={true}
     >
       Home
     </Navbar.Link>
@@ -45,9 +44,11 @@ function head() {
       Blog
     </Link>
     </Navbar.Link>
+    <Navbar.Link>
     <Link href="/c">
       聯繫
     </Link>
+      <Navbar.Link>
   </Navbar.Collapse>
 </Navbar>
       </header>
