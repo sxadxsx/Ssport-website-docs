@@ -48,7 +48,7 @@ function head() {
     <Link href="/c">
       聯繫
     </Link>
-      <Navbar.Link>
+      </Navbar.Link>
   </Navbar.Collapse>
 </Navbar>
       </header>
