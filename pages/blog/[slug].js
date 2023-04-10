@@ -61,27 +61,34 @@ export default function Post({frontmatter, content}) {
 }
 
 // Generating the paths for each post
-export async function getStaticProps({ params }) {
-  const { slug } = params;
-  const filePath = path.join(process.cwd(), 'posts', `${slug}.md`);
-  const fileContent = fs.readFileSync(filePath, 'utf8');
-  const { data, content } = matter(fileContent);
-  const htmlContent = md.render(content);
-  return {
-    props: {
-      data,
-      content: htmlContent,
-    },
-  };
-}
-
 export async function getStaticPaths() {
-  const postsDirectory = path.join(process.cwd(), 'posts');
-  const filenames = fs.readdirSync(postsDirectory);
-  const slugs = filenames.map((filename) => filename.replace(/\.md$/, ''));
-  const paths = slugs.map((slug) => ({ params: { slug } }));
+  // Get list of all files from our posts directory
+  const files = await fs.readdir('posts');
+  // Generate a path for each one
+  const paths = files.map((fileName) => ({
+    params: {
+      slug: fileName.replace('.md', ''),
+    },
+  }));
+  // return list of paths
   return {
     paths,
     fallback: false,
+  };
+}
+
+export async function getStaticProps({ params: { slug } }) {
+  const fileName = await fs.readFile(`posts/${slug}.md`, 'utf-8');
+  const { data: frontmatter, content } = matter(fileName);
+
+  // Convert Markdown to HTML
+  const md = new MarkdownIt();
+  const contentHtml = md.render(content);
+
+  return {
+    props: {
+      frontmatter,
+      contentHtml,
+    },
   };
 }
