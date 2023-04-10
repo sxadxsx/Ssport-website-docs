@@ -48,7 +48,7 @@ export default function Post({frontmatter, content}) {
           </div>
         </address>
       </header>
-       <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+       <div dangerouslySetInnerHTML={{ __html: content }} />
     </article>
 <NextSeo
   title={`${title}-雙龍體育blog`}
@@ -61,31 +61,27 @@ export default function Post({frontmatter, content}) {
 }
 
 // Generating the paths for each post
-export async function getStaticPaths() {
-  // Get list of all files from our posts directory
-  const files = fs.readdirSync("posts");
-  // Generate a path for each one
-  const paths = files.map((fileName) => ({
-    params: {
-      slug: fileName.replace(".md", ""),
+export async function getStaticProps({ params }) {
+  const { slug } = params;
+  const filePath = path.join(process.cwd(), 'posts', `${slug}.md`);
+  const fileContent = fs.readFileSync(filePath, 'utf8');
+  const { data, content } = matter(fileContent);
+  const htmlContent = md.render(content);
+  return {
+    props: {
+      data,
+      content: htmlContent,
     },
-  }));
-  // return list of paths
+  };
+}
+
+export async function getStaticPaths() {
+  const postsDirectory = path.join(process.cwd(), 'posts');
+  const filenames = fs.readdirSync(postsDirectory);
+  const slugs = filenames.map((filename) => filename.replace(/\.md$/, ''));
+  const paths = slugs.map((slug) => ({ params: { slug } }));
   return {
     paths,
     fallback: false,
   };
 }
-
-
-// Generate the static props for the page
-export async function getStaticProps({ params: { slug } }) {
-    const fileName = fs.readFileSync(`posts/${slug}.md`, 'utf-8');
-    const { data: frontmatter, content } = matter(fileName);
-    return {
-      props: {
-        frontmatter,
-        content,
-      },
-    };
-  }
