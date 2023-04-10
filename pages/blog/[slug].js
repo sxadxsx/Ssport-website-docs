@@ -6,7 +6,6 @@ import { NextSeo } from 'next-seo';
 // The page for each post
 export default function Post({frontmatter, content}) {
   const markdownToHtml = new MarkdownIt({
-    const path = require('path')
     html: true,
     linkify: true,
     typographer: true,
@@ -65,36 +64,40 @@ export default function Post({frontmatter, content}) {
 
 }
 export async function getStaticPaths() {
-  const postsDirectory = path.join(process.cwd(), 'posts');
-  const filenames = await fs.promises.readdir(postsDirectory);
-
-  const paths = filenames.map((filename) => ({
-    params: {
-      slug: filename.replace(/\.md$/, ''),
-    },
-  }));
-
+  // Get list of all files from our posts directory
+  const files = await fs.readdir("posts");
+  // Generate a path for each one
+  const paths = await Promise.all(
+    files.map(async (fileName) => {
+      const slug = fileName.replace(".md", "");
+      return {
+        params: {
+          slug,
+        },
+      };
+    })
+  );
+  // return list of paths
   return {
     paths,
     fallback: false,
   };
 }
 
-
-
-export async function getStaticProps({ params }) {
-  const { slug } = params;
-
-  const markdownWithMetadata = fs
-    .readFileSync(`posts/${slug}.md`)
-    .toString();
-
-  const { data: frontmatter, content } = matter(markdownWithMetadata);
-
+// Generate the static props for the blog post
+export async function getStaticProps({ params: { slug } }) {
+  const file = await fs.readFile(`posts/${slug}.md`, "utf8");
+  const { data: frontmatter, content } = matter(file);
+  const markdownToHtml = new MarkdownIt({
+    html: true,
+    linkify: true,
+    typographer: true,
+  });
+  const html = markdownToHtml.render(content);
   return {
     props: {
       frontmatter,
-      content,
+      content: html,
     },
   };
 }
