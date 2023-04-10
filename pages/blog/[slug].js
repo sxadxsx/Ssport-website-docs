@@ -59,23 +59,9 @@ export default function Post({frontmatter, content}) {
 </main>
 
 }
-export async function getStaticPaths() {
-  const files = fs.readdirSync("posts");
-  const paths = files.map((filename) => ({
-    params: {
-      slug: filename.replace(".md", ""),
-    },
-  }));
-  return {
-    paths,
-    fallback: false,
-  };
-}
-
 export async function getStaticProps({ params: { slug } }) {
-  const file = fs.readFileSync(path.join("posts", `${slug}.md`), "utf8");
-
-  const { data: frontmatter, content } = matter(file);
+  const fileName = await fs.readFile(`posts/${slug}.md`, 'utf-8');
+  const { data: frontmatter, content } = matter(fileName);
 
   const markdownToHtml = new MarkdownIt({
     html: true,
