@@ -6,6 +6,7 @@ import { NextSeo } from 'next-seo';
 // The page for each post
 export default function Post({frontmatter, content}) {
   const markdownToHtml = new MarkdownIt({
+    const path = require('path')
     html: true,
     linkify: true,
     typographer: true,
