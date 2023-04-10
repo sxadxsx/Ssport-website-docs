@@ -1,6 +1,6 @@
 import fs from 'fs/promises';
 import matter from "gray-matter";
-import md from 'markdown-it';
+import MarkdownIt from 'markdown-it';
 import { NextSeo } from 'next-seo';
 
 // The page for each post
@@ -60,32 +60,40 @@ export default function Post({frontmatter, content}) {
 
 }
 export async function getStaticPaths() {
-  const files = fs.readdirSync("posts");
-
-  const paths = files.map((filename) => ({
-    params: {
-      slug: filename.replace(".md", ""),
-    },
-  }));
-
+  // Get list of all files from our posts directory
+  const files = await fs.readdir("posts");
+  // Generate a path for each one
+  const paths = await Promise.all(
+    files.map(async (fileName) => {
+      const slug = fileName.replace(".md", "");
+      return {
+        params: {
+          slug,
+        },
+      };
+    })
+  );
+  // return list of paths
   return {
     paths,
     fallback: false,
   };
 }
 
+// Generate the static props for the blog post
 export async function getStaticProps({ params: { slug } }) {
-  const markdownWithMetadata = fs
-    .readFileSync(path.join("posts", slug + ".md"))
-    .toString();
-
-  const parsedMarkdown = matter(markdownWithMetadata);
-  const htmlString = new MarkdownIt({ html: true }).render(parsedMarkdown.content);
-
+  const file = await fs.readFile(`posts/${slug}.md`, "utf8");
+  const { data: frontmatter, content } = matter(file);
+  const markdownToHtml = new MarkdownIt({
+    html: true,
+    linkify: true,
+    typographer: true,
+  });
+  const html = markdownToHtml.render(content);
   return {
     props: {
-      frontmatter: parsedMarkdown.data,
-      content: htmlString,
+      frontmatter,
+      content: html,
     },
   };
 }
