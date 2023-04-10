@@ -48,7 +48,7 @@ export default function Post({frontmatter, content}) {
           </div>
         </address>
       </header>
-       <div dangerouslySetInnerHTML={{ __html: content }} />
+       <div dangerouslySetInnerHTML={{ __html: content }}>
     </article>
 <NextSeo
   title={`${title}-雙龍體育blog`}
@@ -59,22 +59,33 @@ export default function Post({frontmatter, content}) {
 </main>
 
 }
+export async function getStaticPaths() {
+  const files = fs.readdirSync("posts");
+
+  const paths = files.map((filename) => ({
+    params: {
+      slug: filename.replace(".md", ""),
+    },
+  }));
+
+  return {
+    paths,
+    fallback: false,
+  };
+}
+
 export async function getStaticProps({ params: { slug } }) {
-  const fileName = await fs.readFile(`posts/${slug}.md`, 'utf-8');
-  const { data: frontmatter, content } = matter(fileName);
+  const markdownWithMetadata = fs
+    .readFileSync(path.join("posts", slug + ".md"))
+    .toString();
 
-  const markdownToHtml = new MarkdownIt({
-    html: true,
-    linkify: true,
-    typographer: true,
-  });
-
-  const html = markdownToHtml.render(content);
+  const parsedMarkdown = matter(markdownWithMetadata);
+  const htmlString = new MarkdownIt({ html: true }).render(parsedMarkdown.content);
 
   return {
     props: {
-      frontmatter,
-      html,
+      frontmatter: parsedMarkdown.data,
+      content: htmlString,
     },
   };
 }
