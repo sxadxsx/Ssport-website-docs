@@ -5,7 +5,11 @@ import { NextSeo } from 'next-seo';
 
 // The page for each post
 export default function Post({frontmatter, content}) {
-
+  const markdownToHtml = new MarkdownIt({
+    html: true,
+    linkify: true,
+    typographer: true,
+  });
     const {title, author, category, date, bannerImage, tags} = frontmatter
 
     return <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900">
