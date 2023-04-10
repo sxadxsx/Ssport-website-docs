@@ -64,11 +64,12 @@ export default function Post({frontmatter, content}) {
 
 }
 export async function getStaticPaths() {
-  const files = await promises.readdir(path.join(process.cwd(), "posts"));
+  const postsDirectory = path.join(process.cwd(), 'posts');
+  const filenames = await fs.promises.readdir(postsDirectory);
 
-  const paths = files.map((filename) => ({
+  const paths = filenames.map((filename) => ({
     params: {
-      slug: filename.replace(".md", ""),
+      slug: filename.replace(/\.md$/, ''),
     },
   }));
 
@@ -77,6 +78,7 @@ export async function getStaticPaths() {
     fallback: false,
   };
 }
+
 
 
 export async function getStaticProps({ params }) {
