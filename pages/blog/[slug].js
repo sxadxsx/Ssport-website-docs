@@ -1,4 +1,4 @@
-import fs from "fs";
+import fs from 'fs/promises';
 import matter from "gray-matter";
 import md from 'markdown-it';
 import { NextSeo } from 'next-seo';
