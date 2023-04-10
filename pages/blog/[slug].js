@@ -64,7 +64,7 @@ export default function Post({frontmatter, content}) {
 
 }
 export async function getStaticPaths() {
-  const files = fs.readdirSync(`${process.cwd()}/posts`);
+  const files = await promises.readdir(path.join(process.cwd(), "posts"));
 
   const paths = files.map((filename) => ({
     params: {
@@ -77,6 +77,7 @@ export async function getStaticPaths() {
     fallback: false,
   };
 }
+
 
 export async function getStaticProps({ params }) {
   const { slug } = params;
