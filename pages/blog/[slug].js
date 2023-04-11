@@ -1,6 +1,6 @@
 import fs from "fs";
 import matter from "gray-matter";
-import md from 'markdown-it';
+import MarkdownIt from "markdown-it"; // import the markdown-it library
 import { NextSeo } from 'next-seo';
 import path from "path";
 
