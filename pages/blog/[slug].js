@@ -1,18 +1,11 @@
-import fs from 'fs';
+import fs from "fs";
 import matter from "gray-matter";
 import md from 'markdown-it';
 import { NextSeo } from 'next-seo';
-import remark from 'remark';
-import html from 'remark-html';
-import path from 'path';
 
 // The page for each post
 export default function Post({frontmatter, content}) {
-  const markdownToHtml = new MarkdownIt({
-    html: true,
-    linkify: true,
-    typographer: true,
-  });
+
     const {title, author, category, date, bannerImage, tags} = frontmatter
 
     return <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900">
@@ -55,7 +48,7 @@ export default function Post({frontmatter, content}) {
           </div>
         </address>
       </header>
-     <div dangerouslySetInnerHTML={{ __html: content }}></div>
+       <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
     </article>
 <NextSeo
   title={`${title}-雙龍體育blog`}
@@ -66,6 +59,8 @@ export default function Post({frontmatter, content}) {
 </main>
 
 }
+
+// Generating the paths for each post
 export async function getStaticPaths() {
   // Get list of all files from our posts directory
   const files = fs.readdirSync("posts");
