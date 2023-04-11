@@ -2,11 +2,10 @@ import fs from 'fs/promises';
 import matter from "gray-matter";
 import MarkdownIt from 'markdown-it';
 import { NextSeo } from 'next-seo';
-
+import remark from 'remark';
+import html from 'remark-html';
 // The page for each post
 export default function Post({frontmatter, content}) {
-  const path = require('path')
-
   const markdownToHtml = new MarkdownIt({
     html: true,
     linkify: true,
@@ -81,21 +80,19 @@ export async function getStaticPaths() {
   };
 }
 
-
-
 export async function getStaticProps({ params }) {
   const { slug } = params;
-
-  const markdownWithMetadata = fs
-    .readFileSync(`posts/${slug}.md`)
-    .toString();
+  const markdownWithMetadata = fs.readFileSync(`posts/${slug}.md`).toString();
 
   const { data: frontmatter, content } = matter(markdownWithMetadata);
+
+  const processedContent = await remark().use(html).process(content);
+  const contentHtml = processedContent.toString();
 
   return {
     props: {
       frontmatter,
-      content,
+      contentHtml,
     },
   };
 }
