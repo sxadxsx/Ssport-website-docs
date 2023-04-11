@@ -1,6 +1,6 @@
 import fs from 'fs/promises';
 import matter from "gray-matter";
-import MarkdownIt from 'markdown-it';
+import md from 'markdown-it';
 import { NextSeo } from 'next-seo';
 import remark from 'remark';
 import html from 'remark-html';
