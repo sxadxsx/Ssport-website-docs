@@ -1,12 +1,15 @@
 import fs from "fs";
 import matter from "gray-matter";
-import MarkdownIt from 'markdown-it';
+import md from 'markdown-it';
 import { NextSeo } from 'next-seo';
 
 // The page for each post
-const md = new MarkdownIt();
 export default function Post({frontmatter, content}) {
-
+ frontmatter: {
+    title: string;
+  };
+  content: string;
+}
     const {title, author, category, date, bannerImage, tags} = frontmatter
 
     return <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900">
@@ -63,25 +66,30 @@ export default function Post({frontmatter, content}) {
 
 // Generating the paths for each post
 export async function getStaticPaths() {
+  // Get list of all files from our posts directory
   const files = fs.readdirSync("posts");
+  // Generate a path for each one
   const paths = files.map((fileName) => ({
     params: {
       slug: fileName.replace(".md", ""),
     },
   }));
+  // return list of paths
   return {
     paths,
     fallback: false,
   };
 }
 
+
+// Generate the static props for the page
 export async function getStaticProps({ params: { slug } }) {
-  const fileName = fs.readFileSync(`posts/${slug}.md`, "utf-8");
-  const { data: frontmatter, content } = matter(fileName);
-  return {
-    props: {
-      frontmatter,
-      content,
-    },
-  };
-}
+    const fileName = fs.readFileSync(`posts/${slug}.md`, 'utf-8');
+    const { data: frontmatter, content } = matter(fileName);
+    return {
+      props: {
+        frontmatter,
+        content,
+      },
+    };
+  }
