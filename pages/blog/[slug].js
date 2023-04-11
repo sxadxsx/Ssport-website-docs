@@ -76,15 +76,18 @@ export async function getStaticPaths() {
   };
 }
 
-
 // Generate the static props for the page
 export async function getStaticProps({ params: { slug } }) {
-    const fileName = fs.readFileSync(`posts/${slug}.md`, 'utf-8');
-    const { data: frontmatter, content } = matter(fileName);
-    return {
-      props: {
-        frontmatter,
-        content,
-      },
-    };
-  }
+  const fullPath = path.join("posts", `${slug}.md`);
+  const fileContents = fs.readFileSync(fullPath, "utf8");
+  const { data: frontmatter, content } = matter(fileContents);
+  const md = new MarkdownIt();
+  const htmlContent = md.render(content);
+
+  return {
+    props: {
+      frontmatter,
+      content: htmlContent,
+    },
+  };
+}
