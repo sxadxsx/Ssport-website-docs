@@ -60,16 +60,9 @@ export default function Post({frontmatter, content}) {
 }
 
 export async function getStaticPaths() {
-  // ...
+  const files = fs.readdirSync("posts");
   const paths = files.map((fileName) => {
-    const markdown = fs.readFileSync(`posts/${fileName}`, "utf-8");
-    const { data: frontmatter } = matter(markdown);
-    return {
-      params: {
-        slug: fileName.replace(".md", ""),
-      },
-      meta: frontmatter.title, 
-    };
+    // ...
   });
   
   return {
