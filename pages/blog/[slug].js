@@ -2,6 +2,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import md from 'markdown-it';
 import { NextSeo } from 'next-seo';
+import path from "path";
 
 // The page for each post
 export default function Post({frontmatter, content}) {
