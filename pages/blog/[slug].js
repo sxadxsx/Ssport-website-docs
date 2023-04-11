@@ -83,10 +83,11 @@ export async function getStaticProps({ params: { slug } }) {
   const fullPath = path.join("posts", `${slug}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data: frontmatter, content } = matter(fileContents);
-  const md = new MarkdownIt();
+  const md = new MarkdownIt({
   html: true,
   decodeEntities: true,
 });
+
   const htmlContent = md.render(content);
 
   return {
