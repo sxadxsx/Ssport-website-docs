@@ -59,33 +59,33 @@ export default function Post({frontmatter, content}) {
 
 }
 
-// Generating the paths for each post
 export async function getStaticPaths() {
-  // Get list of all files from our posts directory
-  const files = fs.readdirSync("posts");
-  // Generate a path for each one
-  const paths = files.map((fileName) => ({
-    params: {
-      slug: fileName.replace(".md", ""),
-    },
-  }));
-  // return list of paths
+  // ...
+  const paths = files.map((fileName) => {
+    const markdown = fs.readFileSync(`posts/${fileName}`, "utf-8");
+    const { data: frontmatter } = matter(markdown);
+    return {
+      params: {
+        slug: fileName.replace(".md", ""),
+      },
+      meta: frontmatter.title, 
+    };
+  });
+  
   return {
     paths,
     fallback: false,
   };
 }
 
-
-// Generate the static props for the page
-export async function getStaticProps({ params: { slug } }) {
+export async function getStaticProps({ params: { slug }, meta }) {
   const fileName = fs.readFileSync(`posts/${slug}.md`, 'utf-8');
   const { data: frontmatter, content } = matter(fileName);
-  const htmlContent = md.render(content);
   return {
     props: {
       frontmatter,
-      htmlContent,
+      content,
+      title: meta,  
     },
   };
 }
