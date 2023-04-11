@@ -1,9 +1,10 @@
 import fs from "fs";
 import matter from "gray-matter";
-import md from 'markdown-it';
+import MarkdownIt from 'markdown-it';
 import { NextSeo } from 'next-seo';
 
 // The page for each post
+const md = new MarkdownIt();
 export default function Post({frontmatter, content}) {
 
     const {title, author, category, date, bannerImage, tags} = frontmatter
