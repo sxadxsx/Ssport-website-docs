@@ -1,12 +1,11 @@
-import fs from "fs";
-import matter from "gray-matter";
-import MarkdownIt from "markdown-it"; // import the markdown-it library
-import md from "markdown-it"; // import the markdown-it library
-import { NextSeo } from 'next-seo';
-import path from "path";
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import remark from 'remark';
+import html from 'remark-html';
 
 // The page for each post
-export default function Post({frontmatter, content}) {
+export default function Post({ content, frontmatter }) {
     const {title, author, category, date, bannerImage, tags} = frontmatter
 
     return <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900">
@@ -63,39 +62,35 @@ export default function Post({frontmatter, content}) {
 
 // Generating the paths for each post
 export async function getStaticPaths() {
-  // Get list of all files from our posts directory
-  const files = fs.readdirSync("posts");
-  // Generate a path for each one
-  const paths = files.map((fileName) => ({
+  const files = fs.readdirSync('posts');
+  const paths = files.map((filename) => ({
     params: {
-      slug: fileName.replace(".md", ""),
+      slug: filename.replace('.md', ''),
     },
   }));
-  // return list of paths
+
   return {
     paths,
     fallback: false,
   };
 }
 
-// Generate the static props for the page
 export async function getStaticProps({ params: { slug } }) {
-  const fullPath = path.join("posts", `${slug}.md`);
-  const fileContents = fs.readFileSync(fullPath, "utf8");
-  const { data: frontmatter, content } = matter(fileContents);
-const md = new MarkdownIt({
-  html: true,
-  linkify: true,
-  typographer: true,
-    xhtmlOut: true,
-});
+  const fullPath = path.join('posts', `${slug}.md`);
+  const fileContents = fs.readFileSync(fullPath, 'utf8');
 
-  const htmlContent = md.render(content);
+  const { data: frontmatter, content } = matter(fileContents);
+
+  const processedContent = await remark()
+    .use(html)
+    .process(content);
+
+  const contentHtml = processedContent.toString();
 
   return {
     props: {
+      content: contentHtml,
       frontmatter,
-      content: htmlContent,
     },
   };
 }
