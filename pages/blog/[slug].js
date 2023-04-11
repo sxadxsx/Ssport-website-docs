@@ -5,11 +5,6 @@ import { NextSeo } from 'next-seo';
 
 // The page for each post
 export default function Post({frontmatter, content}) {
- frontmatter: {
-    title: string;
-  };
-  content: string;
-}
     const {title, author, category, date, bannerImage, tags} = frontmatter
 
     return <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900">
@@ -84,12 +79,13 @@ export async function getStaticPaths() {
 
 // Generate the static props for the page
 export async function getStaticProps({ params: { slug } }) {
-    const fileName = fs.readFileSync(`posts/${slug}.md`, 'utf-8');
-    const { data: frontmatter, content } = matter(fileName);
-    return {
-      props: {
-        frontmatter,
-        content,
-      },
-    };
-  }
+  const fileName = fs.readFileSync(`posts/${slug}.md`, 'utf-8');
+  const { data: frontmatter, content } = matter(fileName);
+  const htmlContent = md.render(content);
+  return {
+    props: {
+      frontmatter,
+      htmlContent,
+    },
+  };
+}
