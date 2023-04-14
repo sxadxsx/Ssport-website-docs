@@ -91,6 +91,7 @@ const md = new MarkdownIt({
   xhtmlOut: true,
   // Disable header tags
   header: false,
+    heading: false,
 });
   const htmlContent = md.render(content);
 
