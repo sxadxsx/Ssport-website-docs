@@ -49,7 +49,8 @@ export default function Post({frontmatter, content}) {
           </div>
         </address>
       </header>
-       <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+      <div dangerouslySetInnerHTML={{ __html: content }} />
+
     </article>
 <NextSeo
   title={`${title}-雙龍體育blog`}
@@ -94,9 +95,9 @@ const md = new MarkdownIt({
   const htmlContent = md.render(content);
 
   return {
-    props: {
-      frontmatter,
-      content: htmlContent,
+  props: {
+    frontmatter,
+    content: htmlContent,
     },
   };
 }  
