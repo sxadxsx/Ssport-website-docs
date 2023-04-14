@@ -47,7 +47,8 @@ export default function Post({frontmatter, content}) {
               </p>
             </div>
           </div>
-        </address>
+        </address>      
+    <div dangerouslySetInnerHTML={{ __html: content }} />
       </header>
 
     </article>
@@ -55,7 +56,6 @@ export default function Post({frontmatter, content}) {
   title={`${title}-雙龍體育blog`}
   description={title}
 />
-      <div dangerouslySetInnerHTML={{ __html: content }} />
 
   </div>
 </main>
