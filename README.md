@@ -2,8 +2,8 @@
 # 這是雙龍體育官網檔案
 ## 📝 部落格
 
-在 `blog` 資料夾內是 [部落格](https://www.ssangyongsports.org/blog/) 的檔案
-
+在 `posts` 資料夾內是 [部落格](https://www.ssangyongsports.org/blog/) 的檔案
+還沒將blog文章導入此資料夾
 ## ❤️ 我想要貢獻
 使用Pull requests
 <h1 align="center">
