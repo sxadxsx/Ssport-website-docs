@@ -49,7 +49,7 @@ export default function Post({frontmatter, content}) {
           </div>
         </address>
       </header>
-       <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
+       <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
     </article>
 <NextSeo
   title={`${title}-雙龍體育blog`}
@@ -83,21 +83,20 @@ export async function getStaticProps({ params: { slug } }) {
   const fullPath = path.join("posts", `${slug}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data: frontmatter, content } = matter(fileContents);
-
-  const md = new MarkdownIt({
-    html: true,
-    linkify: true,
-    typographer: true,
-    xhtmlOut: true,
-  });
-
+const md = new MarkdownIt({
+  html: true,
+  linkify: true,
+  typographer: true,
+  xhtmlOut: true,
+  // Disable header tags
+  header: false,
+});
   const htmlContent = md.render(content);
 
   return {
-  props: {
-    frontmatter,
-    content: htmlContent,
-  },
-};
-}
-
+    props: {
+      frontmatter,
+      content: htmlContent,
+    },
+  };
+}  
