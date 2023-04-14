@@ -92,6 +92,7 @@ const md = new MarkdownIt({
   // Disable header tags
   header: false,
     heading: false,
+  plugins: [require('markdown-it-attrs')],
 });
   const htmlContent = md.render(content);
 
