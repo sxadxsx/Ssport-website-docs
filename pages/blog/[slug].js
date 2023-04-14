@@ -94,10 +94,10 @@ export async function getStaticProps({ params: { slug } }) {
   const htmlContent = md.render(content);
 
   return {
-    props: {
-      frontmatter,
-      htmlContent, // Pass htmlContent as a prop
-    },
-  };
+  props: {
+    frontmatter,
+    content: htmlContent,
+  },
+};
 }
 
