@@ -96,6 +96,10 @@ const md = new MarkdownIt({
 
 
 });
+md.use(require('markdown-it-attrs'), {
+    leftDelimiter: '[',
+    rightDelimiter: ']',
+  });
   const htmlContent = md.render(content);
 
   return {
