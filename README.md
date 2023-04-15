@@ -19,3 +19,11 @@ status.ssangyongsports.org
 4.markodwn-it
 5.flowbite
 
+# npm版本
+    "flowbite": "^1.6.4",
+    "flowbite-react": "^0.4.2",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^13.0.1",
+    "markdown-it-attrs": "^4.1.6",
+    "next": "13.2.4",
+    "next-seo": "^6.0.0",
