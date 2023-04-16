@@ -13,8 +13,9 @@ export default function Post({frontmatter, content}) {
   <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
     <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
       <header className="mb-4 lg:mb-6 not-format">
-         <img
-  className="h-auto max-w-lg rounded-lg h-auto max-w-full"
+         </br>
+          <img
+  className="h-auto max-w-lg rounded-lg max-w-full"
   src={bannerImage}
   alt={title}
 />
