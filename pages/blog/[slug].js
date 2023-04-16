@@ -20,7 +20,7 @@ export default function Post({frontmatter, content}) {
       <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
         {title}
       </h2>
-    
+     </div>
   </div>
 </section>
         <address className="flex items-center mb-6 not-italic">
@@ -52,7 +52,7 @@ export default function Post({frontmatter, content}) {
                 </time>
               </p>
             </div>
-          </div>
+         
     </div>
             </address>      
     <div dangerouslySetInnerHTML={{ __html: content }} />
