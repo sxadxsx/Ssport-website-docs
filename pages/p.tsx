@@ -7,6 +7,10 @@ const p = () => {
         title="隱私政策-雙龍體育"
         description=" 雙龍體育的政策是尊重您的隱私並遵守有關我們可能收集的關於您的任何個人信息的任何適用法律和法規，包括我們的網站ssangyongsports.org 以及我們擁有和."
       />
+ain className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900">
+  <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
+    <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
+        <header className="mb-4 lg:mb-6 not-format">        
   <h1>隱私政策</h1>
   <p>
     您的隱私對我們很重要。雙龍體育的政策是尊重您的隱私並遵守有關我們可能收集的關於您的任何個人信息的任何適用法律和法規，包括我們的網站ssangyongsports.org
@@ -121,6 +125,11 @@ const p = () => {
   </p>
   <p>support@ssangyongsport.org 雙龍體育團隊</p>
 </>
+                 </address>      
+      </header>
+  </div>
+</main>
+
  );
 }
 
