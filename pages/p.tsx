@@ -125,7 +125,6 @@ const p = () => {
         title="隱私政策-雙龍體育"
         description=" 雙龍體育的政策是尊重您的隱私並遵守有關我們可能收集的關於您的任何個人信息的任何適用法律和法規，包括我們的網站ssangyongsports.org 以及我們擁有和."
       />
-                 </address>      
       </header>
   </div>
 </main>
