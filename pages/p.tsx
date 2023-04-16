@@ -7,17 +7,17 @@ const p = () => {
   <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
     <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
         <header className="mb-4 lg:mb-6 not-format">        
-  <h1>隱私政策</h1>
+  <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">隱私政策</h1>
   <p>
     您的隱私對我們很重要。雙龍體育的政策是尊重您的隱私並遵守有關我們可能收集的關於您的任何個人信息的任何適用法律和法規，包括我們的網站ssangyongsports.org
     以及我們擁有和運營的其他網站。
   </p>
   <p>本政策自 2022 年 1 月 5 日起生效，最後更新時間為 2022 年 1 月 5 日。</p>
-  <h1>我們收集的信息</h1>
+  <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">我們收集的信息</h1>
   <p>
     我們收集的信息包括您在使用或參與我們的任何服務和促銷活動時有意並主動提供給我們的信息，以及您的設備在訪問我們的產品和服務的過程中自動發送的任何信息。
   </p>
-  <h1>日誌數據</h1>
+  <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">日誌數據</h1>
   <p>
     當您訪問我們的網站時，我們的服務器可能會自動記錄您的網絡瀏覽器提供的標準數據。它可能包括您設備的互聯網協議
     (IP)
@@ -26,14 +26,14 @@ const p = () => {
   <p>
     請注意，雖然此信息本身可能無法識別個人身份，但有可能將其與其他數據結合以識別個人身份。
   </p>
-  <h1>個人信息</h1>
+  <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">個人信息</h1>
   <p>我們可能會要求您提供個人信息，其中可能包括以下一項或多項：</p>
   <p>姓名電子郵件社交媒體資料</p>
   <p>處理您個人信息的正當理由</p>
   <p>
     我們僅在有正當理由的情況下收集和使用您的個人信息。在這種情況下，我們只會收集為您提供服務所必需的個人信息。
   </p>
-  <h2>信息的收集和使用</h2>
+  <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">信息的收集和使用</h2>
   <p>當您在我們的網站上執行以下任何操作時，我們可能會收集您的個人信息：</p>
   <p>
     參加我們的任何競賽、競賽、抽獎和調查使用移動設備或網絡瀏覽器訪問我們的內容通過電子郵件、社交媒體或任何類似技術與我們聯繫當您在社交媒體上提及我們時
@@ -50,7 +50,7 @@ const p = () => {
   <p>
     請注意，我們可能會將收集到的有關您的信息與我們從其他可信來源收到的一般信息或研究數據結合起來。
   </p>
-  <h1>您個人信息的安全</h1>
+  <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">您個人信息的安全</h1>
   <p>
     當我們收集和處理個人信息並保留這些信息時，我們會以商業上可接受的方式對其進行保護，以防止丟失和被盜，以及未經授權的訪問、披露、複製、使用或修改。
   </p>
@@ -69,14 +69,14 @@ const p = () => {
   <p>
     但是，如有必要，我們可能會保留您的個人信息，以遵守法律、會計或報告義務，或者出於公共利益、科學或歷史研究目的或統計目的進行存檔。
   </p>
-  <h1>向第三方披露個人信息</h1>
+  <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">向第三方披露個人信息</h1>
   <p>我們可能會將個人信息披露給：</p>
   <p>
     我們組織的母組織、子組織或附屬組織旨在使他們能夠提供服務的第三方服務提供商，例如
     IT
     服務提供商、數據存儲、託管和服務器提供商、廣告商或分析平台我們的員工、承包商和/或相關實體我們現有或潛在的代理或業務合作夥伴我們舉辦的任何競賽、抽獎或促銷活動的讚助商或發起人法院、法庭、監管機構和執法人員，根據法律要求，與任何實際或潛在的法律程序有關，或為了確立、行使或捍衛我們的合法權利協助我們向您提供信息、產品、服務或直接營銷以收集和處理數據的第三方，包括代理或分包商
   </p>
-  <h1>個人信息的國際傳輸</h1>
+  <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">個人信息的國際傳輸</h1>
   <p>
     我們收集的個人信息在我們或我們的合作夥伴、附屬組織和第三方提供商維護設施的地方存儲和/或處理。請注意，我們存儲、處理或傳輸您的個人信息的地點可能與您最初提供信息的國家/地區的數據保護法律不同。如果我們將您的個人信息傳輸給其他國家/地區的第三方：(i)
     我們將根據適用法律的要求執行這些傳輸；(ii)
@@ -98,23 +98,23 @@ const p = () => {
   <p>
     如果您認為我們違反了相關的數據保護法並希望提出投訴，請使用以下詳細信息與我們聯繫，並向我們提供涉嫌違規行為的完整詳細信息。我們將及時調查您的投訴並以書面形式回复您，說明我們的調查結果以及我們將採取的處理您的投訴的步驟。您還有權就您的投訴聯繫監管機構或數據保護機構。
   </p>
-  <h1>Cookie 的使用</h1>
+  <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Cookie 的使用</h1>
   <p>
     我們使用“cookies” 在我們的網站上收集有關您和您的活動的信息。cookie
     是我們網站存儲在您計算機上的一小段數據，您每次訪問時都會訪問它，以便我們了解您如何使用我們的網站。這有助於我們根據您指定的偏好為您提供內容。
   </p>
-  <h1>我們政策的限制</h1>
+  <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">我們政策的限制</h1>
   <p>
     我們的網站可能會鏈接到非我們運營的外部網站。請注意，我們無法控制這些網站的內容和政策，並且不能對其各自的隱私慣例承擔責任或義務。
   </p>
-  <h1>對本政策的更改</h1>
+  <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">對本政策的更改</h1>
   <p>
     我們可能會自行決定更改我們的隱私政策，以反映我們業務流程的更新、當前可接受的做法或立法或監管變更。如果我們決定更改本隱私政策，我們將在您訪問本隱私政策的同一鏈接上發布更改。
   </p>
   <p>
     如果法律要求，我們將獲得您的許可或讓您有機會選擇加入或退出（如適用）對您個人信息的任何新用途。
   </p>
-  <h1>聯繫我們</h1>
+  <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">聯繫我們</h1>
   <p>如有任何關於您的隱私的問題或疑慮，您可以使用以下詳細信息與我們聯繫：</p>
   <p>
     <br />
