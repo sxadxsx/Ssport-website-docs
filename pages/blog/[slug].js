@@ -15,7 +15,7 @@ export default function Post({frontmatter, content}) {
         <header className="mb-4 lg:mb-6 not-format">                   
       <br />
             <img
-  className="h-auto max-w-lg rounded-lg max-w-full"
+  className="h-auto max-w-full"
   src={bannerImage}
   alt={title}
 />
