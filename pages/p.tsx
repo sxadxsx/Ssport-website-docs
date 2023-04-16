@@ -13,7 +13,7 @@ const p = () => {
     以及我們擁有和運營的其他網站。
   </p>
   <p>本政策自 2022 年 1 月 5 日起生效，最後更新時間為 2022 年 1 月 5 日。</p>
-  <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">我們收集的信息</h1>
+  <h1 className="mb-4 h4">我們收集的信息</h1>
   <p>
     我們收集的信息包括您在使用或參與我們的任何服務和促銷活動時有意並主動提供給我們的信息，以及您的設備在訪問我們的產品和服務的過程中自動發送的任何信息。
   </p>
