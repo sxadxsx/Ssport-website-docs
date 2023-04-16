@@ -20,7 +20,11 @@ export default function Post({frontmatter, content}) {
       <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
         {title}
       </h2>
-     <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
+    
+  </div>
+</section>
+        <address className="flex items-center mb-6 not-italic">
+         <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
           
             <img
               className="mr-4 w-16 h-16 rounded-full"
@@ -50,10 +54,7 @@ export default function Post({frontmatter, content}) {
             </div>
           </div>
     </div>
-  </div>
-</section>
-        <address className="flex items-center mb-6 not-italic">
-        </address>      
+            </address>      
     <div dangerouslySetInnerHTML={{ __html: content }} />
       </header>
 
