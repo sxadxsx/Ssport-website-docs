@@ -91,11 +91,6 @@ function footer() {
              登入
             </a>
           </li>
-          <li className="mb-4">
-            <a href="#" className="hover:underline">
-              Blog
-            </a>
-          </li>
         </ul>
       </div>
       <div>
