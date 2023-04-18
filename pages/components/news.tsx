@@ -45,13 +45,13 @@ function news() {
           </div>
         </div>
         <div className="mx-auto max-w-screen-sm text-sm text-left text-gray-500 newsletter-form-footer dark:text-gray-300">
-         我們關心保護您的數據。{" "}
-          <a
-            href="#"
+         我們關心保護您的數據。
+          <Link
+            href="/p"
             className="font-medium text-primary-600 dark:text-primary-500 hover:underline"
           >
            閱讀我們的隱私政策
-          </a>
+          </Link>
           。
         </div>
       </form>
