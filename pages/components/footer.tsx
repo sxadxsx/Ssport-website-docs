@@ -62,7 +62,7 @@ function footer() {
           <li className="mb-4">
             <Link href="/p" className="hover:underline">
               隱私政策
-            </a>
+            </Link>
           </li>
           <li className="mb-4">
             <a href="/t" className="hover:underline">
