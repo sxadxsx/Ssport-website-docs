@@ -1,4 +1,5 @@
 import Tvhero from './components/Tvhero';
+import Price from './components/price';
 import Feature from './components/feature';
 import React from 'react';
 import { NextSeo } from 'next-seo';
@@ -12,6 +13,7 @@ const Home = () => {
       <div>
         <Tvhero />
         <Feature />
+        <Price />
         
       </div>
     </>
