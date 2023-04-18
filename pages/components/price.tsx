@@ -113,6 +113,7 @@ function price() {
           Get started
         </a>
       </div>
+            </div>
     </div>
 </section>
 
