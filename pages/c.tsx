@@ -1,4 +1,4 @@
-import React from 'react'
+import { NextSeo } from 'next-seo';
 function c() {
   return (   
         <div>
