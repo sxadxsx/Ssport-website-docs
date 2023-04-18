@@ -316,7 +316,6 @@ function price() {
         </a>
       </div>
     </div>
-  </div>
 </section>
 
   )
