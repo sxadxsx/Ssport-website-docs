@@ -10,7 +10,7 @@ function c() {
     <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
       有任何問題，立刻聯繫我們😊
     </p>
-    <form action="https://submit-form.com/yFAbXMpc" className="space-y-8">
+    <form action="https://formcarry.com/s/WvAoYI6nx" className="space-y-8">
       <div>
        <label
   htmlFor="email"
@@ -27,11 +27,7 @@ function c() {
 />
 
       </div>
-      <input
-    type="hidden"
-    name="_redirect"
-    value="https://www.ssangyongsports.org/thanks"
-  />
+    <input type="hidden" name="_next" value="/thanks">
      
       <div>
         <label
