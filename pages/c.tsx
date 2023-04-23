@@ -27,7 +27,7 @@ function c() {
 />
 
       </div>
-    <input type="hidden" name="_next" value="/thanks">
+    <input type="hidden" name="_next" defaultValue="/thanks" />
      
       <div>
         <label
