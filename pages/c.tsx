@@ -27,7 +27,7 @@ function c() {
 />
 
       </div>
-    <input type="hidden" name="_redirect" value="/thanks">
+    <input type="hidden" name="_redirect" value="/thanks"/>
      
       <div>
         <label
