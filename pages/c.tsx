@@ -27,7 +27,7 @@ function c() {
 />
 
       </div>
-      <input type="text" name="_honey" style="display:none" />
+<input type="text" name="_honey" style={{ display: "none" }} />
 <input type="hidden" name="_next" value="/thanks" />    
   <input type="hidden" name="_subject" value="聯繫內容" />
 
