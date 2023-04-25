@@ -27,8 +27,8 @@ function c() {
 />
 
       </div>
-<input type="hidden" name="_next" value="/thanks">    
-  <input type="hidden" name="_subject" value="聯繫內容" >
+<input type="hidden" name="_next" value="/thanks" />    
+  <input type="hidden" name="_subject" value="聯繫內容" />
 
       <div>
         <label
