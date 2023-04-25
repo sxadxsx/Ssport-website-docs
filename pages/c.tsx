@@ -10,7 +10,7 @@ function c() {
     <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
       有任何問題，立刻聯繫我們😊
     </p>
-    <form action="https://formsubmit.co/ssportpop@gmail.com" className="space-y-8" method="POST">
+    <form action="https://formsubmit.co/ssportpop@gmail.com" method="POST" className="space-y-8">
       <div>
        <label
   htmlFor="email"
