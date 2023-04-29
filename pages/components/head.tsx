@@ -5,7 +5,7 @@ import { Button } from "flowbite-react";
 function head() {
   return (
     <header>
-    <br />
+    
   <Navbar
   fluid={true}
   rounded={true}
