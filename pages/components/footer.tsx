@@ -11,11 +11,6 @@ function footer() {
         </h2>
         <ul className="text-gray-500 dark:text-gray-400">
           <li className="mb-4">
-            <a href="#" className=" hover:underline">
-              關於
-            </a>
-          </li>
-          <li className="mb-4">
             <Link href="/blog" className="hover:underline">
               部落格
             </Link>
@@ -24,6 +19,11 @@ function footer() {
             <Link href="c" className="hover:underline">
              聯繫
             </Link>
+           </li>
+          <li className="mb-4">
+            <a href="https://help.ssangyongsports.org/" className="hover:underline">
+             狀態
+            </a>
            </li>
         </ul>
       </div>
