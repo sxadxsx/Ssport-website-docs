@@ -10,7 +10,7 @@ function hero() {
       role="alert"
     >
       <span className="text-xs bg-primary-600 rounded-full text-white px-4 py-1.5 mr-3">
-        最新消息
+        New
       </span>{" "}
       <span className="text-sm font-medium">
         SBA和SLB網域被刪除公告
