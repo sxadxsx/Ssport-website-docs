@@ -50,9 +50,9 @@ function head() {
       </Navbar.Link>
   </Navbar.Collapse>
 </Navbar>
+<br /> 
+<br />
       </header>
-<br />
-<br />
   )
 }
 
