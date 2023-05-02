@@ -58,7 +58,8 @@ export default function Blog({posts}){
           </article> 
 
         })}
-</main>
+</div>
+    </main>
 }
 
 
