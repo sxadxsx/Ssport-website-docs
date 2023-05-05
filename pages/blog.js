@@ -32,6 +32,7 @@ export default function Blog({posts}){
 
             //JSX for individual blog listing
             return <article key={title}>
+                <div className="bg-white dark:bg-gray-900">
                  <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
     <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
            <div className="grid gap-8 lg:grid-cols-2">
@@ -85,6 +86,7 @@ export default function Blog({posts}){
       </Link>
     </div>
   </article>
+</div>
 </div>
 </div>
 </div>
