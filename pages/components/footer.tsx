@@ -1,5 +1,28 @@
 import Link from 'next/link';
 
+const FooterBadge = () => {
+  useEffect(() => {
+    // 定義一個函數來更新Footer badge的內容和樣式
+    function updateFooterBadge(status) {
+      const badge = document.getElementById('footer-badge');
+
+      badge.textContent = status === 'UP' ? '正常運行' : '異常';
+      badge.className = status.toLowerCase();
+    }
+
+    // 從您的JSON代碼中讀取系統狀態並更新Footer badge
+    fetch('https://ssangyongsports.instatus.com/summary.json')
+      .then(response => response.json())
+      .then(data => {
+        const status = data.page.status;
+        updateFooterBadge(status);
+        badge.href = data.page.url;
+      })
+      .catch(error => {
+        console.error('無法讀取系統狀態', error);
+      });
+  }, []);
+
 function footer() {
   return (
 <footer className="bg-gray-50 dark:bg-gray-800">
@@ -21,9 +44,7 @@ function footer() {
             </Link>
            </li>
           <li className="mb-4">
-            <a href="https://help.ssangyongsports.org/" className="hover:underline">
-             狀態
-            </a>
+              <a href="https://status.ssangyongsports.org" target="_blank" id="footer-badge"></a>
            </li>
         </ul>
       </div>
