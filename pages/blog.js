@@ -7,23 +7,7 @@ import { NextSeo } from 'next-seo';
 // The Blog Page Content
 export default function Blog({posts}){
     return <main>
-       
-    <NextSeo
-        title="雙龍體育blog"
-        description="任何關於雙龍體育的任何關於雙龍體育的消息和公告,就上雙龍體育blog"
-      />
-
-
-        {posts.map(post => {
-            //extract slug and frontmatter
-            const {slug, frontmatter} = post
-            //extract frontmatter properties
-            const {title, author, category, date, bannerImage, tags} = frontmatter
-
-            //JSX for individual blog listing
-            return 
-            <article key={title}>
-                 <section className="bg-white dark:bg-gray-900">
+        <section className="bg-white dark:bg-gray-900">
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
     <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
       <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
@@ -32,6 +16,24 @@ export default function Blog({posts}){
       <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
    任何關於雙龍體育的任何關於雙龍體育的消息和公告
       </p>
+    <NextSeo
+        title="雙龍體育blog"
+        description="任何關於雙龍體育的任何關於雙龍體育的消息和公告,就上雙龍體育blog"
+      />
+    </div>
+  </div>
+</section>
+
+        {posts.map(post => {
+            //extract slug and frontmatter
+            const {slug, frontmatter} = post
+            //extract frontmatter properties
+            const {title, author, category, date, bannerImage, tags} = frontmatter
+
+            //JSX for individual blog listing
+            return <article key={title}>
+                 <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+    <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
            <div className="grid gap-8 lg:grid-cols-2">
   <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
     <div className="flex justify-between items-center mb-5 text-gray-500">
@@ -86,8 +88,8 @@ export default function Blog({posts}){
 </div>
 </div>
 </div>
- </section>
 </article>
+
         })}
 </main>
 }
