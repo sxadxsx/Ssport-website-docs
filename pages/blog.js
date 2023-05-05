@@ -6,24 +6,11 @@ import { NextSeo } from 'next-seo';
 
 // The Blog Page Content
 export default function Blog({posts}){
-    return <main>
-        <section className="bg-white dark:bg-gray-900">
-  <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-    <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-      <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-        雙龍體育部落格
-      </h2>
-      <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
-   任何關於雙龍體育的任何關於雙龍體育的消息和公告
-      </p>
+    return <main>    
     <NextSeo
         title="雙龍體育blog"
         description="任何關於雙龍體育的任何關於雙龍體育的消息和公告,就上雙龍體育blog"
       />
-    </div>
-  </div>
-</section>
-
         {posts.map(post => {
             //extract slug and frontmatter
             const {slug, frontmatter} = post
@@ -55,17 +42,15 @@ export default function Blog({posts}){
             >
               <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z" />
             </svg>
-            Tutorial
+             {tags}
           </span>
-          <span className="text-sm">14 days ago</span>
+          <span className="text-sm">{date}</span>
         </div>
         <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          <a href="#">How to quickly deploy a static website</a>
+        <Link href={`/blog/${slug}`}>{title}</Link>
         </h2>
         <p className="mb-5 font-light text-gray-500 dark:text-gray-400">
-          Static websites are now used to bootstrap lots of websites and are
-          becoming the basis for a variety of tools that even influence both web
-          designers and developers influence both web designers and developers.
+          {title}
         </p>
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-4">
@@ -76,11 +61,11 @@ export default function Blog({posts}){
             />
             <span className="font-medium dark:text-white">Jese Leos</span>
           </div>
-          <a
-            href="#"
-            className="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline"
-          >
-            Read more
+           <Link
+        href={`/blog/${slug}`}
+        className="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline"
+      >
+        閱讀文章
             <svg
               className="ml-2 w-4 h-4"
               fill="currentColor"
@@ -93,7 +78,7 @@ export default function Blog({posts}){
                 clipRule="evenodd"
               />
             </svg>
-          </a>
+          </Link>
         </div>
       </article>
       <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
