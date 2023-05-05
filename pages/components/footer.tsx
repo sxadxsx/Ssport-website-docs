@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 function FooterBadge() {
   // 定義一個函數來更新Footer badge的內容和樣式
-  function updateFooterBadge(status) {
+function updateFooterBadge(status: string) {
     const badge = document.getElementById('footer-badge');
 
     badge.textContent = status === 'UP' ? '正常運行' : '異常';
