@@ -27,7 +27,7 @@ function head() {
     <Navbar.Toggle />
   </div>
   <Navbar.Collapse>
-      <div className="flex md:order-2">
+     
     <Dropdown
       arrowIcon={false}
       inline={true}
@@ -56,7 +56,6 @@ function head() {
       </Dropdown.Item>
     </Dropdown>
     <Navbar.Toggle />
-  </div>
     <Navbar.Link href="/navbars">
       About
     </Navbar.Link>
