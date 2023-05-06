@@ -128,11 +128,11 @@ function footer() {
 />
 </Link>
       <span className="block text-sm text-center text-gray-500 dark:text-gray-400">
-        © 2021-2022{" "}
+      Copyright © 2023 
         <a href="#" className="hover:underline">
-          雙龍體育
+          雙龍體育,
         </a>
-        . All Rights Reserved.
+      維護團隊：雙龍體育
       </span>
       <ul className="flex justify-center mt-5 space-x-5">
         <li>
