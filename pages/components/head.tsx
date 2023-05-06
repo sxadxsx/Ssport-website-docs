@@ -29,11 +29,10 @@ function head() {
   </div>
   <Navbar.Collapse>
      
-    <Dropdown
       <Link href="#">
       體育
     </Link> 
-    >
+   
       <Dropdown.Header>
         <span className="block text-sm">
           Bonnie Green
@@ -55,7 +54,7 @@ function head() {
       <Dropdown.Item>
         Sign out
       </Dropdown.Item>
-    </Dropdown>
+    </Link>
     <Navbar.Toggle />
     <Navbar.Link href="/navbars">
       About
