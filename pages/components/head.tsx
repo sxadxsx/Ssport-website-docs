@@ -1,4 +1,3 @@
-import { Dropdown } from "flowbite-react";
 import { Navbar } from "flowbite-react";
 import React from 'react';
 import Link from 'next/link';
@@ -28,36 +27,13 @@ function head() {
     <Navbar.Toggle />
   </div>
   <Navbar.Collapse>
-     
-      <Link href="#">
-      體育
-    </Link> 
-   
-      <Dropdown.Header>
-        <span className="block text-sm">
-          Bonnie Green
-        </span>
-        <span className="block truncate text-sm font-medium">
-          name@flowbite.com
-        </span>
-      </Dropdown.Header>
-      <Dropdown.Item>
-        Dashboard
-      </Dropdown.Item>
-      <Dropdown.Item>
-        Settings
-      </Dropdown.Item>
-      <Dropdown.Item>
-        Earnings
-      </Dropdown.Item>
-      <Dropdown.Divider />
-      <Dropdown.Item>
-        Sign out
-      </Dropdown.Item>
-    </Link>
-    <Navbar.Toggle />
-    <Navbar.Link href="/navbars">
-      About
+    <Navbar.Link
+      href="https://slb.ssangyongsports.org"
+    >
+      SLB
+    </Navbar.Link>
+    <Navbar.Link href="https://sna.ssangyongsports.org">
+      SBA
     </Navbar.Link>
     <Navbar.Link href="/navbars">
       Services
@@ -80,4 +56,4 @@ function head() {
   )
 }
 
-export default head;
+export default head;   
