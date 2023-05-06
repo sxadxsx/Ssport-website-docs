@@ -37,12 +37,16 @@ function head() {
     <Navbar.Link href="https://sba.ssangyongsports.org">
       SBA
     </Navbar.Link>
+    <Navbar.Link>
     <Link href="/p">
       隱私政策
     </Link>
+      </Navbar.Link>
+    <Navbar.Link>
     <Link href="/t">
       服務條款
     </Link>
+      </Navbar.Link>
     <Navbar.Link>
           <Link href="/blog">
       部落格
