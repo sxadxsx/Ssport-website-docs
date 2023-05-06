@@ -1,3 +1,4 @@
+import { Dropdown } from "flowbite-react";
 import { Navbar } from "flowbite-react";
 import React from 'react';
 import Link from 'next/link';
@@ -29,9 +30,9 @@ function head() {
   <Navbar.Collapse>
      
     <Dropdown
-      arrowIcon={false}
-      inline={true}
-      label={<Avatar alt="User settings" img="https://flowbite.com/docs/images/people/profile-picture-5.jpg" rounded={true}/>}
+      <Link href="#">
+      體育
+    </Link> 
     >
       <Dropdown.Header>
         <span className="block text-sm">
