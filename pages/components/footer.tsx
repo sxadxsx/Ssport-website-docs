@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+import Script from 'next/script';
 function footer() {
   return (
 <footer className="bg-gray-50 dark:bg-gray-800">
@@ -21,8 +21,8 @@ function footer() {
             </Link>
            </li>
           <li className="mb-4">
-            <a href="https://help.ssangyongsports.org/" className="hover:underline">
-             狀態
+            <Script src="https://ssport-website.vercel.app/status.js" />
+            <a href="https://status.ssangyongsports.org" target="_blank" id="footer-badge"></a>
             </a>
            </li>
         </ul>
