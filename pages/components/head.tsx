@@ -22,7 +22,9 @@ function head() {
   </Link>
   <div className="flex md:order-2">
     <Button>
-      Get started
+       <Link href="/tv">
+      雙龍體育TV
+    </Link>
     </Button>
     <Navbar.Toggle />
   </div>
@@ -32,7 +34,7 @@ function head() {
     >
       SLB
     </Navbar.Link>
-    <Navbar.Link href="https://sna.ssangyongsports.org">
+    <Navbar.Link href="https://sba.ssangyongsports.org">
       SBA
     </Navbar.Link>
     <Link href="/p">
@@ -43,7 +45,7 @@ function head() {
     </Link>
     <Navbar.Link>
           <Link href="/blog">
-      Blog
+      部落格
     </Link>
     </Navbar.Link>
     <Navbar.Link>
