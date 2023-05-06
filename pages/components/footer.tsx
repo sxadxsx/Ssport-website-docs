@@ -23,7 +23,6 @@ function footer() {
           <li className="mb-4">
             <Script src="https://ssport-website.vercel.app/status.js" />
             <a href="https://status.ssangyongsports.org" target="_blank" id="footer-badge"></a>
-            </a>
            </li>
         </ul>
       </div>
