@@ -42,7 +42,7 @@ function hero() {
         href="#anchor_one"
         className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
       >
-        Learn more
+        我們的體育
         <svg
           className="ml-2 -mr-1 w-5 h-5"
           fill="currentColor"
@@ -56,8 +56,8 @@ function hero() {
           />
         </svg>
       </Link>
-      <a
-        href="#"
+      <Link
+        href="/tv"
         className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
       >
         <svg
@@ -68,8 +68,8 @@ function hero() {
         >
           <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z" />
         </svg>
-        Watch video
-      </a>
+        加入TV
+      </Link>
     </div>
   </div>
 </section>
