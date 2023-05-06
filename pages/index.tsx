@@ -13,6 +13,7 @@ const Home = () => {
       />
       <div>
         <Hero />
+        <div id="anchor_one" />
         <Table />
         <Tabl />
       </div>
