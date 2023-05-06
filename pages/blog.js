@@ -32,7 +32,7 @@ export default function Blog({posts}){
 
             //JSX for individual blog listing
             return <article key={title}>
-                 <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+                 
            <div className="grid gap-8 lg:grid-cols-2">
   <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
     <div className="flex justify-between items-center mb-5 text-gray-500">
@@ -85,7 +85,7 @@ export default function Blog({posts}){
     </div>
   </article>
 </div>
-</div>
+
 </article>
 
         })}
