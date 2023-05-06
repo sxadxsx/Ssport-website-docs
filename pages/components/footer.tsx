@@ -98,12 +98,12 @@ function footer() {
         </h2>
         <ul className="text-gray-500 dark:text-gray-400">
           <li className="mb-4">
-            <a href="#" className="hover:underline">
+            <a href="https://slb.ssangyongsports.org/" className="hover:underline">
               雙龍職棒
             </a>
           </li>
           <li className="mb-4">
-            <a href="#" className="hover:underline">
+            <a href="https://sba.ssangyongsports.org/" className="hover:underline">
               雙龍職籃
             </a>
           </li>
