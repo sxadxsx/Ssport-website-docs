@@ -35,7 +35,7 @@ function hero() {
 是將
      <br /><span className={styles.abc}>雙龍體育</span>
      組成
-     <span style={{ color: "blue" }}>最棒</span>
+     <span className={styles.aabc}>最棒</span>
      體育組織
     </h2>
     <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
