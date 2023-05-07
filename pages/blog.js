@@ -3,7 +3,7 @@ import matter from 'gray-matter';
 import Image from 'next/image';
 import Link from 'next/link';
 import { NextSeo } from 'next-seo';
-import styles from './Button.module.css';
+import styles from './components/Button.module.css';
 
 // The Blog Page Content
 export default function Blog({posts}){
