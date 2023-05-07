@@ -1,4 +1,5 @@
  import Link from 'next/link';
+import styles from './Button.module.css';
 
 function hero() {
   return (
@@ -32,7 +33,7 @@ function hero() {
       我們的
      <span style={{ color: "red" }}>使命</span>
 是將
-     <br /><span style={{ color: "orange" }}>雙龍體育</span>
+     <br /><span className="gradient-text">雙龍體育</span>
      組成
      <span style={{ color: "blue" }}>最棒</span>
      體育組織
