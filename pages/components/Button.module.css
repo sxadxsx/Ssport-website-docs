@@ -1,4 +1,4 @@
-.gradient-text {
+.abc {
   background: -webkit-linear-gradient(45deg, blue, purple);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
