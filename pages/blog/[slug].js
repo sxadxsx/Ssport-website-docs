@@ -4,7 +4,7 @@ import MarkdownIt from "markdown-it"; // import the markdown-it library
 import md from "markdown-it"; // import the markdown-it library
 import { NextSeo } from 'next-seo';
 import path from "path";
-import styles from './components/Button.module.css';
+import styles from '../components/Button.module.css';
 
 // The page for each post
 export default function Post({frontmatter, content}) {
