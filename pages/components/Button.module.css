@@ -3,3 +3,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.aabc {
+background: linear-gradient(to right, #2693c3, #a0d8ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
