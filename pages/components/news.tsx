@@ -1,11 +1,12 @@
 import Link from 'next/link';
+import styles from './Button.module.css';
 
 function news() {
     return (
 <section className="bg-white dark:bg-gray-900">
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
     <div className="mx-auto max-w-screen-md sm:text-center">
-      <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl dark:text-white">
+      <h2 className={`mb-4 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl dark:text-white ${styles.abc}`}>
         訂閱最新消息
       </h2>
       <form action="https://ssangyongsports.us11.list-manage.com/subscribe/post?u=d2e34413aa6cbf7c94020e4ae&amp;id=6b0083dcd5&amp;f_id=00d796e0f0">
