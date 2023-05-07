@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image'
+import styles from './Button.module.css';
 
 function table() {
   return (
@@ -16,7 +17,7 @@ function table() {
       alt="雙龍職棒"
     />
     <div className="mt-4 md:mt-0">
-      <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+      <h2 className={`mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white ${styles.abc}`}>
         雙龍職棒
       </h2>
       <p className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
