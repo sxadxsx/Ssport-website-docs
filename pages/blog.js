@@ -50,10 +50,10 @@ export default function Blog({posts}){
       </span>
       <span className="text-sm">{date}</span>
     </div>
-    <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+    <h2 className={`mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ${styles.abc}`}>
     <Link href={`/blog/${slug}`}>{title}</Link>
     </h2>
-    <p className={`mb-5 font-light text-gray-500 dark:text-gray-400 ${styles.abc}`}>
+    <p className={`mb-5 font-light text-gray-500 dark:text-gray-400 `}>
     {title}
     </p>
     <div className="flex justify-between items-center">
