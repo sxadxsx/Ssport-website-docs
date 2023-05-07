@@ -4,6 +4,7 @@ import MarkdownIt from "markdown-it"; // import the markdown-it library
 import md from "markdown-it"; // import the markdown-it library
 import { NextSeo } from 'next-seo';
 import path from "path";
+import styles from './components/Button.module.css';
 
 // The page for each post
 export default function Post({frontmatter, content}) {
@@ -13,7 +14,7 @@ export default function Post({frontmatter, content}) {
   <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
     <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
         <header className="mb-4 lg:mb-6 not-format">                   
-          <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
+          <h1 className={`mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white ${styles.abc}`}>
         {title}
         </h1>
         <address className="flex items-center mb-6 not-italic">
