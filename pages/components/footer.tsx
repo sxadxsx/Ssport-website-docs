@@ -83,7 +83,7 @@ function footer() {
         </h2>
         <ul className="text-gray-500 dark:text-gray-400">
           <li className="mb-4">
-            <Link href="/p" className="hover:underline" passHref={true}>
+            <Link href="/p" passHref={true}>
               隱私政策
             </Link>
           </li>
