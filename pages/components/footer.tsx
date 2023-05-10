@@ -88,7 +88,7 @@ function footer() {
             </Link>
           </li>
           <li className="mb-4">
-            <a href="/t" className="hover:underline" passHref={true}>
+            <a href="/t" className="hover:underline">
               服務條款
             </a>
           </li>
