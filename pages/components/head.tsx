@@ -22,7 +22,7 @@ function head() {
   </Link>
   <div className="flex md:order-2">
     <Button>
-       <Link href="/tv">
+       <Link href="/tv" passHref={true}>
       雙龍體育TV
     </Link>
     </Button>
@@ -38,22 +38,22 @@ function head() {
       SBA
     </Navbar.Link>
     <Navbar.Link>
-    <Link href="/p">
+    <Link href="/p" passHref={true}>
       隱私政策
     </Link>
       </Navbar.Link>
     <Navbar.Link>
-    <Link href="/t">
+    <Link href="/t" passHref={true}>
       服務條款
     </Link>
       </Navbar.Link>
     <Navbar.Link>
-          <Link href="/blog">
+          <Link href="/blog" passHref={true}>
       部落格
     </Link>
     </Navbar.Link>
     <Navbar.Link>
-    <Link href="/c">
+    <Link href="/c" passHref={true}>
       聯繫
     </Link>
       </Navbar.Link>
