@@ -21,7 +21,9 @@ function footer() {
             </Link>
            </li>
           <li className="mb-4">
-           
+               <a href="https://status.ssangyongsports.org/" className="hover:underline">
+             狀態
+            </a>
            </li>
         </ul>
       </div>
