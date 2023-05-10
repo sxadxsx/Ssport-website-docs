@@ -22,7 +22,7 @@ function footer() {
            </li>
           <li className="mb-4">
              <a id="footer-badge" href="https://status.ssangyongsports.org">
-        載入中
+        狀態載入中
       </a>
 
       <script
@@ -30,7 +30,7 @@ function footer() {
           __html: `
             function updateFooterBadge(status) {
               const badge = document.getElementById('footer-badge');
-              badge.textContent = status === 'UP' ? '正常運行' : '異常';
+              badge.textContent = status === 'UP' ? '系統運行' : '異常';
               badge.className = status.toLowerCase();
             }
 
