@@ -149,6 +149,7 @@ function footer() {
   src="https://i.imgur.com/JhurYW7.jpg"
   width={186}
   height={46}
+  alt="雙龍體育Logo"
 />
 </Link>
       <span className="block text-sm text-center text-gray-500 dark:text-gray-400">
