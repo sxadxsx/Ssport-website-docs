@@ -21,32 +21,7 @@ function footer() {
             </Link>
            </li>
           <li className="mb-4">
-             <a id="footer-badge" href="https://status.ssangyongsports.org">
-        狀態載入中
-      </a>
-
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            function updateFooterBadge(status) {
-              const badge = document.getElementById('footer-badge');
-              badge.textContent = status === 'UP' ? '系統運行' : '異常';
-              badge.className = status.toLowerCase();
-            }
-
-            fetch('https://status.ssangyongsports.org/summary.json')
-              .then(response => response.json())
-              .then(data => {
-                const status = data.page.status;
-                updateFooterBadge(status);
-                badge.href = data.page.url;
-              })
-              .catch(error => {
-                console.error('無法讀取系統狀態', error);
-              });
-          `,
-        }}
-      ></script>
+           
            </li>
         </ul>
       </div>
