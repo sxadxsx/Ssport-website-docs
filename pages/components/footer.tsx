@@ -11,12 +11,12 @@ function footer() {
         </h2>
         <ul className="text-gray-500 dark:text-gray-400">
           <li className="mb-4">
-            <Link href="/blog" className="hover:underline">
+            <Link href="/blog" className="hover:underline" passHref={true}>
               部落格
             </Link>
           </li>
           <li className="mb-4">
-            <Link href="c" className="hover:underline">
+            <Link href="c" className="hover:underline" passHref={true}>
              聯繫
             </Link>
            </li>
@@ -71,7 +71,7 @@ function footer() {
             </a>
           </li>
           <li className="mb-4">
-            <Link href="c" className="hover:underline">
+            <Link href="c" className="hover:underline" passHref={true}>
               聯繫
             </Link>
           </li>
@@ -83,12 +83,12 @@ function footer() {
         </h2>
         <ul className="text-gray-500 dark:text-gray-400">
           <li className="mb-4">
-            <Link href="/p" className="hover:underline">
+            <Link href="/p" className="hover:underline" passHref={true}>
               隱私政策
             </Link>
           </li>
           <li className="mb-4">
-            <a href="/t" className="hover:underline">
+            <a href="/t" className="hover:underline" passHref={true}>
               服務條款
             </a>
           </li>
@@ -100,7 +100,7 @@ function footer() {
         </h2>
         <ul className="text-gray-500 dark:text-gray-400">
           <li className="mb-4">
-            <Link href="/tv" className=" hover:underline">
+            <Link href="/tv" className=" hover:underline" passHref={true}>
               官網
             </Link>
           </li>
