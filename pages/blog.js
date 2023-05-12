@@ -46,13 +46,13 @@ export default function Blog({posts}){
           <div>
             <Link
               className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 hover:bg-blue-200 dark:hover:bg-blue-300 dark:text-blue-800 mb-2"
-              href="/blog/tag/flowbite/"
+              href="#"
             >
-              #Flowbite
+              #{tags}
             </Link>
           </div>
           <span className="text-sm">
-            Published <time dateTime={1677146503000}>3 months ago</time>
+            {date}
           </span>
         </div>
     <h2 className={`mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ${styles.abc}`}>
