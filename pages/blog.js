@@ -44,12 +44,12 @@ export default function Blog({posts}){
       <article className="py-6">
         <div className="flex items-center justify-between mb-3 text-gray-500">
           <div>
-            <a
+            <Link
               className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 hover:bg-blue-200 dark:hover:bg-blue-300 dark:text-blue-800 mb-2"
               href="/blog/tag/flowbite/"
             >
               #Flowbite
-            </a>
+            </Link>
           </div>
           <span className="text-sm">
             Published <time dateTime={1677146503000}>3 months ago</time>
