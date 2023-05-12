@@ -33,7 +33,7 @@ export default function Blog({posts}){
             const {title, author, category, date, bannerImage, tags} = frontmatter
 
             //JSX for individual blog listing
-            return <article key={title}>
+            return <> <article key={title}>
              <div className="flex justify-between px-4 mx-auto max-w-8xl">
   <div className="hidden mb-6 xl:block lg:w-80">
     <div className="sticky top-36">
@@ -107,6 +107,7 @@ export default function Blog({posts}){
     
         })}
         </article>
+</>
 </main>
 }
 
