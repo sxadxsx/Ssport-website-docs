@@ -42,8 +42,8 @@ function head() {
       隱私政策
     </Link>
       </Navbar.Link>
-    <Navbar.Link>
-    <Link href="/t" passHref={true}>
+    <Navbar.Link passHref={true}>
+    <Link href="/t">
       服務條款
     </Link>
       </Navbar.Link>
