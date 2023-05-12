@@ -56,10 +56,10 @@ export default function Blog({posts}){
           </span>
         </div>
         <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:underline">
-          <a href="/blog/state-of-flowbite-2022/">
+          <Link href="/blog/state-of-flowbite-2022/">
             State of Flowbite: learn more about our results from 2022 and what
             we plan to build this year
-          </a>
+          </Link>
         </h2>
         <p className="mb-5 text-gray-500 dark:text-gray-400">
           36
