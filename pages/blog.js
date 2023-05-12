@@ -62,10 +62,7 @@ export default function Blog({posts}){
           </a>
         </h2>
         <p className="mb-5 text-gray-500 dark:text-gray-400">
-          Learn more about the results, achievements and plans for the future by
-          reading the "State of Flowbite 2022" including the open-source
-          development of the Flowbite Library, the release of new UI components,
-          features, and more.
+          36
         </p>
         <div className="flex items-center justify-between">
           <a
