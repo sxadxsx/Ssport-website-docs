@@ -65,7 +65,7 @@ export default function Blog({posts}){
           36
         </p>
         <div className="flex items-center justify-between">
-          <a
+          <Link
             className="flex items-center space-x-2"
             href="/blog/author/zoltan/"
           >
@@ -77,8 +77,8 @@ export default function Blog({posts}){
             <span className="font-medium dark:text-white">
               Zoltán Szőgyényi
             </span>
-          </a>
-          <a
+          </Link>
+          <Link
             className="inline-flex items-center font-medium text-blue-600 hover:underline dark:text-blue-500"
             href="/blog/state-of-flowbite-2022/"
           >
@@ -95,7 +95,7 @@ export default function Blog({posts}){
                 clipRule="evenodd"
               />
             </svg>
-          </a>
+          </Link>
         </div>
       </article>
     </div>
