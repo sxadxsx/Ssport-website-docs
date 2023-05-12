@@ -55,14 +55,13 @@ export default function Blog({posts}){
             Published <time dateTime={1677146503000}>3 months ago</time>
           </span>
         </div>
-        <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:underline">
-          <Link href="/blog/state-of-flowbite-2022/">
-            State of Flowbite: learn more about our results from 2022 and what
-            we plan to build this year
+    <h2 className={`mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ${styles.abc}`}>
+    <Link href={`/blog/${slug}`}>
+            {title}
           </Link>
         </h2>
         <p className="mb-5 text-gray-500 dark:text-gray-400">
-          36
+          {title}
         </p>
         <div className="flex items-center justify-between">
           <Link
@@ -71,18 +70,18 @@ export default function Blog({posts}){
           >
             <img
               className="rounded-full w-7 h-7"
-              src="https://www.gravatar.com/avatar/be85a3bc61ad70c85c9b3411dc07cb2d?s=250&r=x&d=mp"
-              alt="Zoltán Szőgyényi profile picture"
+              src="https://discuss.ssangyongsports.org/data/avatars/l/0/1.jpg?1679114793"
+              alt="Peter yang picture"
             />
             <span className="font-medium dark:text-white">
-              Zoltán Szőgyényi
+               {author}
             </span>
           </Link>
           <Link
             className="inline-flex items-center font-medium text-blue-600 hover:underline dark:text-blue-500"
-            href="/blog/state-of-flowbite-2022/"
+            href={`/blog/${slug}`}
           >
-            Read more
+                    閱讀文章
             <svg
               className="w-4 h-4 ml-2"
               fill="currentColor"
