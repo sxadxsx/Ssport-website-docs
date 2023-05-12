@@ -106,6 +106,7 @@ export default function Blog({posts}){
 </div>
     
         })}
+        </article>
 </main>
 }
 
