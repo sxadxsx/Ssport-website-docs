@@ -33,8 +33,7 @@ export default function Blog({posts}){
 
             //JSX for individual blog listing
             return <article key={title}>
-            <div className="h-screen flex items-center justify-center">
-  <div className="grid gap-8 lg:grid-cols-2">     
+            
            <div className="grid gap-8 lg:grid-cols-2">
   <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
     <div className="flex justify-between items-center mb-5 text-gray-500">
@@ -86,8 +85,6 @@ export default function Blog({posts}){
       </Link>
     </div>
   </article>
-</div>
-</div>
 </div>
 </article>
 
