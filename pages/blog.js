@@ -34,62 +34,77 @@ export default function Blog({posts}){
 
             //JSX for individual blog listing
             return <article key={title}>
-                 
-           <div className="grid gap-8 lg:grid-cols-2">
-  <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-    <div className="flex justify-between items-center mb-5 text-gray-500">
-      <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
-        <svg
-          className="mr-1 w-3 h-3"
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z" />
-        </svg>
-        {tags}
-      </span>
-      <span className="text-sm">{date}</span>
+             <div className="flex justify-between px-4 mx-auto max-w-8xl">
+  <div className="hidden mb-6 xl:block lg:w-80">
+    <div className="sticky top-36">
+      <aside />
     </div>
-    <h2 className={`mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white `}>
-    <Link href={`/blog/${slug}`}>{title}</Link>
-    </h2>
-    <p className={`mb-5 font-light text-gray-500 dark:text-gray-400 `}>
+  </div>
+  <div className="w-full max-w-2xl mx-auto">
+    <div className="divide-y divide-gray-200 dark:divide-gray-700">
+      <article className="py-6">
+        <div className="flex items-center justify-between mb-3 text-gray-500">
+          <div>
+            <a
+              className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 hover:bg-blue-200 dark:hover:bg-blue-300 dark:text-blue-800 mb-2"
+              href="/blog/tag/flowbite/"
+            >
+                      {tags}
+            </a>
+          </div>
+          <span className="text-sm">
+           {date}
+          </span>
+        </div>
+        <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:underline">
+          <a href="/blog/state-of-flowbite-2022/">
+               {title}
+
+          </a>
+        </h2>
+        <p className="mb-5 text-gray-500 dark:text-gray-400">
     {title}
-    </p>
-    <div className="flex justify-between items-center">
-      <div className="flex items-center space-x-4">
-        <img
-          className="w-7 h-7 rounded-full"
-          src="https://discuss.ssangyongsports.org/data/avatars/l/0/1.jpg?1679114793"
-          alt="Peter yang"
-        />
-        <span className="font-medium dark:text-white">Peter yang</span>
-      </div>
-      <Link
-        href={`/blog/${slug}`}
-        className="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline"
-      >
-        閱讀文章
-        <svg
-          className="ml-2 w-4 h-4"
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            fillRule="evenodd"
-            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-            clipRule="evenodd"
-          />
-        </svg>
-      </Link>
+
+        </p>
+        <div className="flex items-center justify-between">
+          <a
+            className="flex items-center space-x-2"
+            href="/blog/author/zoltan/"
+          >
+            <img
+              className="rounded-full w-7 h-7"
+              src="https://www.gravatar.com/avatar/be85a3bc61ad70c85c9b3411dc07cb2d?s=250&r=x&d=mp"
+              alt="Zoltán Szőgyényi profile picture"
+            />
+            <span className="font-medium dark:text-white">
+              Zoltán Szőgyényi
+            </span>
+          </a>
+          <Link
+            className="inline-flex items-center font-medium text-blue-600 hover:underline dark:text-blue-500"
+            href={`/blog/${slug}`}
+          >
+          閱讀文章
+            <svg
+              className="w-4 h-4 ml-2"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </Link>
+        </div>
+      </article>
     </div>
-  </article>
+  </div>
+  <aside className="hidden lg:block lg:w-80" aria-labelledby="sidebar-label" />
 </div>
-
-</article>
-
+    
         })}
 </main>
 }
