@@ -7,6 +7,8 @@ bannerImage: "/blog.jpg"
 tags:
     - blog
 ---
+## 不推薦使用⚠️  [.text-3xl .font-extrabold .leading-tight .text-gray-900 .lg:mb-6 .lg:text-4xl .dark:text-white]
+使用過後發現不管怎樣vps都會被刪
 ## 前言 [.text-3xl .font-extrabold .leading-tight .text-gray-900 .lg:mb-6 .lg:text-4xl .dark:text-white]
 如果有一個信用卡建議使用oracle的免費vps,因為vpsfree.es提拱的是免費vps所以當然會有很多限制,例如:只提供ipv6,要搶ip而且可能被刪vps
 ## 什麼你還不知道什麼是vps? [.text-3xl .font-extrabold .leading-tight .text-gray-900 .lg:mb-6 .lg:text-4xl .dark:text-white]
