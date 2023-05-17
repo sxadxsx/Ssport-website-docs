@@ -2,7 +2,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import MarkdownIt from "markdown-it"; // import the markdown-it library
 import md from "markdown-it"; // import the markdown-it library
-import { NextSeo } from 'next-seo';
+import { ArticleJsonLd } from 'next-seo';
 import path from "path";
 import styles from '../components/Button.module.css';
 
@@ -56,7 +56,20 @@ export default function Post({frontmatter, content}) {
   title={`${title}-雙龍體育blog`}
   description={seo}
 />
-
+<ArticleJsonLd
+      type="BlogPosting"
+      url="https://example.com/blog"
+      title={`${title}-雙龍體育blog`}
+      images={[
+        'https://example.com/photos/1x1/photo.jpg',
+        'https://example.com/photos/4x3/photo.jpg',
+        'https://example.com/photos/16x9/photo.jpg',
+      ]}
+      datePublished={`${date}`}
+      dateModified={`${date}`}
+      authorName="Peter yang"
+      description={`${seo}`}
+    />
   </div>
 </main>
 
