@@ -8,7 +8,7 @@ import styles from '../components/Button.module.css';
 
 // The page for each post
 export default function Post({frontmatter, content}) {
-    const {title, author, category, date, bannerImage, tags} = frontmatter
+    const {title, seo, author, category, date, bannerImage, tags} = frontmatter
 
     return <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900">
   <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
