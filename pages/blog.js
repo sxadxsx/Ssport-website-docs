@@ -29,7 +29,7 @@ export default function Blog({posts}){
             //extract slug and frontmatter
             const {slug, frontmatter} = post
             //extract frontmatter properties
-            const {title, author, category, date, bannerImage, tags} = frontmatter
+            const {title, seo, author, category, date, bannerImage, tags} = frontmatter
 
             //JSX for individual blog listing
             return <article key={title}>
@@ -61,7 +61,7 @@ export default function Blog({posts}){
           </Link>
         </h2>
         <p className="mb-5 text-gray-500 dark:text-gray-400">
-          {title}
+          {seo}
         </p>
         <div className="flex items-center justify-between">
           <Link
