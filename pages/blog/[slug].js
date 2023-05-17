@@ -2,7 +2,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import MarkdownIt from "markdown-it"; // import the markdown-it library
 import md from "markdown-it"; // import the markdown-it library
-import { Nextseo } from 'next-seo';
+import { NextSeo } from 'next-seo';
 import path from "path";
 import styles from '../components/Button.module.css';
 
@@ -52,10 +52,6 @@ export default function Post({frontmatter, content}) {
       </header>
 
     </article>
-<NextSeo
-  title={`${title}-雙龍體育blog`}
-  description={seo}
-/>
 <NextSeo
   title={`${title}-雙龍體育blog`}
   description={seo}
