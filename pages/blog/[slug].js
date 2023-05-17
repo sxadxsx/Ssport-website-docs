@@ -54,7 +54,7 @@ export default function Post({frontmatter, content}) {
     </article>
 <NextSeo
   title={`${title}-雙龍體育blog`}
-  description={title}
+  description={seo}
 />
 
   </div>
