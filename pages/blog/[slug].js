@@ -58,13 +58,7 @@ export default function Post({frontmatter, content}) {
 />
 <ArticleJsonLd
       type="BlogPosting"
-      url="https://example.com/blog"
       title={`${title}-雙龍體育blog`}
-      images={[
-        'https://example.com/photos/1x1/photo.jpg',
-        'https://example.com/photos/4x3/photo.jpg',
-        'https://example.com/photos/16x9/photo.jpg',
-      ]}
       datePublished={`${date}`}
       dateModified={`${date}`}
       authorName="Peter yang"
