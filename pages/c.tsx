@@ -1,4 +1,4 @@
-import { NextSeo } from 'next-seo';
+import Head from 'next/head'
 import styles from './components/Button.module.css';
 
 function c() {
@@ -71,10 +71,11 @@ function c() {
     </form>
   </div>
 </section>
-  <NextSeo
-        title="聯繫-雙龍體育"
-        description="為了幫助您更好地解決任何雙龍體育的問題，我們在此提供一個聯繫我們的專門渠道。立刻上聯繫-雙龍體育"
-      />
+          <Head>
+        <title>聯繫-雙龍體育</title>
+        <meta property="og:title" content="為了幫助您更好地解決任何雙龍體育的問題，我們在此提供一個聯繫我們的專門渠道。立刻上聯繫-雙龍體育" key="title" />
+      </Head>
+  
       </div>
   )
 }
