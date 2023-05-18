@@ -121,7 +121,7 @@ const p = () => {
   <p>support@ssangyongsport.org 雙龍體育團隊</p>
 <Head>
         <title>隱私政策-雙龍體育</title>
-        <meta property="og:title" content="雙龍體育的政策是尊重您的隱私並遵守有關我們可能收集的關於您的任何個人信息的任何適用法律和法規，包括我們的網站ssangyongsports.org 以及我們擁有和." key="title" />
+        <meta name="description" content="雙龍體育的政策是尊重您的隱私並遵守有關我們可能收集的關於您的任何個人信息的任何適用法律和法規，包括我們的網站ssangyongsports.org 以及我們擁有和." />
       </Head>
   
       </header>
