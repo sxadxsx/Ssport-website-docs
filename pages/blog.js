@@ -19,7 +19,7 @@ export default function Blog({posts}){
       </p>
       <Head>
         <title>雙龍體育blog</title>
-        <meta property="og:title" content="任何關於雙龍體育的任何關於雙龍體育的消息和公告,就上雙龍體育blog" key="title" />
+        <meta name="description" content="任何關於雙龍體育的任何關於雙龍體育的消息和公告,就上雙龍體育blog" />
       </Head>
     </div>
   </div>
