@@ -8,7 +8,7 @@ const Home = () => {
     <>
 <Head>
         <title>雙龍體育TV</title>
-        <meta property="og:title" content="雙龍體育TV直播比賽，快速，安全立刻購買！ 註冊登入" key="title" />
+        <meta name="description" content="雙龍體育TV直播比賽，快速，安全立刻購買！ 註冊登入" />
       </Head>
       <div>
         <Tvhero />
