@@ -5,7 +5,7 @@ import md from "markdown-it"; // import the markdown-it library
 import { NextSeo } from 'next-seo';
 import path from "path";
 import styles from '../components/Button.module.css';
-
+import Head from 'next/head'
 // The page for each post
 export default function Post({frontmatter, content}) {
     const {title, seo, author, category, date, bannerImage, tags} = frontmatter
@@ -52,11 +52,10 @@ export default function Post({frontmatter, content}) {
       </header>
 
     </article>
-<NextSeo
-  title={`${title}-雙龍體育blog`}
-  description={seo}
-/>
-
+     <Head>
+        <title>{title}-雙龍體育blog</title>
+        <meta property="og:title" content="{seo}" key="title" />
+      </Head>
   </div>
 </main>
 
