@@ -88,9 +88,9 @@ function footer() {
             </Link>
           </li>
           <li className="mb-4">
-            <a href="/t" className="hover:underline">
+            <Link href="/t" className="hover:underline">
               服務條款
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
