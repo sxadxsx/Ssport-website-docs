@@ -53,7 +53,7 @@ export default function Post({frontmatter, content}) {
     </article>
      <Head>
         <title>{title}-雙龍體育blog</title>
-        <meta property="og:title" content="{seo}" key="title" />
+        <meta name="description" content="{seo}"/>
       </Head>
   </div>
 </main>
