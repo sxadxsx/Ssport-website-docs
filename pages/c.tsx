@@ -13,7 +13,7 @@ function c() {
     <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
       有任何問題，立刻聯繫我們😊
     </p>
-    <form method="POST" action="https://public.herotofu.com/v1/0b3fa310-eb59-11ed-b24a-93241516dd10" className="space-y-8">
+    <form method="POST" action="https://submit-form.com/yFAbXMpc" className="space-y-8">
       <div>
        <label
   htmlFor="email"
