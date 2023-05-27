@@ -132,5 +132,5 @@ function teamchoose() {
 
 }
 
-export default c
+export default teamchoose
 
