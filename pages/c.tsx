@@ -2,6 +2,14 @@ import Head from 'next/head'
 import styles from './components/Button.module.css';
 
 function c() {
+  const handleSubmit = (event) => {
+    event.preventDefault(); // 防止表單提交後刷新頁面
+
+    // 在這裡處理表單提交的邏輯
+
+    // 跳轉到/thanks頁面
+    window.location.href = '/thanks';
+  };
   return (   
         <div>
    <section className="bg-white dark:bg-gray-900">
@@ -17,7 +25,7 @@ function c() {
               action="https://send.pageclip.co/uLHUxztMTNIK2IljRIEgBJh6JVi7QruG/Site-contact"
               name="聯繫表單"
               method="POST"
-       onSubmit="window.location.href='/thanks'; return false;"
+       onSubmit={handleSubmit}
     className="space-y-8"
             >
       <div>
