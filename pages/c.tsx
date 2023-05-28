@@ -14,7 +14,7 @@ function c() {
       有任何問題，立刻聯繫我們😊
     </p>
     <form
-              action="https://formsubmit.co/ssangyongsports1@gmail.com"
+              action="https://formsubmit.co/ssportpop@gmail.com"
               name="聯繫表單"
               method="POST"
     className="space-y-8"
