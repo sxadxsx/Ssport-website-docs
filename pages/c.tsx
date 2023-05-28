@@ -19,6 +19,12 @@ function c() {
               method="POST"
     className="space-y-8"
             >
+      <input
+    type="hidden"
+    name="_redirect"
+    value="https://www.ssangyongsports.org/thanks"
+  />
+        <input type="hidden" name="form-name" value="聯繫表單" />
        <label
   htmlFor="email"
   className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
