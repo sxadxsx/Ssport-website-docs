@@ -13,7 +13,7 @@ function c() {
     <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
       有任何問題，立刻聯繫我們😊
     </p>
-    <form method="POST" action="https://submit-form.com/yFAbXMpc" className="space-y-8">
+    <form method="POST" action="https://submit-form.com/8IYmEIfJ" className="space-y-8">
       <div>
        <label
   htmlFor="email"
