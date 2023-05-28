@@ -26,7 +26,7 @@ function c() {
   />
         <input type="hidden" name="form-name" value="聯繫表單" />
        <label
-  htmlFor="email"
+         for="email"
   className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
 >
   你的電子郵件
@@ -41,7 +41,7 @@ function c() {
       </label>
       
         <label
-          htmlFor="subject"
+          for="subject"
           className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
         >
           主旨
@@ -56,7 +56,7 @@ function c() {
           </label>
     
         <label
-          htmlFor="message"
+          for="message"
           className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
         >
           內容
