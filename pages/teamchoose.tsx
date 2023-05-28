@@ -64,7 +64,7 @@ function teamchoose() {
 
         >
 
-          球隊1
+         
           <label
 
           htmlFor="subject"
@@ -73,7 +73,7 @@ function teamchoose() {
 
         >
 
-          主旨
+           球隊1
 
         </label>
 
@@ -87,7 +87,7 @@ function teamchoose() {
 
           className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
 
-          placeholder="讓我們得知如何幫助你"
+          placeholder="選擇球隊"
 
           />
 
@@ -100,7 +100,7 @@ function teamchoose() {
 
         >
 
-          球隊2
+          
   
 <label
 
@@ -110,7 +110,7 @@ function teamchoose() {
 
         >
 
-          主旨
+           球隊2
 
         </label>
 
@@ -124,7 +124,7 @@ function teamchoose() {
 
           className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
 
-          placeholder="讓我們得知如何幫助你"
+          placeholder="選擇球隊"
 
           />
         </label>
@@ -136,7 +136,33 @@ function teamchoose() {
 
         >
 
-          球隊3
+         
+          <label
+
+          htmlFor="subject"
+
+          className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+
+        >
+
+           球隊3
+
+        </label>
+
+        <input
+
+          type="text"
+
+          id="subject"
+
+          required={true}
+
+          className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+
+          placeholder="選擇球隊"
+
+          />
+        
 
         </label>
         
