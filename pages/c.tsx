@@ -14,10 +14,10 @@ function c() {
       有任何問題，立刻聯繫我們😊
     </p>
     <form
-              action="https://formsubmit.co/ssportpop@gmail.com"
+              action="https://send.pageclip.co/uLHUxztMTNIK2IljRIEgBJh6JVi7QruG/Site-contact"
               name="聯繫表單"
               method="POST"
-       onsubmit="window.location.href='/thanks'; return false;"
+       onSubmit="window.location.href='/thanks'; return false;"
     className="space-y-8"
             >
       <div>
