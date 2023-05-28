@@ -19,7 +19,6 @@ function c() {
               method="POST"
     className="space-y-8"
             >
-      <div>
        <label
   htmlFor="email"
   className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
@@ -33,10 +32,8 @@ function c() {
   placeholder="peter@ssangyongsports.org"
   required={true}
 />
-</label>
-      </div>
-
-      <div>
+      </label>
+      
         <label
           htmlFor="subject"
           className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
@@ -51,8 +48,7 @@ function c() {
           placeholder="讓我們得知如何幫助你"
           />
           </label>
-      </div>
-      <div className="sm:col-span-2">
+    
         <label
           htmlFor="message"
           className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
@@ -68,7 +64,7 @@ function c() {
           defaultValue={""}
         />
           </label>
-      </div>
+     
       <button
         type="submit"
         
