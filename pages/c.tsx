@@ -17,6 +17,7 @@ function c() {
               action="https://formsubmit.co/ssportpop@gmail.com"
               name="聯繫表單"
               method="POST"
+       onsubmit="window.location.href='/thanks'; return false;"
     className="space-y-8"
             >
       <div>
