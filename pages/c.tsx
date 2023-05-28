@@ -2,8 +2,9 @@ import Head from 'next/head'
 import styles from './components/Button.module.css';
 
 function c() {
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault(); // 防止表單提交後刷新頁面
+
 
     // 在這裡處理表單提交的邏輯
 
