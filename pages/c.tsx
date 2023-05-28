@@ -14,7 +14,7 @@ function c() {
       有任何問題，立刻聯繫我們😊
     </p>
     <form
-              action="https://submit-form.com/8IYmEIfJ"
+              action="https://submit-form.com/yFAbXMpc"
               name="聯繫表單"
               method="POST"
     className="space-y-8"
