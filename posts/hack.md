@@ -3,7 +3,7 @@ title: "我們收到駭客勒索金錢的電子郵件"
 seo: "目前尚未發現任何駭入跡象"
 author: "Peter yang"
 category: "公告"
-date: "2022-06-08"
+date: "2023-06-08"
 bannerImage: "/blog.jpg"
 tags:
     - 公告
