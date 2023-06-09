@@ -19,7 +19,7 @@ const p = () => {
 如果沒有被關閉請添加評論，我們就會回覆你啦！
 
 感謝🙏你的等待以及聯繫
-</p>
+</p> 
   <Head>
         <title>感謝你的聯繫</title>
         <meta name="description" content="感謝你的聯繫" />
