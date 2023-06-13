@@ -10,7 +10,7 @@ function news() {
         訂閱
           <span className={styles.abc}>最新消息</span>
       </h2>
-      <form action="https://ssangyongsports.us11.list-manage.com/subscribe/post?u=d2e34413aa6cbf7c94020e4ae&amp;id=6b0083dcd5&amp;f_id=00d796e0f0">
+      <form action="https://406d0fd8.sibforms.com/serve/MUIFAPJjkTHeRzgL56Rt71tlsWGQ89WFNAdS6fHda2eCeZZ2gNoOIFobG3yO-ADgqsZVsnnOdvwPcVNNdEHPs1jhbRrb7m7rzXZywg8NR0hF_SXPhtzwD6AsTddFaA9w5JKQXbHiz3jOjXDvrxzS1vTa3TGym3kD1cu3Ir_2Gpdh65TzWPQ7_-PLWrMj7fBnzaBRipwjI5brM3Y9">
         <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
           <div className="relative w-full">
             <label
