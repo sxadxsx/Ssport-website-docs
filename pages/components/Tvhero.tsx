@@ -13,10 +13,10 @@ function tvhero() {
             雙龍體育直播比賽，快速，安全 立刻購買！
           </p>
           <a
-            href="#"
+            Link="/c"
             className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
           >
-            註冊
+            聯繫我們
             <svg
               className="w-5 h-5 ml-2 -mr-1"
               fill="currentColor"
@@ -31,7 +31,7 @@ function tvhero() {
             </svg>
           </a>
           <a
-            href="#"
+            href="https://tv.ssangyongsports.org/login"
             className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
           >
             登入
