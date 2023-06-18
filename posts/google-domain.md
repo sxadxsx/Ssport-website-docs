@@ -11,7 +11,6 @@ tags:
 你好，歡迎來到雙龍體育的博客。今天我想和你分享一個重磅的消息：Google Domain被Squarespace收購了！是的，你沒聽錯，這是一個驚天動地的交易，將影響數百萬的網站擁有者和創業者。讓我們來看看這個交易的背景和細節吧。
 ![domain](https://i.ibb.co/kKdcb4S/Screenshot-20230618-165200-Chrome.jpg "domain")
 Google Domain是Google旗下的一個域名註冊商，於2014年6月13日推出beta版，並在7年後2022年3月15日成為google旗下的服務，提供了簡單、快速、安全的域名註冊服務，以及免費的隱私保護、DNS管理、電子郵件轉發等功能。Google Domain還與Google Workspace（原G Suite）深度整合，讓用戶可以輕鬆地為自己的域名創建專業的電子郵件地址和協作工具。根據最新的數據，Google Domain目前擁有約1000萬個域名，分佈在數百萬個客戶中 。 
-![Squarespace](https://i.ibb.co/877GmS0/image.png "Squarespace")
 Squarespace是一個知名的網站建設平台，於2004年成立，幫助創業者在線上打造品牌和業務。Squarespace提供了豐富的模板、靈活的設計工具、強大的電商功能、可靠的托管服務等，讓用戶可以輕鬆地創建出美觀、功能完善、適應各種設備的網站。Squarespace也是一個域名註冊商，目前擁有超過400萬個域名。 
 
 2023年6月15日，Squarespace宣佈與Google達成了一項最終資產購買協議，Squarespace將收購Google Domain業務相關的資產，據外媒報導Squarespace視乎用了1.8億收購Google Domain,而Google Domain業務將在過渡期後結束 。這項購買包括了Google Domain上約1000萬個域名和數百萬個客戶 。這意味著Squarespace將成為這些客戶的新域名註冊商，並向他們提供更多的平台服務。 
