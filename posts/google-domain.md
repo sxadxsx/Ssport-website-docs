@@ -1,6 +1,6 @@
 ---
-title: "3個最棒的免費wordpress主機"
-seo: "3個最棒的免費wordpress主機"
+title: "Google domain被Squarespace收購"
+seo: "Google Domain被Squarespace收購了！是的，你沒聽錯，這是一個驚天動地的交易"
 author: "Peter yang"
 category: "blog"
 date: "2023-06-18"
