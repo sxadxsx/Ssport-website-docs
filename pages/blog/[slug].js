@@ -33,7 +33,7 @@ export default function Post({frontmatter, content}) {
                 {author}
               </a>
               <p className="text-base font-light text-gray-500 dark:text-gray-400">
-                雙龍體育部長
+                雙龍體育CEO
               </p>
               <p className="text-base font-light text-gray-500 dark:text-gray-400">
                 <time
