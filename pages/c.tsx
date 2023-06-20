@@ -50,7 +50,7 @@ function c() {
         />
       </div>
       <Select
-        id="help"
+        name="help"
         required
       >
       <option value="雙龍體育">雙龍體育</option>
