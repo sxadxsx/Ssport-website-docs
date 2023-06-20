@@ -91,7 +91,7 @@ function c() {
           defaultValue={""}
         />
           </label>
-       <script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js"></script>
+      <script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js" defer />
      <label htmlFor="name">圖片</label>
   <input type="text" id="name" name="name" placeholder="Name" />
   <label htmlFor="photo">圖片</label>
