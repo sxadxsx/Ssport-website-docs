@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Script from 'next/script' 
 import styles from './components/Button.module.css';
 import { Label, Select } from 'flowbite-react';
 function c() {
@@ -92,17 +91,7 @@ function c() {
           defaultValue={""}
         />
           </label>
-      <Script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js"></Script>
-     <label htmlFor="name">圖片</label>
-  <input type="text" id="圖片" name="name" placeholder="Name" />
-  <label htmlFor="photo">圖片</label>
-  <input
-    type="hidden"
-    id="photo"
-    name="photo"
-    role="uploadcare-uploader"
-    data-public-key="1afe2c3f42ccc7da917d"
-  />
+      
       <button
         type="submit"
         
