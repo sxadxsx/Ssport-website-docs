@@ -91,7 +91,17 @@ function c() {
           defaultValue={""}
         />
           </label>
-     
+       <script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js"></script>
+     <label htmlFor="name">圖片</label>
+  <input type="text" id="name" name="name" placeholder="Name" />
+  <label htmlFor="photo">圖片</label>
+  <input
+    type="hidden"
+    id="photo"
+    name="photo"
+    role="uploadcare-uploader"
+    data-public-key="1afe2c3f42ccc7da917d"
+  />
       <button
         type="submit"
         
