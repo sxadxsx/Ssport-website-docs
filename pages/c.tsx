@@ -39,15 +39,23 @@ function c() {
   required={true}
 />
       </label>
-      <label htmlFor="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">幫助範圍</label>
-<select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-  <option>雙龍體育</option>
-  <option>雙龍職籃</option>
-  <option>雙龍職棒</option>
-  <option>雙龍體育TV</option>
+  <label
+    htmlfor="countries"
+    className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+  >
+    幫助範圍
+  </label>
+  <select
+    id="countries"
+    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+  >
+    <option>雙龍體育</option>
+    <option>雙龍職籃</option>
+    <option>雙龍職棒</option>
+    <option>雙龍體育TV</option>
     <option>其他</option>
     <option>系統網站問題回報</option>
-</select>
+  </select>
         <label
           htmlFor="subject"
           className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
