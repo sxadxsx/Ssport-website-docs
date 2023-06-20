@@ -40,7 +40,7 @@ function c() {
 />
       </label>
   <label
-    htmlfor="countries"
+    htmlFor="help"
     className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
   >
     幫助範圍
