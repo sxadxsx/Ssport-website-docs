@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styles from './components/Button.module.css';
 import { Label, Select } from 'flowbite-react';
+import { FileInput, Label } from 'flowbite-react';
+
 function c() {
   return (   
         <div>
@@ -91,10 +93,21 @@ function c() {
           defaultValue={""}
         />
           </label>
-      
-<label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" for="multiple_files">上傳文件</label>
-<input class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400" id="multiple_files" type="file" multiple>
-
+          <div
+      className="max-w-md"
+      id="fileUpload"
+    >
+      <div className="mb-2 block">
+        <Label
+          htmlFor="file"
+          value="Upload file"
+        />
+      </div>
+      <FileInput
+        helperText="A profile picture is useful to confirm your are logged into your account"
+        id="file"
+      />
+    </div>
       <button
         type="submit"
         
