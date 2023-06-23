@@ -100,7 +100,7 @@ function c() {
         <Label
           htmlFor="file"
           value="Upload file"
-          name="file"
+
         />
       </div>
       <FileInput
