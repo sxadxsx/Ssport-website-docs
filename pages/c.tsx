@@ -95,17 +95,17 @@ function c() {
           </label>
           <div
       className="max-w-md"
-     name="file"
     >
       <div className="mb-2 block">
         <Label
           htmlFor="file"
           value="Upload file"
+          name="file"
         />
       </div>
       <FileInput
         helperText="A profile picture is useful to confirm your are logged into your account"
-        id="file"
+        name="file"
       />
     </div>
       <button
