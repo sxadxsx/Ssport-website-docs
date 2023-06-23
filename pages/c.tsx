@@ -95,8 +95,7 @@ function c() {
           </label>
           <div
       className="max-w-md"
-      id="fileUpload"
-            name="file"
+     name="file"
     >
       <div className="mb-2 block">
         <Label
