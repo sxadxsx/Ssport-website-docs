@@ -93,27 +93,13 @@ function c() {
           defaultValue={""}
         />
           </label>
-          <div
-      className="max-w-md"
-    >
-      <div className="mb-2 block">
-        <Label
-          htmlFor="file"
-          value="Upload file"
 
-        />
-      </div>
-      <FileInput
-        helperText="A profile picture is useful to confirm your are logged into your account"
-        name="file"
-      />
-    </div>
       <button
         type="submit"
         
         className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
       >
-        Send message
+        發送訊息
       </button>
     </form>
   </div>
