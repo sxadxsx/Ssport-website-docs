@@ -3,7 +3,7 @@ import styles from './components/Button.module.css';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 
-export default function Search() {
+export default function support() {
   const [searchTerm, setSearchTerm] = useState('');
   const router = useRouter();
 
@@ -70,4 +70,4 @@ export default function Search() {
  );
 }
 
-export default Search;
+export default support;
