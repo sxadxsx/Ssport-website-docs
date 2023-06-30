@@ -14,10 +14,12 @@ return (
     <div className="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
       <div className="space-y-4">
         <img
-          alt=""
-          src="https://74-rho.vercel.app/images/baseball-16.png"
-          width="{75}"
-        />
+  src="https://74-rho.vercel.app/images/baseball-16.png"
+  alt="Girl in a jacket"
+  width={80}
+  height={77}
+/>
+
         <h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
           雙龍職棒
         </h3>
