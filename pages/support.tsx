@@ -1,4 +1,7 @@
 import Head from 'next/head'
+
+import styles from './components/Button.module.css';
+
 const support = () => {
   return (
         <section className="bg-white dark:bg-gray-900">
