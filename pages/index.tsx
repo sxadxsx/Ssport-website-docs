@@ -1,6 +1,5 @@
 import Hero from './components/Hero';
 import Table from './components/table';
-import Tags123 from './components/tags123';
 import Tabl from './components/tabl';
 import React from 'react';
 import Head from 'next/head'
@@ -15,7 +14,6 @@ const Home = () => {
       
       <div>
         <Hero />
-                <Tags123 />
         <div id="anchor_one" />
         <Table />
         <Tabl />
