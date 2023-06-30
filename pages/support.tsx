@@ -70,4 +70,4 @@ export default function Search() {
  );
 }
 
-export default support;
+export default Search;
