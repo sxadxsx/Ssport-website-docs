@@ -1,5 +1,5 @@
 import styles from './Button.module.css';
-function tags() {
+function tags123() {
 return (
 <section className="bg-white dark:bg-gray-900 antialiased">
   <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
@@ -122,4 +122,4 @@ return (
   )
 }
 
-export default tags;
+export default tags123;
