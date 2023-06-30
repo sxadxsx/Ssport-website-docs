@@ -15,7 +15,6 @@ return (
       <div className="space-y-4">
         <img
           alt=""
-          classname="service-icon"
           src="https://74-rho.vercel.app/images/baseball-16.png"
           width="{75}"
         />
@@ -50,7 +49,6 @@ return (
       <div className="space-y-4">
         <img
           alt=""
-          classname="service-icon"
           src="https://74-rho.vercel.app/images/889455.png"
           width="{75}"
         />
@@ -85,7 +83,6 @@ return (
       <div className="space-y-4">
         <img
           alt=""
-          classname="service-icon"
           src="https://74-rho.vercel.app/images/53283.png"
           width="{75}"
         />
