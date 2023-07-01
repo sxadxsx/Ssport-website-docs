@@ -1,33 +1,33 @@
 import { useRouter } from 'next/router';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function Contact() {
   const router = useRouter();
-  const { name } = router.query;
-  const [formName, setFormName] = useState(name || '');
+  const [name, setName] = useState('');
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // 在這裡處理表單提交
-  }
+  useEffect(() => {
+    // 获取URL参数（例如：/contact?name=abc）
+    const urlName = router.query.name;
+
+    if (urlName) {
+      // 如果存在name参数，将其设置为输入框的值
+      setName(urlName);
+    }
+  }, [router.query]);
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label>
-        Name:
-        <input type="text" value={formName} onChange={(event) => setFormName(event.target.value)} />
-      </label>
-      <button type="submit">Submit</button>
+    <form>
+      <div>
+        <label htmlFor="name">Name: </label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+      </div>
+      {/* 其他表单元素 */}
     </form>
   );
-}
-
-export async function getServerSideProps(context) {
-  const { name } = context.query;
-
-  return {
-    props: {
-      name,
-    },
-  };
 }
