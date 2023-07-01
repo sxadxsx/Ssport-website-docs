@@ -29,34 +29,30 @@ function head() {
     <Navbar.Toggle />
   </div>
   <Navbar.Collapse>
-    <Navbar.Link
+    <a
       href="https://slb.ssangyongsports.org"
+       className="block py-2 pr-4 pl-3 md:p-0 border-b border-gray-100  text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white"
     >
       SLB
-    </Navbar.Link>
+    </a>
     <a href="https://sba.ssangyongsports.org" className="block py-2 pr-4 pl-3 md:p-0 border-b border-gray-100  text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white">
       SBA
     </a>
-    <Navbar.Link>
-    <Link href="/p" passHref={true}>
+   
+    <Link href="/p" passHref={true} className="block py-2 pr-4 pl-3 md:p-0 border-b border-gray-100  text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white">
       隱私政策
     </Link>
-      </Navbar.Link>
-    <Navbar.Link>
-    <Link href="/t" passHref={true}>
+   
+    <Link href="/t" passHref={true}  className="block py-2 pr-4 pl-3 md:p-0 border-b border-gray-100  text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white">
       服務條款
     </Link>
-      </Navbar.Link>
-    <Navbar.Link>
-          <Link href="/blog" passHref={true}>
+
+          <Link href="/blog" passHref={true}  className="block py-2 pr-4 pl-3 md:p-0 border-b border-gray-100  text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white">
       部落格
     </Link>
-    </Navbar.Link>
-    <Navbar.Link>
-    <Link href="/c" passHref={true}>
+    <Link href="/c" passHref={true}  className="block py-2 pr-4 pl-3 md:p-0 border-b border-gray-100  text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white">
       聯繫
     </Link>
-      </Navbar.Link>
   </Navbar.Collapse>
 </Navbar>
 <br /> 
