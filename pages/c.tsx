@@ -27,17 +27,31 @@ function c() {
     value="https://www.ssangyongsports.org/thanks"
   />
         <input type="hidden" name="form-name" value="聯繫表單" />
-       <label
-         htmlFor="email"
+             <label
+         htmlFor="name"
   className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
 >
   你的電子郵件
 
 <input
-  type="email"
+  type="name"
   name="email"
   className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
   placeholder="peter@ssangyongsports.org"
+  required={true}
+/>
+      </label>
+       <label
+         htmlFor="email"
+  className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+>
+  你的名字
+
+<input
+  type="name"
+  name="_email.from"
+  className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+  placeholder="peter"
   required={true}
 />
       </label>
