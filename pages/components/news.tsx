@@ -33,7 +33,7 @@ function news() {
             </div>
                         <input 
              type="hidden" 
-             name="l" 
+             name="l"
           value="d1780fb9-0a82-421f-80bf-a87ee955890e" 
            />
             <input
