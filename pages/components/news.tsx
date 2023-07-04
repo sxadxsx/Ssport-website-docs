@@ -1,17 +1,18 @@
 import Link from 'next/link';
-import styles from './Button.module.css';
 
 function news() {
     return (
 <section className="bg-white dark:bg-gray-900">
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
     <div className="mx-auto max-w-screen-md sm:text-center">
-      <h2 className={`mb-4 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl dark:text-white`}>
-        訂閱
-          <span className={styles.abc}>最新消息</span>
+      <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl dark:text-white">
+        訂閱最新消息
       </h2>
-      <form action="https://406d0fd8.sibforms.com/serve/MUIFAPJjkTHeRzgL56Rt71tlsWGQ89WFNAdS6fHda2eCeZZ2gNoOIFobG3yO-ADgqsZVsnnOdvwPcVNNdEHPs1jhbRrb7m7rzXZywg8NR0hF_SXPhtzwD6AsTddFaA9w5JKQXbHiz3jOjXDvrxzS1vTa3TGym3kD1cu3Ir_2Gpdh65TzWPQ7_-PLWrMj7fBnzaBRipwjI5brM3Y9" data-type="subscription">
-        <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
+  <form
+          action="http://news.ssangyongsports.org:9000/subscription/form"
+          method="post"
+          target="_blank"
+        >        <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
           <div className="relative w-full">
             <label
               htmlFor="email"
@@ -30,15 +31,12 @@ function news() {
                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
               </svg>
             </div>
-              <input
-  className="block p-3 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:rounded-none sm:rounded-l-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-  type="text"
-  id="EMAIL"
-  name="EMAIL"
-  autoComplete="off"
-  placeholder="EMAIL"
-  data-required="true"
-/>
+            <input
+              className="block p-3 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:rounded-none sm:rounded-l-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+              placeholder="輸入您的電子郵件"
+              type="email"
+              id="email"
+            />
           </div>
           <div>
             <button
@@ -50,13 +48,13 @@ function news() {
           </div>
         </div>
         <div className="mx-auto max-w-screen-sm text-sm text-left text-gray-500 newsletter-form-footer dark:text-gray-300">
-         我們關心保護您的數據。
-          <Link
-            href="/p"
+         我們關心保護您的數據。{" "}
+          <a
+            href="#"
             className="font-medium text-primary-600 dark:text-primary-500 hover:underline"
           >
            閱讀我們的隱私政策
-          </Link>
+          </a>
           。
         </div>
       </form>
