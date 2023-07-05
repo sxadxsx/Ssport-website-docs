@@ -1,6 +1,7 @@
 import Hero from './components/Hero';
 import Table from './components/table';
 import Tabl from './components/tabl';
+import Sport from './components/sport';
 import News from './components/news';
 import React from 'react';
 import Head from 'next/head'
@@ -15,6 +16,7 @@ const Home = () => {
       
       <div>
         <Hero />
+        <Sport />
         <div id="anchor_one" />
         <Table />
         <Tabl />
