@@ -76,7 +76,7 @@ return (
         </h3>
       </a>
       <a
-        href="https://news.ssangyongsports.org"
+        href="https://soccer.ssangyongsports.org"
         className="block px-8 py-12 text-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600 hover:shadow-lg dark:hover:shadow-lg-light"
       >
         <span
@@ -107,8 +107,7 @@ return (
           雙龍足球
         </h3>
       </a>
-      <a
-        href="https://flowbite-svelte.com"
+      <a href="https://ssangyongsports.org/tv"
         className="block px-8 py-12 text-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600 hover:shadow-lg dark:hover:shadow-lg-light"
       >
         <span
