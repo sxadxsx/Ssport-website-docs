@@ -25,12 +25,12 @@ function footer() {
         狀態載入中
       </a>
 
-      <script
+       <script
         dangerouslySetInnerHTML={{
           __html: `
             function updateFooterBadge(status) {
               const badge = document.getElementById('footer-badge');
-              const badgeText = status === 'UP' ? '系統運行' : status === '系統異常';
+              badge.textContent = status === 'UP' ? '系統運行' : '異常';
               badge.className = status.toLowerCase();
             }
 
