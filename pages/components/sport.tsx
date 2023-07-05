@@ -26,16 +26,15 @@
         href="https://github.com/themesberg/flowbite-vue"
         className="block px-8 py-12 text-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600 hover:shadow-lg dark:hover:shadow-lg-light"
       >
-        <svg
-          className="w-12 h-12 mx-auto text-green-400"
-          fill="currentColor"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 448 512"
-        >
-          <path d="M356.9 64.3H280l-56 88.6-48-88.6H0L224 448 448 64.3h-91.1zm-301.2 32h53.8L224 294.5 338.4 96.3h53.8L224 384.5 55.7 96.3z" />
-        </svg>
+        <img
+  alt=""
+  className="service-icon"
+  src="https://74-rho.vercel.app/images/889455.png"
+  width={75}
+/>
+
         <h3 className="font-semibold text-xl text-gray-900 dark:text-white mt-3.5">
-          Flowbite Vue
+         雙龍職棒
         </h3>
       </a>
       <a
@@ -89,32 +88,17 @@
               }}
             />
           </span>
-          <img
-            src="/images/technologies/svelte.svg"
-            decoding="async"
-            data-nimg="intrinsic"
-            className="mx-auto text-red-600"
-            srcSet="/images/technologies/svelte.svg 1x, /images/technologies/svelte.svg 2x"
-            style={{
-              position: "absolute",
-              inset: 0,
-              boxSizing: "border-box",
-              padding: 0,
-              border: "none",
-              margin: "auto",
-              display: "block",
-              width: 0,
-              height: 0,
-              minWidth: "100%",
-              maxWidth: "100%",
-              minHeight: "100%",
-              maxHeight: "100%"
-            }}
-          />
+       <img
+  alt=""
+  className="service-icon"
+  src="https://74-rho.vercel.app/images/53283.png"
+  width={75}
+/>
+
           <noscript />
         </span>
         <h3 className="font-semibold text-xl text-gray-900 dark:text-white mt-3.5">
-          Flowbite Svelte
+          雙龍足球
         </h3>
       </a>
       <a
