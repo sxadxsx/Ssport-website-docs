@@ -65,14 +65,14 @@ return (
         >
           <img
             alt=""
-            className="basketball-icon"
+            className="service-icon"
             src="https://74-rho.vercel.app/images/889455.png"
             width={75}
           />
           <noscript />
         </span>
         <h3 className="font-semibold text-xl text-gray-900 dark:text-white mt-3.5">
-          ​雙龍職籃
+          雙龍足球
         </h3>
       </a>
       <a
@@ -108,7 +108,7 @@ return (
         </h3>
       </a>
       <a
-        href="/tv"
+        href="https://flowbite-svelte.com"
         className="block px-8 py-12 text-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600 hover:shadow-lg dark:hover:shadow-lg-light"
       >
         <span
@@ -136,7 +136,7 @@ return (
           <noscript />
         </span>
         <h3 className="font-semibold text-xl text-gray-900 dark:text-white mt-3.5">
-          雙龍體育TV
+          雙龍體育tv
         </h3>
       </a>
     </div>
