@@ -7,9 +7,7 @@ return (
      <h2 className={`mb-6 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 lg:text-center dark:text-white md:text-4xl ${styles.abc}`}>
       我們的旗下運動
     </h2>
-    <p className="mb-10 text-lg font-normal text-gray-500 dark:text-gray-400 lg:text-center lg:text-xl lg:px-64 lg:mb-16">
-      我們擁有的體育活動
-    </p>
+  
     <div className="space-y-4 sm:grid sm:grid-cols-2 lg:grid-cols-4 sm:gap-4 xl:gap-8 sm:space-y-0 md:mt-12">
       <a
         href="https://slb.ssangyongsports.org/"
