@@ -30,7 +30,7 @@ function footer() {
           __html: `
             function updateFooterBadge(status) {
               const badge = document.getElementById('footer-badge');
-              const badgeText = status === 'UP' ? '系統運行' : status === 'UNDERMAINTENANCE' ? '系統維護' : '系統異常';
+              const badgeText = status === 'UP' ? '系統運行' : status === '系統異常';
               badge.className = status.toLowerCase();
             }
 
