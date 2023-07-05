@@ -4,7 +4,7 @@ return (
   <>
 <section className="bg-gray-50 dark:bg-gray-800 border-t border-b border-gray-100 dark:border-gray-700">
   <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-16">
-    <h2 className="mb-6 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 lg:text-center dark:text-white md:text-4xl">
+     <h2 className={`mb-6 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 lg:text-center dark:text-white md:text-4xl ${styles.abc}`}">
       我們的旗下運動
     </h2>
     <p className="mb-10 text-lg font-normal text-gray-500 dark:text-gray-400 lg:text-center lg:text-xl lg:px-64 lg:mb-16">
