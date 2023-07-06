@@ -3,12 +3,9 @@ function supportchoice() {
   return (
 <section className="bg-gray-50 dark:bg-gray-800 border-t border-b border-gray-100 dark:border-gray-700">
   <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-16">
-    <h2 className="mb-6 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 lg:text-center dark:text-white md:text-4xl">
-      我們提供的支援方式
-    </h2>
     <div className="space-y-4 sm:grid sm:grid-cols-2 lg:grid-cols-4 sm:gap-4 xl:gap-8 sm:space-y-0 md:mt-12">
       <a
-        href="https://flowbite-svelte.com"
+        href="https://help.ssangyongsports.org/"
         className="block px-8 py-12 text-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600 hover:shadow-lg dark:hover:shadow-lg-light"
       >
         <span
@@ -40,7 +37,7 @@ function supportchoice() {
         </h3>
       </a>
       <a
-        href="https://flowbite-svelte.com"
+        href="https://ssangyongsports.org/c"
         className="block px-8 py-12 text-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600 hover:shadow-lg dark:hover:shadow-lg-light"
       >
         <span
@@ -72,7 +69,7 @@ function supportchoice() {
         </h3>
       </a>
       <a
-        href="https://flowbite-svelte.com"
+        href="https://discuss.ssangyongsports.org/"
         className="block px-8 py-12 text-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600 hover:shadow-lg dark:hover:shadow-lg-light"
       >
         <span
@@ -104,7 +101,7 @@ function supportchoice() {
         </h3>
       </a>
       <a
-        href="https://flowbite-svelte.com"
+        href="https://status.ssangyongsports.org/"
         className="block px-8 py-12 text-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600 hover:shadow-lg dark:hover:shadow-lg-light"
       >
         <span
