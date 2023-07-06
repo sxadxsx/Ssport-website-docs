@@ -58,7 +58,6 @@ function head() {
   </Navbar.Collapse>
 </Navbar>
 <br /> 
-<br />
       </header>
   )
 }
