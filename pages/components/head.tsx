@@ -56,11 +56,13 @@ function head() {
       聯繫
     </Link>
   </Navbar.Collapse>
-    <br /> 
+ 
+</Navbar>
+      
+      </header>
+       <br /> 
     <br /> 
 
-</Navbar>
-      </header>
   )
 }
 
