@@ -56,9 +56,9 @@ function footer() {
         </h2>
         <ul className="text-gray-500 dark:text-gray-400">
           <li className="mb-4">
-            <a href="https://help.ssangyongsports.org/" className="hover:underline">
+            <Link href="/support" className="hover:underline">
              幫助中心
-            </a>
+            </Link>
           </li>
           <li className="mb-4">
             <a href="https://help.ssangyongsports.org/" className="hover:underline">
