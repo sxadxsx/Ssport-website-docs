@@ -1,5 +1,6 @@
 import Supportchoice from './components/supportchoice';
 import Supporthero from './components/supporthero';
+import Head from 'next/head'
 
 const support = () => {
   return (
