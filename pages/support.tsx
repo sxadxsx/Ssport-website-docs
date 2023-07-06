@@ -18,4 +18,4 @@ const support = () => {
       );
 }
 
-export default Home;
+export default support;
