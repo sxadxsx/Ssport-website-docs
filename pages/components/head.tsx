@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Button } from "flowbite-react";
 function head() {
   return (
+    <>
     <header>
     
   <Navbar
@@ -62,6 +63,7 @@ function head() {
       </header>
        <br /> 
     <br /> 
+    </>
 
   )
 }
