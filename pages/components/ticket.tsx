@@ -7,7 +7,9 @@ function ticket() {
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
     <div className="mx-auto max-w-screen-md sm:text-center">
       <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl dark:text-white">
-需要查看聯繫工單資訊?
+需要查看
+            <br /><span className={styles.abc}>聯繫工單</span>
+資訊嗎?
 </h2>
       <div className="flex flex-col mb-8 md:flex-row lg:justify-center">
         <a
