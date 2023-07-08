@@ -3,7 +3,7 @@ import React from 'react';
 class ChatwootWidget extends React.Component {
   componentDidMount () {
     // Add Chatwoot Settings
-    window.chatwootSettings = {
+    chatwootSettings = {
       hideMessageBubble: false,
       position: 'right', // This can be left or right
       locale: 'zh-tw', // Language to be set
