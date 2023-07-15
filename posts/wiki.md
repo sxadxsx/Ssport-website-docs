@@ -14,7 +14,7 @@ tags:
   
 
 雙龍體育wiki將於2023年7月15日關閉。關閉之後，您將無法瀏覽和編輯wiki上的內容。
- ## 如來導出我撰寫的內容  [.text-3xl .font-extrabold .leading-tight .text-gray-900 .lg:mb-6 .lg:text-4xl .dark:text-white]
+ ## 如何導出我撰寫的內容  [.text-3xl .font-extrabold .leading-tight .text-gray-900 .lg:mb-6 .lg:text-4xl .dark:text-white]
 如果您想保存您在wiki上的資料，您可以向我們發送電子郵件，要求導出您的個人資料、貢獻記錄或收藏夾。我們的電子郵件地址是：support@ssangyongsports.org。請在2023年7月31日之前發送電子郵件，並註明您的用戶名和需要導出的資料類型。我們將盡快回覆您並提供下載鏈接。
  
  ## 結尾 [.text-3xl .font-extrabold .leading-tight .text-gray-900 .lg:mb-6 .lg:text-4xl .dark:text-white]
