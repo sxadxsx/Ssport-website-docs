@@ -77,7 +77,7 @@ export default function Blog({posts}){
             <span className="font-medium dark:text-white">
                {author}
             </span>
-          </Link>
+          </a>
           <Link
             className="inline-flex items-center font-medium text-blue-600 hover:underline dark:text-blue-500"
             href={`/blog/${slug}`}
