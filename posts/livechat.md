@@ -1,14 +1,13 @@
---- 
- title: "雙龍體育在線聊天支援關閉通知" 
- seo: "雙龍體育在線聊天支援關閉通知" 
- author: "Peter yang" 
- category: "公告" 
- date: "2023-7-16" 
- bannerImage: "/blog.jpg" 
- tags: 
-     - 公告 
- ---
-
+---
+title: "雙龍體育在線聊天支援關閉通知"
+seo: "雙龍體育在線聊天支援關閉通知"
+author: "Peter yang"
+category: "blog"
+date: "2023-07-16"
+bannerImage: "/blog.jpg"
+tags:
+    - 公告
+---
 各位雙龍體育客戶及訪客你好，
 由於當前的人力資源限制，我們很遺憾地通知您，我們的在線幫助聊天服務將於即日起暫時關閉。
 
