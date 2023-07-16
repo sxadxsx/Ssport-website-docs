@@ -65,9 +65,9 @@ export default function Blog({posts}){
           {seo}
         </p>
         <div className="flex items-center justify-between">
-          <Link
+          <a
             className="flex items-center space-x-2"
-            href="/blog/author/zoltan/"
+            href="https://discuss.ssangyongsports.org/members/peter-yang.1/"
           >
             <img
               className="rounded-full w-7 h-7"
