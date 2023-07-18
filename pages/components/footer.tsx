@@ -16,7 +16,7 @@ function footer() {
             </Link>
           </li>
           <li className="mb-4">
-            <Link href="c" className="hover:underline" passHref={true}>
+            <Link href="contact" className="hover:underline" passHref={true}>
              聯繫
             </Link>
            </li>
@@ -71,7 +71,7 @@ function footer() {
             </a>
           </li>
           <li className="mb-4">
-            <Link href="c" className="hover:underline" passHref={true}>
+            <Link href="contact" className="hover:underline" passHref={true}>
               聯繫
             </Link>
           </li>
