@@ -108,7 +108,7 @@ function c() {
 </section>
           <Head>
         <title>聯繫-雙龍體育</title>
-        <meta name="description" content="為了幫助您更好地解決任何雙龍體育的問題，我們在此提供一個聯繫我們的專門渠道。立刻上聯繫-雙龍體育" />
+        <meta name="description" content="雙龍體育聯繫，為你提供專業的雙龍體育客服，為你解決問題，或聯絡雙龍體育了解你想得知的消息，就立刻上雙龍體育聯絡網站吧" />
       </Head>
   
       </div>
