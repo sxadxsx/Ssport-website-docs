@@ -1,6 +1,6 @@
  import Link from 'next/link';
 import styles from './Button.module.css';
-import a from './a.css';
+import a from './a.module.css';
 function hero() {
   return (
  <section className="bg-white dark:bg-gray-900">
