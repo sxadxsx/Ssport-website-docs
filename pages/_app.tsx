@@ -7,8 +7,11 @@ export default function App({ Component, pageProps }: AppProps) {
     <div>
       
     <Head />
+      <div className="content">
 <Component {...pageProps} />
-    <Footer />
+   </div>
+        <Footer />
+    
   </div>
 
   );
