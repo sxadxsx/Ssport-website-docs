@@ -4,7 +4,9 @@ import Link from 'next/link';
 import { Button } from "flowbite-react";
 function head() {
   return (
-    <section>
+    <>
+    <header>
+    
   <Navbar
   fluid={true}
   rounded={true}
@@ -63,7 +65,11 @@ function head() {
   </Navbar.Collapse>
  
 </Navbar>
-    </section>
+      
+      </header>
+       <br /> 
+    <br /> 
+    </>
 
   )
 }
