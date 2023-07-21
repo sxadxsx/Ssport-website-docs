@@ -4,10 +4,10 @@ import Head from './components/head'
 import Footer from './components/footer'
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main>
+    <>
       
     <Head />
-      <main />
+      < />
 <Component {...pageProps} />
    </div>
         <Footer />
