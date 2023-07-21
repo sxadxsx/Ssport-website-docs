@@ -68,7 +68,6 @@ function head() {
       
       </header>
        <br /> 
-    <br /> 
     </>
 
   )
