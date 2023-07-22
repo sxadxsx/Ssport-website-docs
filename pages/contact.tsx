@@ -16,7 +16,7 @@ function c() {
       有任何問題，立刻聯繫我們😊
     </p>
     <form
-              action="https://submit-form.com/yFAbXMpc"
+              action="https://submit-form.com/9EAhQB0K"
               name="聯繫表單"
               method="POST"
     className="space-y-8"
@@ -107,7 +107,7 @@ function c() {
   </div>
 </section>
           <Head>
-        <title>聯繫-雙龍體育</title>
+        <title>雙龍體育聯絡</title>
         <meta name="description" content="雙龍體育聯繫，為你提供專業的雙龍體育客服，為你解決問題，或聯絡雙龍體育了解你想得知的消息，就立刻上雙龍體育聯絡網站吧" />
       </Head>
   
