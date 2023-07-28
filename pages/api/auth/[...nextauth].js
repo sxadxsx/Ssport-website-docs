@@ -12,6 +12,10 @@ export const authOptions = {
       clientId: process.env.Google_ID,
       clientSecret: process.env.Google_SECRET,
     }),  ],
+  theme: {
+  colorScheme: "light", // "auto" | "dark" | "light"
+  logo: "https://i.imgur.com/GhQm5zm.png", // Absolute URL to image
+}
 callbacks: {
   async jwt({ token, account }) {
     // Persist the OAuth access_token to the token right after signin
