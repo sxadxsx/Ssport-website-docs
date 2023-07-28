@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { useSession } from "next-auth/react"
-import AccessDenied from "../components/accessDenied.js"
+import AccessDenied from "./components/accessDenied.js"
 
 export default function ProtectedPage() {
   const { data: session } = useSession()
