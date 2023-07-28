@@ -8,7 +8,7 @@ import Head from 'next/head'
 // The page for each post
 export default function Post({frontmatter, content}) {
     const {title, seo, author, category, date, bannerImage, tags} = frontmatter
-    const seot = '{seo}';
+
     return <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900">
   <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
     <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
@@ -53,7 +53,7 @@ export default function Post({frontmatter, content}) {
     </article>
      <Head>
         <title>{title}-雙龍體育blog</title>
-       <meta name="description" content={`${seot}-雙龍體育blog`} />
+       <meta name="description" content={`{seo}-雙龍體育blog`} />
       </Head>
   </div>
 </main>
