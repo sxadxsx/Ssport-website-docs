@@ -31,5 +31,11 @@ callbacks: {
     },
   },
 }
+colorScheme: "light", // "auto" | "dark" | "light"
+  logo: "https://i.imgur.com/GhQm5zm.png", // Absolute URL to image
+
+    },
+  },
+}
 
 export default NextAuth(authOptions)
