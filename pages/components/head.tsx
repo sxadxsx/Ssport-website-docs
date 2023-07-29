@@ -3,9 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Button } from "flowbite-react";
 import { signIn, signOut, useSession } from "next-auth/react"
-export default function Head() {
-  const { data: session } = useSession();
-
+export default function NavBar({ session }: { session: Session | null }) {
   const loading = status === "loading"
 
   return (
