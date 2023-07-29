@@ -14,7 +14,7 @@ return (
                    signOut() 
                  }} 
                > 
-                 Sign out 
+                 登出
                </a>
 </Button>
 </>
@@ -30,7 +30,7 @@ return (
                    signIn() 
                  }} 
                > 
-                 Sign out 
+                 登入
                </a></Button>
 </>
 )
