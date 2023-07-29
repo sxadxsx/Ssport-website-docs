@@ -31,7 +31,6 @@ export default function Head() {
     <Button>
        <a
                 href={`/api/auth/signin`}
-                className={styles.buttonPrimary}
                 onClick={(e) => {
                   e.preventDefault()
                   signIn()
@@ -46,7 +45,6 @@ export default function Head() {
   <>
     <a
                 href={`/api/auth/signout`}
-                className={styles.button}
                 onClick={(e) => {
                   e.preventDefault()
                   signOut()
