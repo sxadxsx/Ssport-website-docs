@@ -10,14 +10,16 @@ export default function App({
 }: AppProps) {
 
   return (
+    <SessionProvider session={session}>
         <div>
 
         <Head />
-    <SessionProvider session={session}>
+    
       <Component {...pageProps} />
-    </SessionProvider>
+    
             <Footer />
         </div>
+    </SessionProvider>
 
   )
 
