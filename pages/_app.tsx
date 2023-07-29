@@ -12,7 +12,7 @@ export default function App({
   return (
         <div>
 
-        <Head session={session}/>
+        <Head />
     <SessionProvider session={session}>
       <Component {...pageProps} />
     </SessionProvider>
