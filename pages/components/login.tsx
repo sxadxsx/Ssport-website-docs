@@ -8,7 +8,7 @@ const { data: session, status } = useSession();
 if (session) {
 return (
 <>
-<Dropdown inline label={<Avatar alt="User settings" img="{session.user.image}" rounded/>} > <Dropdown.Header> <span className="block text-sm"> {session.user.name}  </span> <span className="block truncate text-sm font-medium"> {session.user.email} </span> </Dropdown.Header> <div> Dashboard </div> <div> Settings </div> <div> Earnings </div> <Dropdown.Divider /> <div> <a 
+<Dropdown inline label={<Avatar alt="User settings" img="https://th.bing.com/th/id/OIG.3ATeLzhfld0KGXFir2Vh?w=173&h=173&c=6&r=0&o=5&dpr=2.8&pid=ImgGn" rounded/>} > <Dropdown.Header> <span className="block text-sm"> {session.user.name}  </span> <span className="block truncate text-sm font-medium"> {session.user.email} </span> </Dropdown.Header> <div> Dashboard </div> <div> Settings </div> <div> Earnings </div> <Dropdown.Divider /> <div> <a 
                  href={`/api/auth/signout`} 
                  onClick={(e) => { 
                    e.preventDefault() 
