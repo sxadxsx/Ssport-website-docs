@@ -5,7 +5,6 @@ import { Button } from "flowbite-react";
 import { signIn, signOut, useSession } from "next-auth/react"
 import { Session } from "next-auth"
 export default function NavBar({ session }: { session: Session | null }) {
-  const loading = status === "loading"
 
   return (
     <>
