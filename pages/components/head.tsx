@@ -1,5 +1,5 @@
 import { Navbar } from "flowbite-react";
-import Login from "./login
+import Login from "./login";
 import React from 'react';
 import Link from 'next/link';
 import { signIn, signOut, useSession } from "next-auth/react"
