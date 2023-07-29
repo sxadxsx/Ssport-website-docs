@@ -1,5 +1,5 @@
 import { Navbar } from "flowbite-react";
-import Button from './button';
+import Button from './button.tsx';
 import React from 'react';
 import Link from 'next/link';
 import { Button } from "flowbite-react";
