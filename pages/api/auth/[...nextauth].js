@@ -22,6 +22,10 @@ export const authOptions = {
       clientId: process.env.Discord_ID,
       clientSecret: process.env.Discord_SECRET,
     }),  ],
+  theme: {
+  colorScheme: "auto", // "auto" | "dark" | "light"
+  logo: "https://i.imgur.com/GhQm5zm.png", // Absolute URL to image
+},
 callbacks: {
   async jwt({ token, account }) {
     // Persist the OAuth access_token to the token right after signin
