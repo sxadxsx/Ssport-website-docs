@@ -1,6 +1,7 @@
 import NextAuth from "next-auth"
 import GithubProvider from "next-auth/providers/github"
 import GoogleProvider from "next-auth/providers/google"
+import LineProvider from "next-auth/providers/line"
 export const authOptions = {
   // Configure one or more authentication providers
   providers: [
@@ -11,11 +12,11 @@ export const authOptions = {
    GoogleProvider({
       clientId: process.env.Google_ID,
       clientSecret: process.env.Google_SECRET,
+    }),  
+     LineProvider({
+      clientId: process.env.Line_ID,
+      clientSecret: process.env.Line_SECRET,
     }),  ],
-  theme: {
-  colorScheme: "light", // "auto" | "dark" | "light"
-  logo: "https://i.imgur.com/GhQm5zm.png", // Absolute URL to image
-    },
 callbacks: {
   async jwt({ token, account }) {
     // Persist the OAuth access_token to the token right after signin
