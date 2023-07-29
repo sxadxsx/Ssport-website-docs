@@ -41,6 +41,7 @@ export default function Head() {
               </a>
     </Button>
     </>
+   )}
    {session?.user && (
   <>
     <a
@@ -54,6 +55,7 @@ export default function Head() {
                 Sign out
               </a>
     </>
+   )}
     <Navbar.Toggle />
   </div>
   <Navbar.Collapse>
