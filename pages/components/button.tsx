@@ -11,7 +11,7 @@ return (
                  href={`/api/auth/signout`} 
                  onClick={(e) => { 
                    e.preventDefault() 
-                   signout() 
+                   signOut() 
                  }} 
                > 
                  Sign out 
