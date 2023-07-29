@@ -1,37 +1,11 @@
-import { signIn, signOut, useSession } from "next-auth/react"
-import React from 'react';
-import { Button } from "flowbite-react";
-export default function Login() {
-const { data: session, status } = useSession();
-if (session) {
-return (
-<>
+import { useSession } from "next-auth/react"
 
-<button>         <a 
-                 href={`/api/auth/signout`} 
-                 onClick={(e) => { 
-                   e.preventDefault() 
-                   signOut() 
-                 }} 
-               > 
-                 Sign out 
-               </a>
-</button>
-</>
-)
-}
-return (
-<>
-<button> 
-  <a 
-                 href={`/api/auth/signin`} 
-                 onClick={(e) => { 
-                   e.preventDefault() 
-                   signIn() 
-                 }} 
-               > 
-                 Sign out 
-               </a></button>
-</>
-)
+export default function Component() {
+  const { data: session, status } = useSession()
+
+  if (status === "authenticated") {
+    return <p>Signed in as {session.user.email}</p>
+  }
+
+  return <a href="/api/auth/signin">Sign in</a>
 }
