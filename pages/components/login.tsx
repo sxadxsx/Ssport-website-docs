@@ -1,7 +1,7 @@
 import { useSession, signIn, signOut } from 'next-auth/react';
 import React from 'react';
 import { Button } from "flowbite-react";
-export const Button = () => {
+export const Login = () => {
 const { data: session, status } = useSession();
 if (session) {
 return (
