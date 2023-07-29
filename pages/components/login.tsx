@@ -1,7 +1,7 @@
 import { signIn, signOut, useSession } from "next-auth/react"
 import React from 'react';
 import { Button } from "flowbite-react";
-import { Dropdown, Navbar } from 'flowbite-react';
+import { Dropdown, Navbar, Avatar } from 'flowbite-react';
 export default function Login() {
 const { data: session, status } = useSession();
 if (session) {
