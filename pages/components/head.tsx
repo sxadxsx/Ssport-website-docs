@@ -4,8 +4,8 @@ import Link from 'next/link';
 import { Button } from "flowbite-react";
 import { signIn, signOut, useSession } from "next-auth/react"
 import { Session } from "next-auth"
-export default function NavBar({ session }: { session: Session | null }) {
-
+export default function Header() {
+  const [session, loading] = useSession()
   return (
     <>
     <header>
@@ -25,10 +25,19 @@ export default function NavBar({ session }: { session: Session | null }) {
     </span>
   </Link>
   <div className="flex md:order-2">
-    {!session && (
-  <>
     <Button>
-       <a
+        {session ? (
+         <a
+                href={`/api/auth/signout`}
+                onClick={(e) => {
+                  e.preventDefault()
+                  signIn()
+                }}
+              >
+                Sign out
+              </a>
+      ) : (
+         <a
                 href={`/api/auth/signin`}
                 onClick={(e) => {
                   e.preventDefault()
@@ -37,22 +46,10 @@ export default function NavBar({ session }: { session: Session | null }) {
               >
                 Sign in
               </a>
+      )}
+     
     </Button>
-    </>
-   )}
-   {session?.user && (
-  <>
-    <a
-                href={`/api/auth/signout`}
-                onClick={(e) => {
-                  e.preventDefault()
-                  signOut()
-                }}
-              >
-                Sign out
-              </a>
-    </>
-   )}
+    
     <Navbar.Toggle />
   </div>
   <Navbar.Collapse>
