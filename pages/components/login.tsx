@@ -7,7 +7,7 @@ if (session) {
 return (
 <>
 
-<button>         <a 
+<Button>         <a 
                  href={`/api/auth/signout`} 
                  onClick={(e) => { 
                    e.preventDefault() 
@@ -16,13 +16,13 @@ return (
                > 
                  Sign out 
                </a>
-</button>
+</Button>
 </>
 )
 }
 return (
 <>
-<button> 
+<Button> 
   <a 
                  href={`/api/auth/signin`} 
                  onClick={(e) => { 
@@ -31,7 +31,7 @@ return (
                  }} 
                > 
                  Sign out 
-               </a></button>
+               </a></Button>
 </>
 )
 }
