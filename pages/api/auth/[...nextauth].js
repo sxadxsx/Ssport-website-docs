@@ -23,7 +23,6 @@ export const authOptions = {
       clientSecret: process.env.Discord_SECRET,
     }),  ],
   theme: {
-  colorScheme: "auto", // "auto" | "dark" | "light"
   logo: "https://i.imgur.com/GhQm5zm.png", // Absolute URL to image
 },
 callbacks: {
