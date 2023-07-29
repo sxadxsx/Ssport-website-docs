@@ -2,7 +2,6 @@ import { Navbar } from "flowbite-react";
 import Button from './button.tsx';
 import React from 'react';
 import Link from 'next/link';
-import { Button } from "flowbite-react";
 import { signIn, signOut, useSession } from "next-auth/react"
 import { Session } from "next-auth"
 export default function Header() {
