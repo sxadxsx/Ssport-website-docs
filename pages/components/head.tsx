@@ -1,11 +1,11 @@
 import { Navbar } from "flowbite-react";
+import Button from './button';
 import React from 'react';
 import Link from 'next/link';
 import { Button } from "flowbite-react";
 import { signIn, signOut, useSession } from "next-auth/react"
 import { Session } from "next-auth"
 export default function Header() {
-  const { data: session, status } = useSession()
   return (
     <>
     <header>
@@ -25,30 +25,8 @@ export default function Header() {
     </span>
   </Link>
   <div className="flex md:order-2">
-    <Button>
-        {session ? (
-         <a
-                href={`/api/auth/signout`}
-                onClick={(e) => {
-                  e.preventDefault()
-                  signIn()
-                }}
-              >
-                Sign out
-              </a>
-      ) : (
-         <a
-                href={`/api/auth/signin`}
-                onClick={(e) => {
-                  e.preventDefault()
-                  signIn()
-                }}
-              >
-                Sign in
-              </a>
-      )}
-     
-    </Button>
+    <Button />
+        
     
     <Navbar.Toggle />
   </div>
