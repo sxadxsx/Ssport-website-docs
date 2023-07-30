@@ -21,7 +21,9 @@ export default function ProtectedPage() {
   if (!session) {
     return (
       <div>
-       <script document.location.href="https://ssangyongsports.org/api/auth/signin"；></script>
+       <script
+         document.location.href="https://ssangyongsports.org/api/auth/signin"
+        ></script>
       </div>
     )
   }
