@@ -22,7 +22,7 @@ export default function ProtectedPage() {
   if (!session) {
     return (
       <div>
-        <Redirect to="/api/auth/signin" /
+        <Redirect to="/api/auth/signin" />
       </div>
     )
   }
