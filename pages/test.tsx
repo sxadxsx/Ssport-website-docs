@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react"
 import { useSession } from "next-auth/react"
 import AccessDenied from "./components/accessDenied.js"
-import { Redirect } from 'next/navigation';
 export default function ProtectedPage() {
   const { data: session } = useSession()
   const [content, setContent] = useState()
@@ -22,7 +21,7 @@ export default function ProtectedPage() {
   if (!session) {
     return (
       <div>
-        <Redirect to="/api/auth/signin" />
+       <script>document.location.href="https://ssangyongsports.org/api/auth/signin";</script>
       </div>
     )
   }
