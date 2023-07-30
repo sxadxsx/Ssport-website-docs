@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { useSession } from "next-auth/react"
 import AccessDenied from "./components/accessDenied.js"
-import { redirect } from 'next/navigation';
+import { Redirect } from 'next/navigation';
 export default function ProtectedPage() {
   const { data: session } = useSession()
   const [content, setContent] = useState()
