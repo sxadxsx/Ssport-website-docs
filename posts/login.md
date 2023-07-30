@@ -12,14 +12,16 @@ tags:
 我們很高興地宣布，雙龍體育的全新登入系統已正式進入上市測試階段。這個系統使用了NextAuth技術以提供更安全、更便利的登入體驗。
 ## 如何測試登入？ [.text-3xl .font-extrabold .leading-tight .text-gray-900 .lg:mb-6 .lg:text-4xl .dark:text-white]
 點擊右上方登入即可
+電腦、平板登入：https://youtu.be/-7IW5xWHP2Q
+手機登入：https://youtube.com/shorts/30t_7HjrDCI?feature=share
 ## 支持的登入方式 [.text-3xl .font-extrabold .leading-tight .text-gray-900 .lg:mb-6 .lg:text-4xl .dark:text-white]
 
 目前，我們的系統支持以下四種登入方式：
 
-- GitHub
-- Google
-- Line
-- Discord
+- 1.GitHub
+- 2.Google
+- 3.Line
+- 4.Discord
 
 如果你已有任一上述平台的帳號，即可輕鬆進行登入。
 
