@@ -146,7 +146,7 @@ function footer() {
         className="flex justify-center items-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white"
       >
         <img
-  src="https://i.imgur.com/JhurYW7.jpg"
+  src="/footer.png"
   width={186}
   height={46}
   alt="雙龍體育Logo"
