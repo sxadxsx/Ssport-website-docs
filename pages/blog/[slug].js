@@ -21,7 +21,7 @@ export default function Post({frontmatter, content}) {
           
             <img
               className="mr-4 w-16 h-16 rounded-full"
-              src="https://discuss.ssangyongsports.org/data/avatars/l/0/1.jpg?1679114793"
+              src="https://avatars.githubusercontent.com/u/92738287?s=400&u=3a2db655ea4d554f70e790ba5c76e12d68e63cf8&v=4"
               alt="Peter yang"
             />
             <div>
