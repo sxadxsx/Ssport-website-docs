@@ -7,7 +7,7 @@ const p = () => {
     <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
         <header className="mb-4 lg:mb-6 not-format">        
   <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">感謝你聯繫雙龍體育</h1>
-   <p>如果你有收到自動郵件的話代表你的聯繫我們團隊以收到你的聯繫嘍！（如果沒收到可檢查垃圾郵件）</p>
+   <p>你被跳轉至此頁面代表我們以收到你的聯繫嘍！</p>
      <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">何時回覆？</h1>
    <p>我們團隊會在一個禮拜內回覆你
 如果特殊假期（過年、端午節等國定假日）或假日可能會一個禮拜後回覆
