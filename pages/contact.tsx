@@ -21,7 +21,10 @@ function c() {
               method="POST"
     className="space-y-8"
             >
-        <input type="hidden" name="form-name" value="聯繫表單" />
+        <input type="hidden" name="_next" value="https://ssangyongsports.org/thanks">
+          <input type="hidden" name="_subject" value="雙龍體育客戶聯繫">
+            <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_blacklist" value=" 幹, 靠 去死, 娘">
              <label
          htmlFor="name"
   className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
