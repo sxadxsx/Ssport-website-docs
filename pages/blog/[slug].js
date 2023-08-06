@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import fs from "fs";
 import matter from "gray-matter";
 import MarkdownIt from "markdown-it"; // import the markdown-it library
@@ -19,11 +20,13 @@ export default function Post({frontmatter, content}) {
         <address className="flex items-center mb-6 not-italic">
           <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
           
-            <img
-              className="mr-4 w-16 h-16 rounded-full"
-              src="{img}"
-              alt="{author}"
-            />
+            <Image
+  className="mr-4 w-16 h-16 rounded-full"
+  src={img}
+  alt={author}
+  width={64}
+  height={64}
+/>
             <div>
               <a
                 href="#"
