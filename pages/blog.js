@@ -30,7 +30,7 @@ export default function Blog({posts}){
             //extract slug and frontmatter
             const {slug, frontmatter} = post
             //extract frontmatter properties
-            const {title, seo, author, category, date, bannerImage, tags} = frontmatter
+            const {title, seo, author, category, date, bannerImage, tags, img} = frontmatter
 
             //JSX for individual blog listing
             return <article key={title}>
@@ -71,8 +71,8 @@ export default function Blog({posts}){
           >
             <img
               className="rounded-full w-7 h-7"
-              src="https://avatars.githubusercontent.com/u/92738287?s=400&u=3a2db655ea4d554f70e790ba5c76e12d68e63cf8&v=4"
-              alt="Peter yang picture"
+              src="{img}"
+              alt="{author}  picture"
             />
             <span className="font-medium dark:text-white">
                {author}
