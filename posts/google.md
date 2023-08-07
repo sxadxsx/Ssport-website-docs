@@ -2,7 +2,7 @@
 title: "活用您的Google帳戶：了解並預防閒置帳戶政策"
 seo: "活用您的Google帳戶：了解並預防閒置帳戶政策"
 author: "Peter yang"
-img: "https://avatars.githubusercontent.com/u/92738287?s=400&u=3a2db655ea4d554f70e790ba5c76e12d68e63cf8&v=4"
+img: "/1D7F9E91-14B0-4914-9FBD-0E46CE340A78.png"
 category: "blog"
 date: "2023-08-06"
 bannerImage: "/blog.jpg"
