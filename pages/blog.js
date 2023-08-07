@@ -4,7 +4,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head'
 import styles from './components/Button.module.css';
-import Image from 'next/image';
+
+
 // The Blog Page Content
 export default function Blog({posts}){
     return <main>
