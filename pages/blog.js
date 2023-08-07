@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head'
 import styles from './components/Button.module.css';
-
+import Image from 'next/image';
 // The Blog Page Content
 export default function Blog({posts}){
     return <main>
@@ -69,11 +69,14 @@ export default function Blog({posts}){
             className="flex items-center space-x-2"
             href="https://discuss.ssangyongsports.org/members/peter-yang.1/"
           >
-            <img
-              className="rounded-full w-7 h-7"
-              src="{img}"
-              alt="{author}  picture"
-            />
+            <Image
+  className="mr-4 w-16 h-16 rounded-full"
+  src={img}
+  alt={author}
+  width={64}
+  height={64}
+/>
+            <
             <span className="font-medium dark:text-white">
                {author}
             </span>
