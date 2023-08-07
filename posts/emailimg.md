@@ -4,6 +4,7 @@ seo: "應該有用過網路都知道電子郵件吧？，近幾年來網路電�
 很多公司也為了自定電子郵件寄送圖片會使用Google workspace,但雙龍體育沒有任何多餘的錢購買Google workspace但我們又要自定網域名那個咋辦呢？"
 author: "Peter yang"
 info: "雙龍體育CEO"
+img: "/1D7F9E91-14B0-4914-9FBD-0E46CE340A78.png"
 category: "blog"
 date: "2022-11-17"
 bannerImage: "/blog.jpg"
