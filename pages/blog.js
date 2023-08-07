@@ -74,8 +74,6 @@ export default function Blog({posts}){
   className="mr-4 w-16 h-16 rounded-full"
   src={img}
   alt={author}
-  width={64}
-  height={64}
 />
             
             <span className="font-medium dark:text-white">
