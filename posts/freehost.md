@@ -3,6 +3,8 @@ title: "3個最棒的免費wordpress主機"
 seo: "3個最棒的免費wordpress主機"
 author: "Peter yang"
 category: "blog"
+info: "雙龍體育CEO"
+img: "/1D7F9E91-14B0-4914-9FBD-0E46CE340A78.png"
 date: "2022-02-14"
 bannerImage: "/blog.jpg"
 tags:
