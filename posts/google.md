@@ -2,6 +2,7 @@
 title: "活用您的Google帳戶：了解並預防閒置帳戶政策"
 seo: "活用您的Google帳戶：了解並預防閒置帳戶政策"
 author: "Peter yang"
+info: "雙龍體育CEO"
 img: "/1D7F9E91-14B0-4914-9FBD-0E46CE340A78.png"
 category: "blog"
 date: "2023-08-06"
