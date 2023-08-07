@@ -77,7 +77,7 @@ export default function Blog({posts}){
   width={64}
   height={64}
 />
-            <
+            
             <span className="font-medium dark:text-white">
                {author}
             </span>
