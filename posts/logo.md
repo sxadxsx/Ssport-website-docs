@@ -1,7 +1,9 @@
 ---
 title: "公告: 發表全新Logo"
 seo: "新logo發佈通知"
-author: "Peter yang"
+author: "雙龍體育"
+info: "雙龍體育團隊"
+img: "/team.jpeg"
 category: "公告"
 date: "2023-08-2"
 bannerImage: "/blog.jpg"

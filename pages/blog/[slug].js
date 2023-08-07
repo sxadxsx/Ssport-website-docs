@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import fs from "fs";
 import matter from "gray-matter";
 import MarkdownIt from "markdown-it"; // import the markdown-it library
@@ -7,7 +8,7 @@ import styles from '../components/Button.module.css';
 import Head from 'next/head'
 // The page for each post
 export default function Post({frontmatter, content}) {
-    const {title, seo, author, category, date, bannerImage, tags} = frontmatter
+    const {title, seo, author, category, date, bannerImage, tags, img, info} = frontmatter
 
     return <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900">
   <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
@@ -19,21 +20,23 @@ export default function Post({frontmatter, content}) {
         <address className="flex items-center mb-6 not-italic">
           <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
           
-            <img
-              className="mr-4 w-16 h-16 rounded-full"
-              src="https://avatars.githubusercontent.com/u/92738287?s=400&u=3a2db655ea4d554f70e790ba5c76e12d68e63cf8&v=4"
-              alt="Peter yang"
-            />
+            <Image
+  className="mr-4 w-16 h-16 rounded-full"
+  src={img}
+  alt={author}
+  width={64}
+  height={64}
+/>
             <div>
               <a
-                href="https://discuss.ssangyongsports.org/members/peter-yang.1/"
+                href="#"
                 rel="author"
                 className="text-xl font-bold text-gray-900 dark:text-white"
               >
                 {author}
               </a>
               <p className="text-base font-light text-gray-500 dark:text-gray-400">
-                雙龍體育CEO
+                    {info}
               </p>
               <p className="text-base font-light text-gray-500 dark:text-gray-400">
                 <time

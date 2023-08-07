@@ -1,6 +1,8 @@
 ---
 title: "論壇停止公告"
 seo: "我們很遺憾地通知您，我們將於2023年6月16日起停止使用雙龍體育服務論壇"
+info: "雙龍體育CEO"
+img: "/1D7F9E91-14B0-4914-9FBD-0E46CE340A78.png"
 author: "Peter yang"
 category: "公告"
 date: "2023-06-16"

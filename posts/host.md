@@ -4,6 +4,8 @@ seo: "大家有聽過免費託管嗎？，最近大家對動態網站的需求�
 author: "Peter yang"
 category: "blog"
 date: "2022-11-6"
+info: "雙龍體育CEO"
+img: "/1D7F9E91-14B0-4914-9FBD-0E46CE340A78.png"
 bannerImage: "/blog.jpg"
 tags:
     - blog

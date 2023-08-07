@@ -3,6 +3,8 @@ title: "Google domain被Squarespace收購"
 seo: "Google Domain被Squarespace收購了！是的，你沒聽錯，這是一個驚天動地的交易"
 author: "Peter yang"
 category: "blog"
+info: "雙龍體育CEO"
+img: "/1D7F9E91-14B0-4914-9FBD-0E46CE340A78.png"
 date: "2023-06-18"
 bannerImage: "/blog.jpg"
 tags:

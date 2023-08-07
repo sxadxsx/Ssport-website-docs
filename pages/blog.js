@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Head from 'next/head'
 import styles from './components/Button.module.css';
 
+
 // The Blog Page Content
 export default function Blog({posts}){
     return <main>
@@ -30,7 +31,7 @@ export default function Blog({posts}){
             //extract slug and frontmatter
             const {slug, frontmatter} = post
             //extract frontmatter properties
-            const {title, seo, author, category, date, bannerImage, tags} = frontmatter
+            const {title, seo, author, category, date, bannerImage, tags, img, info} = frontmatter
 
             //JSX for individual blog listing
             return <article key={title}>
@@ -69,11 +70,12 @@ export default function Blog({posts}){
             className="flex items-center space-x-2"
             href="https://discuss.ssangyongsports.org/members/peter-yang.1/"
           >
-            <img
-              className="rounded-full w-7 h-7"
-              src="https://avatars.githubusercontent.com/u/92738287?s=400&u=3a2db655ea4d554f70e790ba5c76e12d68e63cf8&v=4"
-              alt="Peter yang picture"
-            />
+            <Image
+  className="rounded-full w-7 h-7"
+  src={img}
+  alt={author}
+/>
+            
             <span className="font-medium dark:text-white">
                {author}
             </span>

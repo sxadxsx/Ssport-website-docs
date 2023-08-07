@@ -1,9 +1,11 @@
 ---
 title: "雙龍體育wiki關閉"
 seo: "雙龍體育wiki關閉"
-author: "Peter yang"
+author: "雙龍體育"
 category: "公告"
 date: "2023-7-15"
+info: "雙龍體育團隊"
+img: "/team.jpeg"
 bannerImage: "/blog.jpg"
 tags:
     - 公告

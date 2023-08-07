@@ -2,6 +2,8 @@
 title: "聯繫表單關閉"
 seo: "雙龍體育聯繫表單暫時關閉，因為遭到濫用"
 author: "Peter yang"
+info: "雙龍體育CEO"
+img: "/1D7F9E91-14B0-4914-9FBD-0E46CE340A78.png"
 category: "公告"
 date: "2023-07-21"
 bannerImage: "/blog.jpg"

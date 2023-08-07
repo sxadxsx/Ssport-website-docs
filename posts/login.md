@@ -2,6 +2,8 @@
 title: "雙龍體育登入系統測試中"
 seo: "雙龍體育登入系統測試中"
 author: "Peter yang"
+info: "雙龍體育CEO"
+img: "/1D7F9E91-14B0-4914-9FBD-0E46CE340A78.png"
 category: "blog"
 date: "2023-7-30"
 bannerImage: "/blog.jpg"
