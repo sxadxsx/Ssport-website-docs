@@ -71,7 +71,7 @@ export default function Blog({posts}){
             href="https://discuss.ssangyongsports.org/members/peter-yang.1/"
           >
             <Image
-  className="mr-4 w-16 h-16 rounded-full"
+  className="rounded-full w-7 h-7"
   src={img}
   alt={author}
 />
