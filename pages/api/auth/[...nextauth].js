@@ -23,7 +23,7 @@ export const authOptions = {
       clientSecret: process.env.Discord_SECRET,
     }),  ],
   theme: {
-  logo: "https://imgur.com/yOyDH55.png", // Absolute URL to image
+  logo: "/logo.png", // Absolute URL to image
 },
 callbacks: {
   async jwt({ token, account }) {
