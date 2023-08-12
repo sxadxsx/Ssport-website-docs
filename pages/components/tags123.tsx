@@ -1,19 +1,16 @@
 import styles from './Button.module.css';
 function tags123() {
 return (
-<section className="bg-gradient-to-r from-teal-500 to-cyan-600">
-
-  <div className="bg-white dark:bg-gray-900">
-  
-    <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
-      <div className="max-w-2xl mx-auto text-center">
-        <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
-          我們的體育  
-        </h2>
-        <p className="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
-        
-        </p>
-      </div>
+<section className="bg-green-500 dark:bg-gray-900 antialiased">
+  <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
+    <div className="max-w-2xl mx-auto text-center">
+      <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white">
+        我們的體育
+      </h2>
+      <p className="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
+        Crafted with skill and care to help our clients grow their business!
+      </p>
+    </div>
     <div className="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
       <div className="space-y-4">
         <img
