@@ -25,7 +25,7 @@ tags:
 
 ## 二、聯繫資訊更新 [.text-3xl .font-extrabold .leading-tight .text-gray-900 .lg:mb-6 .lg:text-4xl .dark:text-white]
 
-2023年11月後,ssangyongsports.org將不再属于雙龍體育。如需聯繫,請使用新郵箱support@ssangyongsports.eu.org。為保留雙龍歷史,舊網站内容將遷移至ssangyongsports.eu.org。
+2023年11月後,ssangyongsports.org將不再屬於雙龍體育。如需聯繫,請使用新郵箱support@ssangyongsports.eu.org。為保留雙龍歷史,舊網站内容將遷移至ssangyongsports.eu.org。
 
 ## 三、結語 [.text-3xl .font-extrabold .leading-tight .text-gray-900 .lg:mb-6 .lg:text-4xl .dark:text-white]
 
