@@ -16,7 +16,7 @@ export default function Post({frontmatter, content}) {
         <div>
   <img
     className="h-auto max-w-full rounded-lg"
-    src={img}
+    src={bannerImage}
     alt=""
   />
 </div>
