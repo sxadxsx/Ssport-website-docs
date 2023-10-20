@@ -4,12 +4,7 @@ export default function Document() {
   return (
     <Html lang="zh-tw">
       <Head />
-      <body>
-      
-        <Main />
-        
-        <NextScript />
-        <Script
+         <Script
             id="groove-widget"
             strategy="beforeInteractive"
             dangerouslySetInnerHTML={{
@@ -21,6 +16,12 @@ export default function Document() {
 </script>`
             }}
           />
+      <body>
+      
+        <Main />
+        
+        <NextScript />
+     
       </body>
     </Html>
   )
