@@ -77,7 +77,7 @@ function c() {
           placeholder="讓我們得知如何幫助你"
           />
           </label>
-    
+    <input type="hidden" name="_cc" value="support@ssangyongsports.eu.org">
         <label
           htmlFor="message"
           className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
