@@ -3,7 +3,6 @@ import Script from 'next/script';
 export default function Document() {
   return (
     <Html lang="zh-tw">
-      <Head />
          <Script
             id="groove-widget"
             strategy="beforeInteractive"
@@ -16,6 +15,8 @@ export default function Document() {
 </script>`
             }}
           />
+      <Head />
+      
       <body>
       
         <Main />
