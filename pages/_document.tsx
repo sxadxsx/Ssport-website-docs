@@ -7,6 +7,8 @@ export default function Document() {
       <body>
       
         <Main />
+        
+        <NextScript />
         <Script
             id="groove-widget"
             strategy="beforeInteractive"
@@ -19,7 +21,6 @@ export default function Document() {
 </script>`
             }}
           />
-        <NextScript />
       </body>
     </Html>
   )
