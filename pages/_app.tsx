@@ -12,6 +12,7 @@ export default function App({
   return (
     <SessionProvider session={session}>
         <div>
+          <div className="fixed h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-cyan-100" />
   <Script src="/chat.js" />
         <Head />
     
