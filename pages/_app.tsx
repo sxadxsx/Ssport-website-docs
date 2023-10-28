@@ -10,18 +10,14 @@ export default function App({
 }: AppProps) {
 
   return (
-    <SessionProvider session={session}>
-        <div>
-          <div className="bg-gradient h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-cyan-100" />
-  <Script src="/chat.js" />
+        <SessionProvider session={session}>
+      <div className="app-container">
+        <div className="bg-gradient" />
+        <Script src="/chat.js" />
         <Head />
-    
-      <Component {...pageProps} />
-    
-            <Footer />
-        </div>
+        <Component {...pageProps} />
+        <Footer />
+      </div>
     </SessionProvider>
-
-  )
-
+  );
 }
