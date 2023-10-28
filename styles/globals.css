@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.bg-gradient {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
