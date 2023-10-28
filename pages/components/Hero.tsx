@@ -3,7 +3,7 @@ import styles from './Button.module.css';
 import a from './a.module.css';
 function hero() {
   return (
- <section className="bg-gradient h-screen w-full bg-gradient-to-br from-yellow-200 via-yellow-300 to-yellow-400">
+ <section className="bg-gradient-to-br from-yellow-200 via-yellow-300 to-yellow-400">
   <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
     <Link
       href="/blog/s-close"
