@@ -14,6 +14,7 @@ const Home = () => {
       </Head>
 
       <div>
+        <div className="fixed h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-cyan-100" />
         <Hero />
         <Sport />
         <div id="anchor_one" />
