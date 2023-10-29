@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>      <script>        window.erxesSettings = {          knowledgeBase: {            topic_id: "2_iOpl1jtbrm7D-txmyvv"          },        };              (function() {        var script = document.createElement('script');        script.src = "https://ssport.app.erxes.io/widgets/build/knowledgebaseWidget.bundle.js";        script.async = true;        var entry = document.getElementsByTagName('script')[0];        entry.parentNode.insertBefore(script, entry);      })();          </script>    
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>      <div data-erxes-kbase style="width:900px;height:300px"></div>    
+</body>
+</html>
