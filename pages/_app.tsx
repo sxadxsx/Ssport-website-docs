@@ -17,7 +17,6 @@ export default function App({
             const typebotInitScript = document.createElement("script");
 typebotInitScript.type = "module";
 typebotInitScript.innerHTML = `import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.2.10/dist/web.js'
-
 Typebot.initBubble({
   typebot: "lead-generation-ils4v1g",
   apiHost: "https://ssportbotview.vercel.app",
