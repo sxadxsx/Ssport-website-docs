@@ -10,7 +10,7 @@ export default function App({
   pageProps: { session, ...pageProps },
 }: AppProps) {
   return (
-    <div>
+    
       <script
         dangerouslySetInnerHTML={{
           __html: `
@@ -38,6 +38,6 @@ document.body.append(typebotInitScript);
         </SessionProvider>
       
       <Script src="/chat.js" />
-    </div>
+    
   );
 }
