@@ -10,7 +10,7 @@ export default function App({
   pageProps: { session, ...pageProps },
 }: AppProps) {
   return (
-    
+    <div>
       
       
         <SessionProvider session={session}>
@@ -20,6 +20,6 @@ export default function App({
         </SessionProvider>
       
       <Script src="/chat.js" />
-    
+    </div>
   );
 }
