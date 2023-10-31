@@ -19,6 +19,7 @@ function chat() {
 ></iframe>
 </section>
 </div>
+          </div>
   )
 }
 
