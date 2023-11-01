@@ -15,7 +15,7 @@ function chat() {
           <iframe
   src="https://ssportbotview.vercel.app/customer-support-q6zv3pv"
   width="100%"
-  height={100}
+  height={400}
 ></iframe>
     </div>
 </section>
