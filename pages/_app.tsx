@@ -12,7 +12,7 @@ export default function App({
   return (
     <div>
       
-      
+        <div className="bg-gradient h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-cyan-100" />
         <SessionProvider session={session}>
           <Head />
           <Component {...pageProps} />
