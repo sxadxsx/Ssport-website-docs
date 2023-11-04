@@ -1,12 +1,16 @@
-import { signIn, getCsrfToken, getProviders } from 'next-auth/react'
-import Image from 'next/image'
-import Header from '../../components/header'
-import styles from '../../styles/Signin.module.css'
+import type {
+  GetServerSidePropsContext,
+  InferGetServerSidePropsType,
+} from "next"
+import { getProviders, signIn } from "next-auth/react"
+import { getServerSession } from "next-auth/next"
+import { authOptions } from "../api/auth/[...nextauth]"
 
-const Signin = ({ csrfToken, providers }) => {
+export default function SignIn({
+  providers,
+}: InferGetServerSidePropsType<typeof getServerSideProps>) {
   return (
-    <div style={{ overflow: 'hidden', position: 'relative' }}>
-      <section className="bg-gray-50 dark:bg-gray-900">
+    <section className="bg-gray-50 dark:bg-gray-900">
   <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
     <a
       href="#"
@@ -84,21 +88,11 @@ const Signin = ({ csrfToken, providers }) => {
               Forgot password?
             </a>
           </div>
-                <button className="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-          >
-              Submit
-            </button>
-            <hr />
-            {providers &&
-              Object.values(providers).map(provider => (
-                <div key={provider.name} style={{ marginBottom: 0 }}>
-                  <button onClick={() => signIn(provider.id)} >
-                    Sign in with{' '} {provider.name}
-                  </button>
-          <button
-            type="submit"
-            
-            Sign in
+           <>
+      {Object.values(providers).map((provider) => (
+        <div key={provider.name}>
+          <button onClick={() => signIn(provider.id)}>
+            Sign in with {provider.name}
           </button>
           <p className="text-sm font-light text-gray-500 dark:text-gray-400">
             Don’t have an account yet?{" "}
@@ -115,19 +109,26 @@ const Signin = ({ csrfToken, providers }) => {
   </div>
 </section>
 
-      
+   
+        </div>
+      ))}
+    </>
   )
 }
 
-export default Signin
+export async function getServerSideProps(context: GetServerSidePropsContext) {
+  const session = await getServerSession(context.req, context.res, authOptions)
 
-export async function getServerSideProps(context) {
+  // If the user is already logged in, redirect.
+  // Note: Make sure not to redirect to the same page
+  // To avoid an infinite loop!
+  if (session) {
+    return { redirect: { destination: "/" } }
+  }
+
   const providers = await getProviders()
-  const csrfToken = await getCsrfToken(context)
+
   return {
-    props: {
-      providers,
-      csrfToken
-    },
+    props: { providers: providers ?? [] },
   }
 }
