@@ -88,12 +88,16 @@ export default function SignIn({
               Forgot password?
             </a>
           </div>
-           <>
+          <>
       {Object.values(providers).map((provider) => (
         <div key={provider.name}>
-          <button onClick={() => signIn(provider.id)}>
+          <button onClick={() => signIn(provider.id)} 
+          className="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+         >
             Sign in with {provider.name}
           </button>
+        </div>
+        
           <p className="text-sm font-light text-gray-500 dark:text-gray-400">
             Don’t have an account yet?{" "}
             <a
@@ -108,6 +112,7 @@ export default function SignIn({
     </div>
   </div>
 </section>
+
   )
 }
 
