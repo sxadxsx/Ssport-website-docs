@@ -88,7 +88,7 @@ export default function SignIn({
               Forgot password?
             </a>
           </div>
-        
+        <>
       {Object.values(providers).map((provider) => (
         <div key={provider.name}>
           <button onClick={() => signIn(provider.id)} 
@@ -97,6 +97,7 @@ export default function SignIn({
             Sign in with {provider.name}
           </button>
         </div>
+      </>
         
           <p className="text-sm font-light text-gray-500 dark:text-gray-400">
             Don’t have an account yet?{" "}
