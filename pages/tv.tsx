@@ -3,6 +3,7 @@ import Price from './components/price';
 import Feature from './components/feature';
 import React from 'react';
 import Head from 'next/head'
+import Chatbot from './components/chatbot';
 const Home = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const Home = () => {
       </Head>
       <div>
         <Tvhero />
+        <Chatbot />
         <Feature />
         <Price />
        
