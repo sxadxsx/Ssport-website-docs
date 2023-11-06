@@ -6,6 +6,10 @@ import { SessionProvider } from 'next-auth/react'
 import Script from 'next/script';
 
 export default function App({
+  
+  Component, 
+  pageProps: { session, ...pageProps },
+}: AppProps) {
   const initBotpress = () => {
     window.botpressWebChat.init({
       composerPlaceholder: "Chat with bot",
@@ -17,9 +21,6 @@ export default function App({
       clientId: "<YOUR_CLIENT_ID>",
     });
   };
-  Component, 
-  pageProps: { session, ...pageProps },
-}: AppProps) {
   return (
     <div>
       
