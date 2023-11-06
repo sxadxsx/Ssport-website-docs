@@ -10,17 +10,7 @@ export default function App({
   Component, 
   pageProps: { session, ...pageProps },
 }: AppProps) {
-  const initBotpress = () => {
-    window.botpressWebChat.init({
-      composerPlaceholder: "Chat with bot",
-      botConversationDescription:
-        "This chatbot was built surprisingly fast with Botpress",
-      botId: "<YOUR_BOT_ID>",
-      hostUrl: "<YOUR_BOT_HOST_URL>",
-      messagingUrl: "https://messaging.botpress.cloud",
-      clientId: "<YOUR_CLIENT_ID>",
-    });
-  };
+  
   return (
     <div>
       
@@ -30,12 +20,7 @@ export default function App({
           <Component {...pageProps} />
           <Footer />
         </SessionProvider>
-      <Script
-          src="https://cdn.botpress.cloud/webchat/v0/inject.js"
-          onLoad={() => {
-            initBotpress();
-          }}
-        />
+    
     </div>
   );
 }
