@@ -13,7 +13,7 @@ function chat() {
       有任何問題，立刻詢問機器人
     </p>
             <iframe
-            style="border: none;"
+            
             srcdoc="<body><script src='https://cdn.botpress.cloud/webchat/v0/inject.js'></script>
             <script>
               window.botpressWebChat.init({
