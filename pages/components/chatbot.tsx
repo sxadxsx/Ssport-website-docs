@@ -21,10 +21,13 @@ const Chatbot = () => {
 
     script.onload = () => {
       window.botpressWebChat.init({
-        botId: '<botID>',
+        botId: '868b3737-f356-473d-8b54-ab361c88f060',
         hostUrl: 'https://cdn.botpress.cloud/webchat/v1',
         messagingUrl: 'https://messaging.botpress.cloud',
-        clientId: '<clientID>',
+        clientId: '868b3737-f356-473d-8b54-ab361c88f060',
+        botConversationDescription: '與我們的機器人客服交談',
+        avatarUrl: 'https://ssangyongsports.eu.org/_next/image?url=%2Fteam.jpeg&w=128&q=75',
+        composerPlaceholder: 'Chat with 雙龍體育機器人',
       });
     };
 
