@@ -44,7 +44,7 @@ function Ticket() {
             window.botpressWebChat.onEvent(function () { window.botpressWebChat.sendEvent({ type: 'show' }) }, ['LIFECYCLE.LOADED']);
             </script></body>"
             width="100%"
-            height="500%"
+            height="800%"
           ></iframe>
        </div>
       </div>
