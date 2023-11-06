@@ -6,6 +6,17 @@ import { SessionProvider } from 'next-auth/react'
 import Script from 'next/script';
 
 export default function App({
+  const initBotpress = () => {
+    window.botpressWebChat.init({
+      composerPlaceholder: "Chat with bot",
+      botConversationDescription:
+        "This chatbot was built surprisingly fast with Botpress",
+      botId: "<YOUR_BOT_ID>",
+      hostUrl: "<YOUR_BOT_HOST_URL>",
+      messagingUrl: "https://messaging.botpress.cloud",
+      clientId: "<YOUR_CLIENT_ID>",
+    });
+  };
   Component, 
   pageProps: { session, ...pageProps },
 }: AppProps) {
@@ -18,8 +29,12 @@ export default function App({
           <Component {...pageProps} />
           <Footer />
         </SessionProvider>
-      
-      <Script src="/chat.js" />
+      <Script
+          src="https://cdn.botpress.cloud/webchat/v0/inject.js"
+          onLoad={() => {
+            initBotpress();
+          }}
+        />
     </div>
   );
 }
