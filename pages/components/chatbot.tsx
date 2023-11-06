@@ -9,10 +9,10 @@ const Chatbot = () => {
  
     script.onload = () => {
       window.botpressWebChat.init({
-        botId: '868b3737-f356-473d-8b54-ab361c88f060',
+        botId: '<botID>',
         hostUrl: 'https://cdn.botpress.cloud/webchat/v1',
         messagingUrl: 'https://messaging.botpress.cloud',
-        clientId: '868b3737-f356-473d-8b54-ab361c88f060',
+        clientId: '<clientID>',
       })
     }
   }, [])
