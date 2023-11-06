@@ -1,7 +1,7 @@
  import Link from 'next/link';
 import Image from 'next/image';
-import styles from './Button.module.css';
-
+import css from './Button.module.css';
+import styles from './chat.module.css';
 function Ticket() {
   return (
     <section>
@@ -9,7 +9,7 @@ function Ticket() {
         <div className="mt-4 md:mt-0">
           <h2 className={`mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white `}>
             與
-                        <span className={styles.abc}>機器人</span>
+                        <span className={css.abc}>機器人</span>
            進行交談
           </h2>
          
