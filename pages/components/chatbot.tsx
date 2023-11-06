@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
- 
+ export default function chatbot
 const Chatbot = () => {
   useEffect(() => {
     const script = document.createElement('script')
