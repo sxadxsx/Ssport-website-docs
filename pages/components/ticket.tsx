@@ -14,6 +14,7 @@ function Ticket() {
           </h2>
          
         </div>
+       <div className={`${styles.centerDiv} ${styles.relative} ${styles.hFull} ${styles.wFull} ${styles.overflowClip} ${styles.roundedMd} ${styles.border} ${styles.borderZinc200} ${styles.bgWhite} ${styles.p2} ${styles.px0} ${styles.py0}`}></div>
         <iframe
             
             srcDoc="<body><script src='https://cdn.botpress.cloud/webchat/v0/inject.js'></script>
@@ -45,6 +46,7 @@ function Ticket() {
             width="100%"
             height="500%"
           ></iframe>
+       <div/>
       </div>
     </section>
   );
