@@ -8,6 +8,9 @@ declare global {
         hostUrl: string;
         messagingUrl: string;
         clientId: string;
+        botConversationDescription: string;
+        avatarUrl: string;
+        composerPlaceholder: string;
       }) => void;
     };
   }
