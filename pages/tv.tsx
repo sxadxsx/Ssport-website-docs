@@ -13,7 +13,7 @@ const Home = () => {
       </Head>
       <div>
         <Tvhero />
-        <Chatbot />
+    
         <Feature />
         <Price />
        
