@@ -21,7 +21,7 @@ function footer() {
             </Link>
            </li>
           <li className="mb-4">
-               <a id="footer-badge" href="https://status.ssangyongsports.org">
+               <a id="footer-badge" href="https://status.ssangyongsports.eu.org">
         狀態載入中
       </a>
 
@@ -34,7 +34,7 @@ function footer() {
               badge.className = status.toLowerCase();
             }
 
-            fetch('https://status.ssangyongsports.org/summary.json')
+            fetch('https://status.ssangyongsports.eu.org/summary.json')
               .then(response => response.json())
               .then(data => {
                 const status = data.page.status;
