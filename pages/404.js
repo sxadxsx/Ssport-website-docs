@@ -3,7 +3,13 @@ export default function Custom404() {
   return <section className="bg-white dark:bg-gray-900">
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
     <div className="mx-auto max-w-screen-sm text-center">
-      <h1 className="underline mb-4 text-7xl tracking-tight font-extrabold lg:text-9xl text-primary-600 dark:text-primary-500">
+      <img
+  className="h-auto max-w-xl rounded-lg shadow-xl dark:shadow-gray-800"
+  src="/404.png.png"
+  alt="image description"
+/>
+
+    <h1 className="underline mb-4 text-7xl tracking-tight font-extrabold lg:text-9xl text-primary-600 dark:text-primary-500">
         404錯誤
       </h1>
       <p className="mb-4 text-3xl tracking-tight font-bold text-gray-900 md:text-4xl dark:text-white">
@@ -20,8 +26,6 @@ export default function Custom404() {
         
       </Link>
           
-<img className="h-auto max-w-full" src="/404.png.png" alt="image description" />
-
     </div>
   </div>
 </section>
