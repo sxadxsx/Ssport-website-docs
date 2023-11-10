@@ -20,7 +20,7 @@ export default function Custom404() {
         
       </Link>
           
-<img className="h-auto max-w-full" src="/404.png" alt="image description" />
+<img className="h-auto max-w-full" src="/404.png.png" alt="image description" />
 
     </div>
   </div>
