@@ -22,7 +22,7 @@ function footer() {
            </li>
           <li className="mb-4">
                <a id="footer-badge" href="https://status.ssangyongsports.eu.org">
-        載入狀態
+        載入狀態中
       </a>
 
        <script
