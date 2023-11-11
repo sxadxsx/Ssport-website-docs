@@ -1,6 +1,6 @@
 import Supportchoice from './components/supportchoice';
 import Supporthero from './components/supporthero';
-
+import Ticket from './components/tciekt';
 
 import Head from 'next/head'
 
@@ -17,7 +17,7 @@ const support = () => {
                <Supporthero />
 
         <Supportchoice />
-              
+        <ticket />      
       </div>
     </>
       );
