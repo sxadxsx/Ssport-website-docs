@@ -17,7 +17,7 @@ const support = () => {
                <Supporthero />
 
         <Supportchoice />
-        <ticket />      
+        <Ticket />      
       </div>
     </>
       );
