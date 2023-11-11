@@ -1,6 +1,6 @@
 import Supportchoice from './components/supportchoice';
 import Supporthero from './components/supporthero';
-import Ticket from './components/tciekt';
+import Ticket from './components/ticket';
 
 import Head from 'next/head'
 
