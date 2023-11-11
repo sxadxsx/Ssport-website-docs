@@ -12,8 +12,12 @@ export default function Blog({posts}){
         <section>
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
     <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">
-                雙龍體育blog
+          
+        <div className="grid gap-6 items-center">
+          <div className="flex flex-col justify-center space-y-8 text-center">
+            <div className="space-y-2">
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">
+                雙龍體育部落格
               </h1>
       <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
    任何關於雙龍體育的任何關於雙龍體育的消息和公告
