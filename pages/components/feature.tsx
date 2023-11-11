@@ -56,7 +56,7 @@ return (
                 </div>
                 <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
                   <div className="p-2 bg-black bg-opacity-50 rounded-full">
-                    >
+                
          <svg
             className="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
             fill="currentColor"
