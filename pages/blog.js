@@ -12,12 +12,10 @@ export default function Blog({posts}){
         <section>
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
     <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-          
-        
-              <h1 className="bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent">
-                雙龍體育部落格
-              </h1>
-       </div></div></div>
+      <h2 className="bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent">
+        雙龍體育
+            <span className={styles.abc}>部落格</span>
+      </h2>
       <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
    任何關於雙龍體育的任何關於雙龍體育的消息和公告
       </p>
