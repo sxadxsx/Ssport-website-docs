@@ -15,7 +15,9 @@ export default function Blog({posts}){
       <h2 className={`mb-4 text-3xl font-extrabold from-amber-500 via-orange-600 to-yellow-500 `}>
         
 雙龍體育 
-            <span className={styles.abc}>部落格</span>
+            <span className="bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent">
+          部落格
+        </span>
       </h2>
       <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
    任何關於雙龍體育的任何關於雙龍體育的消息和公告
