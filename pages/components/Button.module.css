@@ -1,7 +1,8 @@
 .abc {
-  background: -webkit-linear-gradient(45deg, blue, purple);
+  background-image: linear-gradient(to right, #9c27b0, #e91e63);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
   
   animation: fadeIn 1s;
 }
