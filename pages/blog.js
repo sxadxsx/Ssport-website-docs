@@ -13,7 +13,7 @@ export default function Blog({posts}){
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
     <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
       <h2 className={`mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl from-amber-500 via-orange-600 to-yellow-500 `}>
-           雙龍體育
+           雙龍體育 
             <span className={styles.abc}>部落格</span>
       </h2>
       <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
