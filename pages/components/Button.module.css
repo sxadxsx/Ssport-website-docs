@@ -19,3 +19,19 @@ background: linear-gradient(to right, #2693c3, #a0d8ef);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.c {
+  background-image: linear-gradient(to right, #ffb000, #f57c00, #ffeb3b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
