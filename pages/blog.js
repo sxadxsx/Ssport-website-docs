@@ -12,13 +12,10 @@ export default function Blog({posts}){
         <section>
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
     <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-      <h1 className="mt-5 font-display text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl sm:leading-[1.15]">
-        Short Links With
-        <br />
-        <span className="bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent">
-          Superpowers
-        </span>
-      </h1>
+      <h2 className={`mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white `}>
+        雙龍體育
+            <span className={styles.c}>部落格</span>
+      </h2>
       <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
    任何關於雙龍體育的任何關於雙龍體育的消息和公告
       </p>
