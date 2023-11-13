@@ -3,7 +3,7 @@ import styles from './Button.module.css';
 import a from './a.module.css';
 function hero() {
   return (
- <section className="bg-gradient-to-br from-indigo-50 via-white to-indigo-700">
+ <section>
   <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
     <Link
       href="/blog/status"
