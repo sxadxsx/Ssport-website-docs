@@ -34,6 +34,9 @@ function hero() {
      <span style={{ color: "red" }}>使命</span>
 是將
      <br /><span className={styles.abc}>雙龍體育</span>
+     <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+              Powerful
+            </span>
      組成
      <span className={styles.aabc}>最棒</span>
      體育組織
