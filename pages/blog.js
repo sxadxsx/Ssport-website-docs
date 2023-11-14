@@ -147,7 +147,7 @@ export default function Blog({posts}){
             </a>
           </div>
         </article>
-      </div>
+      
          <div className="flex justify-between px-4 mx-auto max-w-8xl">
   <div className="hidden mb-6 xl:block lg:w-80">
     <div className="sticky top-36">
