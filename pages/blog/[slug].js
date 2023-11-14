@@ -13,7 +13,13 @@ export default function Post({frontmatter, content}) {
     return <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 ">
   <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
     <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
-        
+
+  <img
+    classname="h-auto max-w-full"
+    src={bannerImage}
+    alt={seo}
+  />
+)
 
         <header className="mb-4 lg:mb-6 not-format">                   
           <h1 className={`mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white ${styles.abc}`}>
