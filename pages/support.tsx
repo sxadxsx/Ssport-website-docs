@@ -1,10 +1,13 @@
 import Supportchoice from './components/supportchoice';
 import Supporthero from './components/supporthero';
 import Ticket from './components/ticket';
+import { useDocsSearch } from 'next-docs-zeta/search/client'
 
 import Head from 'next/head'
 
 const support = () => {
+    const { search, setSearch, query } = useDocsSearch()
+
   return (
        <>
 <Head>
@@ -15,6 +18,7 @@ const support = () => {
       <div>
 
                <Supporthero />
+               <useDocsSearch />
 
         <Supportchoice />
         <Ticket />      
