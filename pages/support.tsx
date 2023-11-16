@@ -4,6 +4,7 @@ import Ticket from './components/ticket';
 
 import Head from 'next/head'
 
+const support = () => {
   return (
        <>
 <Head>
