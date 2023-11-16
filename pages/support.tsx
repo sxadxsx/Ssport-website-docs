@@ -4,9 +4,6 @@ import Ticket from './components/ticket';
 
 import Head from 'next/head'
 
-const support = () => {
-    const { search, setSearch, query } = useDocsSearch()
-
   return (
        <>
 <Head>
