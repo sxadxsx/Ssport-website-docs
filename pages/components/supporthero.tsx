@@ -1,6 +1,7 @@
 import styles from './Button.module.css';
 import { DocSearch } from '@docsearch/react'
 import a from './docsearch.module.css';
+import '@docsearch/css';
 
 
 function supporthero() {
