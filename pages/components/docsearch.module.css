@@ -1,5 +1,5 @@
   /* 將父元素設置為彈性容器，並居中對齊其子元素 */
-  .docsearch-container {
+  .container {
     display: flex;
     justify-content: center;
   }
