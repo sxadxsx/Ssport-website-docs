@@ -3,7 +3,8 @@ import Supporthero from './components/supporthero';
 import Styles from './components/docsearch.module.css';
 import Ticket from './components/ticket';
 import Head from 'next/head'
-
+import { DocSearch } from '@docsearch/react'
+import '@docsearch/css';
 const support = () => {
   return (
        <>
