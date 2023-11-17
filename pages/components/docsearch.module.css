@@ -49,10 +49,7 @@
 
 @media screen and (max-width: 768px) {
   
-  html[data-theme="dark"] hr {
-    --ifm-background-color: #252628;
-    border: var(--ifm-hr-border-width) solid var(--ifm-background-section-dark);
-  }
+  
 
   .heroBanner {
     padding: 2rem 0;
