@@ -20,8 +20,6 @@ function supporthero() {
               indexName="help"
             />
           </div>    
-              </div>    
-
   </div>
 </section>
 
