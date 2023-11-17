@@ -6,7 +6,7 @@
   
   /* 調整搜尋框的寬度 */
   .algolia-autocomplete {
-    width: 300px; /* 您可以根據需要調整寬度 */
+    width: 60%; /* 您可以根據需要調整寬度 */
   }
 .docSearch button {
   margin: 0;
