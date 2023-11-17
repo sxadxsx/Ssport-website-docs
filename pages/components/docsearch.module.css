@@ -2,8 +2,7 @@
   .container {
     display: flex;
     justify-content: center;
-      margin: 0;
-  width: 60%;
+\\
   }
   
   /* 調整搜尋框的寬度 */
@@ -12,5 +11,5 @@
   }
 .docSearch button {
   margin: 0;
-  width: 100%;
+  width: 60%;
 }
