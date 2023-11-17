@@ -18,7 +18,6 @@ function supporthero() {
               apiKey="c2e792c2e75fe1dd3e40574f8b4c9a80"
               appId="70GEOCJCSX"
               indexName="help"
-      className={a.docSearch}
             />
           </div>    
   </div>
