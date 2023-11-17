@@ -13,8 +13,8 @@ function supporthero() {
     <h2 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
       需要 <span className={styles.abc}>雙龍體育</span>的幫助嗎?
     </h2>
-    <div>
-            <DocSearch
+<div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+    <DocSearch
               apiKey="c2e792c2e75fe1dd3e40574f8b4c9a80"
               appId="70GEOCJCSX"
               indexName="help"
