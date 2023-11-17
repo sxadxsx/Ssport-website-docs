@@ -1,7 +1,7 @@
 import Supportchoice from './components/supportchoice';
 import Supporthero from './components/supporthero';
+import Styles from './components/docsearch.module.css';
 import Ticket from './components/ticket';
-
 import Head from 'next/head'
 
 const support = () => {
