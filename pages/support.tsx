@@ -5,6 +5,7 @@ import Ticket from './components/ticket';
 import Head from 'next/head'
 import { DocSearch } from '@docsearch/react'
 import '@docsearch/css';
+import clsx from "clsx";
 const support = () => {
   return (
        <>
