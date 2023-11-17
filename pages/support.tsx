@@ -14,7 +14,20 @@ const support = () => {
       
       <div>
 
-               <Supporthero />
+                 <header className={clsx("hero", styles.heroBanner)}>
+        <div className="container">
+          
+          <h1 className="hero__title">我們能幫助你什麼嗎？</h1>
+          <div className="searchDiv">
+<div className={styles.docSearch}>
+            <DocSearch
+              apiKey="c2e792c2e75fe1dd3e40574f8b4c9a80"
+              appId="70GEOCJCSX"
+              indexName="help"
+            />
+          </div>          </div>
+        </div>
+      </header>
 
         <Supportchoice />
              
